@@ -206,133 +206,74 @@
 				</div>
 			</article>
 			<article class="tcenter">
-				<div class="first-visit-title">
+				<div class="first-visit-title" id="daily-formation">
 					<h2>本周讀經進度表</h2>
 				</div>
-				<table>
-					<thead>
-						<tr>
-							<th>日期</th>
-							<th>星期</th>
-							<th>經文</th>
-							<th>每日輔讀</th>
-						</tr>
-					</thead>
-					<!-- 以下为修改的部分 -->
-					<tbody>
-						<tr>
-							<td>4/2</td>
-							<td>週日</td>
-							<td>
-								約書亞記: 
-								<a href="http://www.bbintl.org/bible/b5niv/b5nivJos5.html" target="_blank">5</a>
-								, 
-								<a href="http://www.bbintl.org/bible/b5niv/b5nivJos6.html" target="_blank">6</a>
-							</td>
-							<td>
-								<a href="http://austinchinesechurch.org/BibleReading/2023APR02.jpg" target="_blank">
-									每日輔讀
-								</a>
-							</td>
-						</tr>
-						<tr>
-							<td>4/3</td>
-							<td>週一</td>
-							<td>
-								約書亞記: 
-								<a href="http://www.bbintl.org/bible/b5niv/b5nivJos7.html" target="_blank">7</a>
-							</td>
-							<td>
-								<a href="http://austinchinesechurch.org/BibleReading/2023APR03.jpg" target="_blank">
-									每日輔讀
-								</a>
-							</td>
-						</tr>
-						<tr>
-							<td>4/4</td>
-							<td>週二</td>
-							<td>
-								約書亞記: 
-								<a href="http://www.bbintl.org/bible/b5niv/b5nivJos8.html" target="_blank">8</a>
-							</td>
-							<td>
-								<a href="http://austinchinesechurch.org/BibleReading/2023APR04.jpg" target="_blank">
-									每日輔讀
-								</a>
-							</td>
-						</tr>
-						<tr>
-							<td>4/5</td>
-							<td>週三</td>
-							<td>
-								約書亞記: 
-								<a href="http://www.bbintl.org/bible/b5niv/b5nivJos9.html" target="_blank">9</a>
-							</td>
-							<td>
-								<a href="http://austinchinesechurch.org/BibleReading/2023APR05.jpg" target="_blank">
-									每日輔讀
-								</a>
-							</td>
-						</tr>
-						<tr>
-							<td>4/6</td>
-							<td>週四</td>
-							<td>
-								約書亞記: 
-								<a href="http://www.bbintl.org/bible/b5niv/b5nivJos10.html" target="_blank">10</a>
-							</td>
-							<td>
-								<a href="http://austinchinesechurch.org/BibleReading/2023APR06.jpg" target="_blank">
-									每日輔讀
-								</a>
-							</td>
-						</tr>
-						<tr>
-							<td>4/7</td>
-							<td>週五</td>
-							<td>
-								約書亞記: 
-								<a href="http://www.bbintl.org/bible/b5niv/b5nivJos11.html" target="_blank">11</a>
-								, 
-								<a href="http://www.bbintl.org/bible/b5niv/b5nivJos12.html" target="_blank">12</a>
-							</td>
-							<td>
-								<a href="http://austinchinesechurch.org/BibleReading/2023APR07.jpg" target="_blank">
-									每日輔讀
-								</a>
-							</td>
-						</tr>
-						<tr>
-							<td>4/8</td>
-							<td>週六</td>
-							<td>
-								約書亞記: 
-								<a href="http://www.bbintl.org/bible/b5niv/b5nivJos13.html" target="_blank">13</a>
-								, 
-								<a href="http://www.bbintl.org/bible/b5niv/b5nivJos14.html" target="_blank">14</a>
-							</td>
-							<td>
-								<a href="http://austinchinesechurch.org/BibleReading/2023APR08.jpg" target="_blank">
-									每日輔讀
-								</a>
-							</td>
-						</tr>
-						<tr>
-							<td>4/9</td>
-							<td>週日</td>
-							<td>
-								約書亞記: 
-								<a href="http://www.bbintl.org/bible/b5niv/b5nivJos15.html" target="_blank">15</a>
-							</td>
-							<td>
-								<a href="http://austinchinesechurch.org/BibleReading/2023APR09.jpg" target="_blank">
-									每日輔讀
-								</a>
-							</td>
-						</tr>
-					</tbody>
-					<!-- 修改部分结束 -->
-				</table>
+				<script>
+					window.onload = function() {
+						var table = document.createElement('table');
+						var thead = document.createElement('thead');
+						var tbody = document.createElement('tbody');
+						var tableContainer = document.querySelector('#daily-formation');
+
+
+						var theadRow = document.createElement('tr');
+						theadRow.innerHTML = `
+						<th>日期</th>
+						<th>星期</th>
+						<th>經文</th>
+						<th>每日輔讀</th>
+					`;
+						thead.appendChild(theadRow);
+
+						fetch('../upload/7_daily_spiritual_formation/tableData_sample.json')
+							.then(response => {
+								if (!response.ok) {
+									throw new Error('Network response was not ok');
+								}
+								return response.text();
+							})
+							.catch(error => {
+								console.error('Error fetching tableData.json:', error);
+								// Fetch sample.json as fallback
+								return fetch('../upload/7_daily_spiritual_formation/tableData_sample.json')
+									.then(response => {
+										if (!response.ok) {
+											throw new Error('Network response was not ok');
+										}
+										return response.text();
+									})
+									.catch(error => {
+										console.error('Error fetching sample.json:', error);
+									});
+							})
+							.then(data => {
+								var tableData = JSON.parse(data);
+
+								for (var i = 0; i < tableData.length; i++) {
+									var row = document.createElement('tr');
+									var scriptureHTML = tableData[i].verses.map(function(verse) {
+										return `<a href="${verse.link}" target="_blank">${verse.verse}</a>`;
+									}).join(', ');
+									row.innerHTML = `
+									<td>${tableData[i].date}</td>
+									<td>${tableData[i].day}</td>
+									<td>${tableData[i].book}: ${scriptureHTML}</td>
+									<td><a href="${tableData[i].href}" target="_blank">每日輔讀</a></td>
+								`;
+									tbody.appendChild(row);
+								}
+
+								table.appendChild(thead);
+								table.appendChild(tbody);
+
+								tableContainer.insertAdjacentElement('afterend', table);
+							})
+							.catch(error => {
+								console.error('An error occurred:', error);
+							});
+					};
+				</script>
 			</article>
 		</section>
 		<footer>
