@@ -243,10 +243,15 @@
 }
 
 
-.sunday-worship-intro {
+/* .sunday-worship-intro {
 	display: flex;
 	margin-left: 13%;
 	margin-right: 10%;
+} */
+.sunday-worship-intro {
+	display: flex;
+	margin-left: 15%;
+	margin-right: 15%;
 }
 
 #lunch-reserve {
