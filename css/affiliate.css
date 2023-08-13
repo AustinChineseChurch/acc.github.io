@@ -114,6 +114,14 @@
 	object-fit: contain;
 }
 
+.notebook-icon{
+	content: url("../img/notebook.svg");
+	width: 60px;
+	height: 60px;
+	opacity: 0.9;
+	box-sizing: border-box;
+}
+
 blockquote {
 	background: #f0f1fa;
 	border-left: 10px solid #D1D4D7;
