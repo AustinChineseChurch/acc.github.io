@@ -165,8 +165,15 @@
 
 .notebook-icon::before {
 	content: url("../img/notebook.svg");
-	width: 60px;
-	height: 60px;
+	width: 10px;
+	height: 10px;
+	opacity: 0.9;
+	box-sizing: border-box;
+}
+
+.register-icon::before {
+	content: url("../img/register.svg");
+	background-size: 60px 60px;
 	opacity: 0.9;
 	box-sizing: border-box;
 }
@@ -180,8 +187,7 @@
 
 .group-icon::before {
 	content: url("../img/group.svg");
-	width: 60px;
-	height: 60px;
+	background-size: 60px 60px;
 	opacity: 0.9;
 	box-sizing: border-box;
 }
