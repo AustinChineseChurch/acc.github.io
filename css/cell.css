@@ -47,7 +47,7 @@
 	.visitor-icon::after {
 		position: absolute;
 		top: 5em;
-		left: calc(5% + 2em);
+		left: calc(5% + 1.55em);
 		height: calc(100% - 5em);
 		border-top: none;
 		border-left: 0.15em solid #5F178D;
