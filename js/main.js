@@ -1,6 +1,6 @@
 window.onload = function() {
 	handleMarquee();
-	callCellNav()
+	callCellNav();
 	cellNavDrop();
 	menuCollapse();
 	controlVideo();
