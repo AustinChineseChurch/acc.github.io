@@ -4,6 +4,12 @@
 	.go-english h4 {
 		font-size: 0.875em;
 	}
+	.go-english {
+		width: 18%;
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+	}
+	
 
 	.marquee>.inner>p {
 		font-size: 0.875em;
