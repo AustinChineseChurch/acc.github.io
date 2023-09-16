@@ -24,17 +24,17 @@
 	}
 
 	.first-visit-title p {
-		text-align: left;
+		text-align: left !important;
 	}
 
 	.visitor-ul, .tv-ul {
-		display: flex;
-		flex-wrap: wrap;
-		text-align: left;
+		display: flex !important;
+		flex-wrap: wrap !important;
+		text-align: left !important;
 	}
 
 	.visitor-li {
-		flex: 0 0 100%;
+		flex: 0 0 100% !important;
 	}
 	
 	.history-groupcount-ul {
@@ -74,7 +74,7 @@
 	}
 	
 	.sunday-worship-intro p{
-		text-align: left;
+		text-align: left !important;
 	}
 
 	.pray-intro {
@@ -86,7 +86,7 @@
 	}
 	
 	#pray-content {
-		text-align: left;
+		text-align: left !important;
 	}
 
 	.header-background-supper {
