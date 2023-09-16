@@ -66,13 +66,14 @@
 	}
 
 	.visitor-content {
+		width: 100%;
 		padding: 0 7%;
 		margin-top: -0.5em;
 	}
 
 	.visitor-content a {
 		margin-left: 0;
-		margin-right: 40%;
+		width: 50%;
 		padding: 0.5em;
 		text-align: center;
 	}
