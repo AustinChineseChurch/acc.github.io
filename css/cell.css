@@ -32,6 +32,10 @@
 		flex-wrap: wrap !important;
 		text-align: left !important;
 	}
+	
+	.tv-ul {
+		padding: 1% 8% !important;
+	}
 
 	.visitor-li {
 		flex: 0 0 100% !important;
