@@ -163,6 +163,7 @@
 
 .linewrapper {
 	position: relative;
+	width: 100%
 }
 
 .notebook-icon::before {
@@ -238,7 +239,7 @@
 	font-size: .75rem;
 	font-weight: 400;
 	padding: 0.25rem;
-	margin: 0 15%;
+	margin: 0 30%;
 	color: #fff;
 	background-color: #5F178D;
 	border-radius: 5px;
