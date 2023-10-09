@@ -138,7 +138,6 @@ function rollingAds() {
 }
 
 
-
 function callCellNav() {
 	var cellicon = document.getElementById("cellnavicon");
 	cellicon.addEventListener("click", function() {

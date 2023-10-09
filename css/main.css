@@ -81,9 +81,10 @@
 }
 
 .item {
-	position: absolute;
-	width: 100%;
-	height: 100%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
 }
 
 .item-image {
@@ -99,6 +100,7 @@
 
 .item.active .item-image {
 	opacity: 1;
+	pointer-events: auto;
 }
 
 /* Controls ----------------------------------------------------------------------*/
