@@ -98,10 +98,11 @@
 		"book": "以斯帖記",
 		"verses": [{
 			"verse": "5",
-			"http://www.bbintl.org/bible/b5niv/b5nivEst5.html"
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivEst5.html"
 	        },
-		{"verse": "6",
-			"http://www.bbintl.org/bible/b5niv/b5nivEst6.html"
+		{
+			"verse": "6",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivEst6.html"
 	        }],
 		"href": "https://drive.google.com/file/d/15q8C7bIIKFJ2Y2pE_bAJ73uL97ibX-6N/view?usp=sharing"
 	}
