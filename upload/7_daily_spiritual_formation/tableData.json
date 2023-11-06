@@ -1,87 +1,5 @@
 [
 	{
-		"date": "10/29",
-		"day": "週日",
-		"book": "以斯帖記",
-		"verses": [{
-			"verse": "5",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivEst5.html"
-	        },
-		{
-			"verse": "6",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivEst6.html"
-	        }],
-		"href": "https://drive.google.com/file/d/15q8C7bIIKFJ2Y2pE_bAJ73uL97ibX-6N/view?usp=sharing"
-	},
-	{
-		"date": "10/30",
-		"day": "週一",
-		"book": "以斯帖記",
-		"verses": [{
-			"verse": "7",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivEst7.html"
-	        },
-                {
-			"verse": "8",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivEst8.html"
-		}],
-		"href": "https://drive.google.com/file/d/1xr2rWg7_7kvctI6Jyl470TNShV3kYzJw/view?usp=sharing"
-	},
-	{
-		"date": "10/31",
-		"day": "週二",
-		"book": "以斯帖記",
-		"verses": [{
-			"verse": "9",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivEst9.html"
-	        },
-		{
-			"verse": "10",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivEst10.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1OGQke26EA7BFHf6gXdpcT-N6W0HkUQqe/view?usp=sharing"
-	},
-	{
-		"date": "11/1",
-		"day": "週三",
-		"book": "路加福音",
-		"verses": [{
-			"verse": "1",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivLuk1.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1FrOTd_Q3XXGeuGPn_btenRYEdqonGVyz/view?usp=sharing"
-	},
-	{
-		"date": "11/2",
-		"day": "週四",
-		"book": "路加福音",
-		"verses": [{
-			"verse": "2",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivLuk2.html"
-	        }],
-		"href": "https://drive.google.com/file/d/184j3st_FchFaYz0QeBXJjPdCNp696ydZ/view?usp=sharing"
-	},
-	{
-		"date": "11/3",
-		"day": "週五",
-		"book": "路加福音",
-		"verses": [{
-			"verse": "3",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivLuk3.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1g5EDJ_a_o6KS59h_WkIzdp-KNjTgv4Vw/view?usp=sharing"
-	},
-	{
-		"date": "11/4",
-		"day": "週六",
-		"book": "路加福音",
-		"verses": [{
-			"verse": "4",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivLuk4.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1HVbxLUvW_8trvyCb2jct6072czFj-t4e/view?usp=sharing"
-	},
-	{
 		"date": "11/5",
 		"day": "週日",
 		"book": "路加福音",
@@ -90,5 +8,75 @@
 			"link": "http://www.bbintl.org/bible/b5niv/b5nivLuk5.html"
 	        }],
 		"href": "https://drive.google.com/file/d/1Z5uol1yr0qXmaA7xdz2AxZQS354Xj-36/view?usp=sharing"
+	},
+	{
+		"date": "11/6",
+		"day": "週一",
+		"book": "路加福音",
+		"verses": [{
+			"verse": "6",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivLuk6.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1DNR7Mv9qhhf_SGYltaxDO55dR56Fo_B5/view?usp=sharing"
+	},
+	{
+		"date": "11/7",
+		"day": "週二",
+		"book": "路加福音",
+		"verses": [{
+			"verse": "7",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivLuk7.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1ooHnM7U3qC9q67pyhz1f2FTCCIHViZhk/view?usp=sharing"
+	},
+	{
+		"date": "11/8",
+		"day": "週三",
+		"book": "路加福音",
+		"verses": [{
+			"verse": "8",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivLuk8.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1IrLQMjIoQ3MmdphMrzZzruXBm1XVlzw_/view?usp=sharing"
+	},
+	{
+		"date": "11/9",
+		"day": "週四",
+		"book": "路加福音",
+		"verses": [{
+			"verse": "9",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivLuk9.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1zAvF0KXTUYdXSBLKHIU-iSx6v_A7cajl/view?usp=sharing"
+	},
+	{
+		"date": "11/10",
+		"day": "週五",
+		"book": "路加福音",
+		"verses": [{
+			"verse": "10",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivLuk10.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1crVBo1pqCoHrfHSmL8oro9pvVzmtzGIe/view?usp=sharing"
+	},
+	{
+		"date": "11/11",
+		"day": "週六",
+		"book": "路加福音",
+		"verses": [{
+			"verse": "11",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivLuk11.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1IKAOH7aUIeZOQ8dYk6aXcDOzKQAogOiS/view?usp=sharing"
+	},
+	{
+		"date": "11/12",
+		"day": "週日",
+		"book": "路加福音",
+		"verses": [{
+			"verse": "12",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivLuk12.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1Z97deOVQjkn_lld8lJZLwgVqsMlfJAgH/view?usp=sharing"
 	}
 ]
