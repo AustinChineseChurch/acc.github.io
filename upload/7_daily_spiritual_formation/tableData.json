@@ -1,102 +1,106 @@
 [
 	{
-		"date": "1/28",
-		"day": "週日",
-		"book": "以賽亞書",
-		"verses": [{
-			"verse": "40",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivIsa40.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1jjCLJHwkx94HX_vbmju_HCFa-cwx_-uU/view?usp=sharing"
-	},
-	{
-		"date": "1/29",
-		"day": "週一",
-		"book": "以賽亞書",
-		"verses": [{
-			"verse": "41",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivIsa41.html"
-		}],
-		"href": "https://drive.google.com/file/d/19Sx_wF-WEiXm7sEicV-RyuKwYLjM8DPL/view?usp=sharing"
-	},
-	{
-		"date": "1/30",
-		"day": "週二",
-		"book": "以賽亞書",
-		"verses": [{
-			"verse": "42",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivIsa42.html"
-	        },
-		{
-			"verse": "43",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivIsa43.html"
-		}],
-		"href": "https://drive.google.com/file/d/16j32v2GB8tAdrLFkLTeOTDFYU7B4CQIh/view?usp=sharing"
-	},
-	{
-		"date": "1/31",
-		"day": "週三",
-		"book": "以賽亞書",
-		"verses": [{
-			"verse": "44",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivIsa44.html"
-		},
-		{
-			"verse": "45",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivIsa45.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1wVc9BVaPUkVxZvMh6bUw7MP-8heou9wa/view?usp=sharing"
-	},
-	{
-		"date": "2/1",
-		"day": "週四",
-		"book": "以賽亞書",
-		"verses": [{
-			"verse": "46",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivIsa46.html"
-	        },
-		{
-			"verse": "47",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivIsa47.html"
-		}],
-		"href": "https://drive.google.com/file/d/1q1i3_A8-PLMkBY-POq2SAnXxT0yL6gqK/view?usp=sharing"
-	},
-	{
-		"date": "2/2",
-		"day": "週五",
-		"book": "以賽亞書",
-		"verses": [{
-			"verse": "48",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivIsa48.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1sF-HdAWy_rMVv629xjoxS3QpCGA5M0Z2/view?usp=sharing"
-	 },
-	 {
-		"date": "2/3",
-		"day": "週六",
-		"book": "以賽亞書",
-		"verses": [{
-			"verse": "49",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivIsa49.html"
-	        },
-		{
-			"verse": "50",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivIsa50.html"
-		}],
-		"href": "https://drive.google.com/file/d/1K5i_91b2T6NBosGLyNr6AnVpjZWrKSbG/view?usp=sharing"
-	},
-	{
 		"date": "2/4",
 		"day": "週日",
 		"book": "以賽亞書",
 		"verses": [{
 			"verse": "51",
 			"link": "http://www.bbintl.org/bible/b5niv/b5nivIsa51.html"
-	        },
+		},
 		{
 			"verse": "52",
 			"link": "http://www.bbintl.org/bible/b5niv/b5nivIsa52.html"
-		}],
+	        }],
 		"href": "https://drive.google.com/file/d/1EuUO_uL_8BmRIeMO5Jm4HBg418uOFN-F/view?usp=sharing"
+	},
+	{
+		"date": "2/5",
+		"day": "週一",
+		"book": "以賽亞書",
+		"verses": [{
+			"verse": "53",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivIsa53.html"
+		},
+		{
+			"verse": "54",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivIsa54.html"
+		}],
+		"href": "https://drive.google.com/file/d/1oFq_H5LgZEpKVbOQG59GQvPkvRD-HPU2/view?usp=sharing"
+	},
+	{
+		"date": "2/6",
+		"day": "週二",
+		"book": "以賽亞書",
+		"verses": [{
+			"verse": "55",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivIsa55.html"
+	        },
+		{
+			"verse": "56",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivIsa56.html"
+		}],
+		"href": "https://drive.google.com/file/d/1P3cyhTWh329Wht6_1fM_JYIi5fQFI5tb/view?usp=sharing"
+	},
+	{
+		"date": "2/7",
+		"day": "週三",
+		"book": "以賽亞書",
+		"verses": [{
+			"verse": "57",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivIsa57.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1hWSoJAyitHbEDnAM96nYIXhGu1sDDiNi/view?usp=sharing"
+	},
+	{
+		"date": "2/8",
+		"day": "週四",
+		"book": "以賽亞書",
+		"verses": [{
+			"verse": "58",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivIsa58.html"
+	        },
+		{
+			"verse": "59",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivIsa59.html"
+		}],
+		"href": "https://drive.google.com/file/d/1yg4zMFoarpTEGtFQNiNn32gS35KJh04v/view?usp=sharing"
+	},
+	{
+		"date": "2/9",
+		"day": "週五",
+		"book": "以賽亞書",
+		"verses": [{
+			"verse": "60",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivIsa60.html"
+	        }],
+		"href": "https://drive.google.com/file/d/131CWw37OtpYrroc-tJ8JBluPZJ8wUz4N/view?usp=sharing"
+	 },
+	 {
+		"date": "2/10",
+		"day": "週六",
+		"book": "以賽亞書",
+		"verses": [{
+			"verse": "61",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivIsa61.html"
+	        },
+		{
+			"verse": "62",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivIsa62.html"
+		}],
+		"href": "https://drive.google.com/file/d/1Lc2nBodqS3F59TZRS7Xerv5x6EBdbEMy/view?usp=sharing"
+	},
+	{
+		"date": "2/11",
+		"day": "週日",
+		"book": "以賽亞書",
+		"verses": [{
+			"verse": "63",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivIsa63.html"
+	        },
+		{
+			"verse": "64",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivIsa64.html"
+		}],
+		"href": "https://drive.google.com/file/d/1yPvRb5E3uoX3Ye04dll6yils2No2eCyp/view?usp=sharing"
 	}
 ]
