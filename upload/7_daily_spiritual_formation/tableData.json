@@ -54,14 +54,12 @@
 	{
 		"date": "2/29",
 		"day": "週四",
-		"book": "",
+		"book": "自由安排",
 		"verses": [{
-			"verse": "",
-			"link": ""
-	        },
-		{
+			"verse": "NA",
+			"link": "NA"
 		}],
-		"href": ""
+		"href": "NA"
 	},
 	{
 		"date": "3/1",
