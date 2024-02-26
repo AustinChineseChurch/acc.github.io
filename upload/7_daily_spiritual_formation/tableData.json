@@ -52,30 +52,36 @@
 		"href": "https://drive.google.com/file/d/1BdOqaQj58SwCtxk0AXj4mU7ALOUGv1D8/view?usp=sharing"
 	},
 	{
-		"date": "3/1",
-		"day": "週五",
+		"date": "2/29",
+		"day": "週四",
 		"book": "詩篇",
 		"verses": [{
 			"verse": "106",
 			"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm106.html"
 	        }],
-		"href": "https://drive.google.com/file/d/1lAi2rWw6yg0w_7zbzSzKH_BJJEk_vbDj/view?usp=sharing"
+		"href": "https://drive.google.com/file/d/1KridhK_wJrWwZeyiFNGzdOAD_-mYzmX6/view?usp=sharing"
+	},
+	{
+		"date": "3/1",
+		"day": "週五",
+		"book": "提摩太前書",
+		"verses": [{
+			"verse": "1",
+			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Ti1.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1sJOecghiq-UeoUhkuGbY85V78_Sm91GJ/view?usp=sharing"
 	 },
 	 {
 		"date": "3/2",
 		"day": "週六",
 		"book": "提摩太前書",
 		"verses": [{
-			"verse": "1",
-			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Ti1.html"
-	        },
-		{
 			"verse": "2",
 			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Ti2.html"
 		}],
-		"href": "https://drive.google.com/file/d/1NOIRK9YB21JKBxDs_1wj9Zq5LDF11TKq/view?usp=sharing"
-	},
-	{
+		"href": "https://drive.google.com/file/d/1zeWxoU6-ejZR7NurJohvaXuqkZRzH8KZ/view?usp=sharing"
+	 },
+	 {
 		"date": "3/3",
 		"day": "週日",
 		"book": "提摩太前書",
@@ -87,6 +93,6 @@
 			"verse": "4",
 			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Ti4.html"
 		}],
-		"href": "https://drive.google.com/file/d/1xuTO7e6NJ_C4qISCF3Nbx_WVymyUy7TG/view?usp=sharing"
+		"href": "https://drive.google.com/file/d/1N-l5pvHorD4Dlo588I11OmLUd1wbTQHS/view?usp=sharing"
 	}
 ]
