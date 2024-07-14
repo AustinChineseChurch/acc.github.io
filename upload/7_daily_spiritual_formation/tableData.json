@@ -1,103 +1,5 @@
 [
 	{
-		"date": "7/7",
-		"day": "週日",
-		"book": "以西結書",
-		"verses": [{
-			"verse": "19",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivEze19.html"
-		},
-		{
-			"verse": "20",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivEze20.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1SgbsMbfA4YQgLhG8zHi3x6aMXsHCSyqo/view?usp=sharing"
-	},
-	{
-		"date": "7/8",
-		"day": "週一",
-		"book": "以西結書",
-		"verses": [{
-			"verse": "21",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivEze21.html"
-		},
-		{
-			"verse": "22",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivEze22.html"
-		}],
-		"href": "https://drive.google.com/file/d/10IeAcp8SyYeE4qkiYFkO1ZHMF6y5LSk3/view?usp=sharing"
-	},
-	{
-		"date": "7/9",
-		"day": "週二",
-		"book": "以西結書",
-		"verses": [{
-			"verse": "23",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivEze23.html"
-		},
-		{
-			"verse": "24",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivEze24.html"
-		}],
-		"href": "https://drive.google.com/file/d/1qf65oqHbCOYGf4ZxZma_vE6yRb3k7wn4/view?usp=sharing"
-	},
-	{
-		"date": "7/10",
-		"day": "週三",
-		"book": "以西結書",
-		"verses": [{
-			"verse": "25",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivEze25.html"
-		},
-		{
-			"verse": "26",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivEze26.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1JM2QLrnPX2ZtOEz7yCNCD96CnqGyO3xq/view?usp=sharing"
-	},
-	{
-		"date": "7/11",
-		"day": "週四",
-		"book": "以西結書",
-		"verses": [{
-			"verse": "27",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivEze27.html"
-		},
-		{
-			"verse": "28",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivEze28.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1K15hxw3zwAqMQSy45Jz1_OWD17XQMMct/view?usp=sharing"
-	},
-	{
-		"date": "7/12",
-		"day": "週五",
-		"book": "以西結書",
-		"verses": [{
-			"verse": "29",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivEze29.html"
-		},
-		{
-			"verse": "30",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivEze30.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1YLFqUxs4BHeNDU1g_oa5DMX7PbVgPByT/view?usp=sharing"
-	},
-	{
-		"date": "7/13",
-		"day": "週六",
-		"book": "以西結書",
-		"verses": [{
-			"verse": "31",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivEze31.html"
-		},
-		{
-			"verse": "32",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivEze32.html"
-		}],
-		"href": "https://drive.google.com/file/d/1eGpYrPp_UBDyOhUmfqlq6ldEjvC6ujFx/view?usp=sharing"
-	},
-	{
 		"date": "7/14",
 		"day": "週日",
 		"book": "以西結書",
@@ -108,8 +10,106 @@
 		{
 			"verse": "34",
 			"link": "http://www.bbintl.org/bible/b5niv/b5nivEze34.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1vWfT-C_nVFc7rE3dH37Mbje_4lB-bTu1/view?usp=sharing"
+	},
+	{
+		"date": "7/15",
+		"day": "週一",
+		"book": "以西結書",
+		"verses": [{
+			"verse": "35",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivEze15.html"
+		},
+		{
+			"verse": "36",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivEze16.html"
+		}],
+		"href": "https://drive.google.com/file/d/1aXUnIWDUba6nBvP63s8q0CkCo1sXdgCM/view?usp=sharing"
+	},
+	{
+		"date": "7/16",
+		"day": "週二",
+		"book": "以西結書",
+		"verses": [{
+			"verse": "37",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivEze37.html"
+		},
+		{
+			"verse": "38",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivEze38.html"
+		}],
+		"href": "https://drive.google.com/file/d/1Xo_tO4AkXSF4lyTqDmmBV7zIm1-8EHGG/view?usp=sharing"
+	},
+	{
+		"date": "7/17",
+		"day": "週三",
+		"book": "以西結書",
+		"verses": [{
+			"verse": "39",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivEze39.html"
+		},
+		{
+			"verse": "40",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivEze40.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1RpHbh8WcJkAmf2Xz1Xnu3lyW7q9hudII/view?usp=sharing"
+	},
+	{
+		"date": "7/18",
+		"day": "週四",
+		"book": "以西結書",
+		"verses": [{
+			"verse": "41",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivEze41.html"
+		},
+		{
+			"verse": "42",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivEze42.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1z3OZinK7fON80HcyiZzpSxKZVHBh2jC5/view?usp=sharing"
+	},
+	{
+		"date": "7/19",
+		"day": "週五",
+		"book": "以西結書",
+		"verses": [{
+			"verse": "43",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivEze43.html"
+		},
+		{
+			"verse": "44",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivEze44.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1Sr739kEvVvqqozxgHplkz4OfInicyV_6/view?usp=sharing"
+	},
+	{
+		"date": "7/20",
+		"day": "週六",
+		"book": "以西結書",
+		"verses": [{
+			"verse": "45",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivEze45.html"
+		},
+		{
+			"verse": "46",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivEze46.html"
+		}],
+		"href": "https://drive.google.com/file/d/1VgXQOudlOP9iyfFsEZPZiW-4QuCpMoLO/view?usp=sharing"
+	},
+	{
+		"date": "7/21",
+		"day": "週日",
+		"book": "以西結書",
+		"verses": [{
+			"verse": "47",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivEze47.html"
+		},
+		{
+			"verse": "48",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivEze48.html"
 			}
 		],
-		"href": "https://drive.google.com/file/d/1vWfT-C_nVFc7rE3dH37Mbje_4lB-bTu1/view?usp=sharing"
+		"href": "https://drive.google.com/file/d/1JGQ1XA23lfGRfEAsn58kbzl-3tuS6iwL/view?usp=sharing"
 	}
 ]
