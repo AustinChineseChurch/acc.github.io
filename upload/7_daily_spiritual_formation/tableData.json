@@ -1,95 +1,83 @@
 [
 	{
-		"date": "8/11",
-		"day": "週日",
-		"book": "詩篇",
-		"verses": [{
-			"verse": "148",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm148.html"
-		},
-		{
-			"verse": "149",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm149.html"
-		},
-		{
-			"verse": "150",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm150.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1LSjdp0-mMr4Msw7tK0HuzJy_7a14vOkb/view?usp=sharing"
-	},
-	{
-		"date": "8/12",
-		"day": "週一",
-		"book": "雅各書",
-		"verses": [{
-			"verse": "1",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJas1.html"
-		}],
-		"href": "https://drive.google.com/file/d/18plIOFDIa3xORWlaUwvCK3IAJ4PCfNY_/view?usp=sharing"
-	},
-	{
-		"date": "8/13",
-		"day": "週二",
-		"book": "雅各書",
-		"verses": [{
-			"verse": "2",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJas2.html"
-		}],
-		"href": "https://drive.google.com/file/d/1M8egYAMrwdkw6nYTGOf3aali7kwZKHB5/view?usp=sharing"
-	},
-	{
-		"date": "8/14",
-		"day": "週三",
-		"book": "雅各書",
-		"verses": [{
-			"verse": "3",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJas3.html"
-		},
-		{
-			"verse": "4",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJas4.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1S7xgg9JwRTU5DNBHIBq6iXFlT_l0trvw/view?usp=sharing"
-	},
-	{
-		"date": "8/15",
-		"day": "週四",
-		"book": "雅各書",
-		"verses": [{
-			"verse": "5",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJas5.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1k4WP6IdXJPsTnHWTq09TqNt5XHvA8anq/view?usp=sharing"
-	},
-	{
-		"date": "8/16",
-		"day": "週五",
-		"book": "但以理書",
-		"verses": [{
-			"verse": "1",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivDan1.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1E-4dBZX1u3hcqjheiTuqBbturdjOtxV3/view?usp=sharing"
-	},
-	{
-		"date": "8/17",
-		"day": "週六",
-		"book": "但以理書",
-		"verses": [{
-			"verse": "2",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivDan2.html"
-		}],
-		"href": "https://drive.google.com/file/d/1cDJQh8SrM6WX_wKlXlxA1zfalR3omUWd/view?usp=sharing"
-	},
-	{
 		"date": "8/18",
 		"day": "週日",
 		"book": "但以理書",
 		"verses": [{
 			"verse": "3",
 			"link": "http://www.bbintl.org/bible/b5niv/b5nivDan3.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1WQ0K3G1I-muQT5xALg1WvoHqiRkiccFX/view?usp=sharing"
+	},
+	{
+		"date": "8/19",
+		"day": "週一",
+		"book": "但以理書",
+		"verses": [{
+			"verse": "4",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivDan4.html"
+		}],
+		"href": "https://drive.google.com/file/d/15WbDEzlmIKAuXlPE1ifdcYKKNwGsSVD3/view?usp=sharing"
+	},
+	{
+		"date": "8/20",
+		"day": "週二",
+		"book": "但以理書",
+		"verses": [{
+			"verse": "5",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivDan5.html"
+		}],
+		"href": "https://drive.google.com/file/d/1S7qKTlUBBYKMfBesxAaGEKGyWyLHOCJT/view?usp=sharing"
+	},
+	{
+		"date": "8/21",
+		"day": "週三",
+		"book": "但以理書",
+		"verses": [{
+			"verse": "6",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivDan6.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1lj0oHAoVYTAkzUal7lmQFtiA_LzfA8Nm/view?usp=sharing"
+	},
+	{
+		"date": "8/22",
+		"day": "週四",
+		"book": "但以理書",
+		"verses": [{
+			"verse": "7",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivDan7.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1CzPKtnoZkHCoEC_bZ-167M4tULquFtgS/view?usp=sharing"
+	},
+	{
+		"date": "8/23",
+		"day": "週五",
+		"book": "但以理書",
+		"verses": [{
+			"verse": "8",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivDan8.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1UETQIS8Wnm5GTXFpNqYXJ-VaHb3m_KDL/view?usp=sharing"
+	},
+	{
+		"date": "8/24",
+		"day": "週六",
+		"book": "但以理書",
+		"verses": [{
+			"verse": "9",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivDan9.html"
+		}],
+		"href": "https://drive.google.com/file/d/1waucuX2OZdBRomyUiUckHqfrFPtdN6Lg/view?usp=sharing"
+	},
+	{
+		"date": "8/25",
+		"day": "週日",
+		"book": "但以理書",
+		"verses": [{
+			"verse": "10",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivDan10.html"
 			}
 		],
-		"href": "https://drive.google.com/file/d/1WQ0K3G1I-muQT5xALg1WvoHqiRkiccFX/view?usp=sharing"
+		"href": "https://drive.google.com/file/d/1urdcl-FCmtY4JJ37L15CGu3i9DBzVQ51/view?usp=sharing"
 	}
 ]
