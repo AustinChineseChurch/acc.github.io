@@ -16,48 +16,68 @@
 		"verses": [{
 			"verse": "11",
 			"link": "http://www.bbintl.org/bible/b5niv/b5nivDan11.html"
+		},
+		{
+			"verse": "12",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivDan12.html"
 		}],
-		"href": ""
+		"href": "https://drive.google.com/file/d/1iTtktLrRM5jmt5HxcPpt0EQeK8Unuo7D/view?usp=sharing"
 	},
 	{
 		"date": "8/27",
 		"day": "週二",
 		"book": "何西阿書",
 		"verses": [{
-			"verse": "5",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivDan5.html"
+			"verse": "1",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivHos1.html"
+		},
+		{
+			"verse": "2",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivHos2.html"
 		}],
-		"href": ""
+		"href": "https://drive.google.com/file/d/1sRZZ3mwRgR7mQKH421S6wk0qJQmbMALY/view?usp=sharing"
 	},
 	{
 		"date": "8/28",
 		"day": "週三",
 		"book": "何西阿書",
 		"verses": [{
-			"verse": "6",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivDan6.html"
+			"verse": "3",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivHos3.html"
+		},
+		{
+			"verse": "4",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivHos4.html"
 	        }],
-		"href": ""
+		"href": "https://drive.google.com/file/d/1cscFlMmbpcLUZM4kO5kFqUyzSKdWvDni/view?usp=sharing"
 	},
 	{
 		"date": "8/29",
 		"day": "週四",
 		"book": "何西阿書",
 		"verses": [{
-			"verse": "7",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivDan7.html"
+			"verse": "5",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivHos5.html"
+		},
+		{
+			"verse": "6",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivHos6.html"
 	        }],
-		"href": ""
+		"href": "https://drive.google.com/file/d/15zOZtpfu1sI1-BIiUZLrqMNkb7OInW6M/view?usp=sharing"
 	},
 	{
 		"date": "8/30",
 		"day": "週五",
 		"book": "何西阿書",
 		"verses": [{
+			"verse": "7",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivHos7.html"
+		},
+		{
 			"verse": "8",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivDan8.html"
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivHos8.html"
 	        }],
-		"href": ""
+		"href": "https://drive.google.com/file/d/1jbllnkTAJMDnlwzvErVmJjtkIcGKgXaA/view?usp=sharing"
 	},
 	{
 		"date": "8/31",
@@ -65,19 +85,27 @@
 		"book": "何西阿書",
 		"verses": [{
 			"verse": "9",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivDan9.html"
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivHos9.html"
+		},
+		{
+			"verse": "10",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivHos10.html"
 		}],
-		"href": ""
+		"href": "https://drive.google.com/file/d/1d6FHQGMlH17dHVPKlqVhqN2W__FsA4Pj/view?usp=sharing"
 	},
 	{
 		"date": "9/1",
 		"day": "週日",
 		"book": "何西阿書",
 		"verses": [{
-			"verse": "10",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivDan10.html"
+			"verse": "11",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivHos11.html"
+		},
+		{
+			"verse": "12",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivHos12.html"
 			}
 		],
-		"href": ""
+		"href": "https://drive.google.com/file/d/1dyhtN2MYa3hYr8p6Gm5iMuXYbzgRbM_8/view?usp=sharing"
 	}
 ]
