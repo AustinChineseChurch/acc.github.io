@@ -1,95 +1,91 @@
 [
 	{
-		"date": "9/1",
-		"day": "週日",
-		"book": "何西阿書",
-		"verses": [{
-			"verse": "11",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivHos11.html"
-		},
-		{
-			"verse": "12",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivHos12.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1dyhtN2MYa3hYr8p6Gm5iMuXYbzgRbM_8/view?usp=sharing"
-	},
-	{
-		"date": "9/2",
-		"day": "週一",
-		"book": "何西阿書",
-		"verses": [{
-			"verse": "13",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivHos13.html"
-		},
-		{
-			"verse": "14",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivHos14.html"
-		}],
-		"href": "https://drive.google.com/file/d/1nvR157akN0iuSceQqMNpGldmlK-6gyZ-/view?usp=sharing"
-	},
-	{
-		"date": "9/3",
-		"day": "週二",
-		"book": "彼得前書",
-		"verses": [{
-			"verse": "1",
-			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Pe1.html"
-		}],
-		"href": "https://drive.google.com/file/d/1rtgoJx3I2qYckynQ7-hQCi89wq0rpSKt/view?usp=sharing"
-	},
-	{
-		"date": "9/4",
-		"day": "週三",
-		"book": "彼得前書",
-		"verses": [{
-			"verse": "2",
-			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Pe2.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1P7pvldmZ-V2CDY8XAko1wIFEfdgBAjhb/view?usp=sharing"
-	},
-	{
-		"date": "9/5",
-		"day": "週四",
-		"book": "彼得前書",
-		"verses": [{
-			"verse": "3",
-			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Pe3.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1U4Sz_Xq8cZ1iWzSLo4V8XDaY_PPo2CXJ/view?usp=sharing"
-	},
-	{
-		"date": "9/6",
-		"day": "週五",
-		"book": "彼得前書",
-		"verses": [{
-			"verse": "4",
-			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Pe4.html"
-		},
-		{
-			"verse": "5",
-			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Pe5.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1ocIrFcTUPP7fbFmIIgdBpTNuffZJ53P8/view?usp=sharing"
-	},
-	{
-		"date": "9/7",
-		"day": "週六",
-		"book": "彼得後書",
-		"verses": [{
-			"verse": "1",
-			"link": "http://www.bbintl.org/bible/b5niv/b5niv2Pe1.html"
-		}],
-		"href": "https://drive.google.com/file/d/1HdFmHsQtAOO0xAlp97_kQwIMajOMTygF/view?usp=sharing"
-	},
-	{
 		"date": "9/8",
 		"day": "週日",
 		"book": "彼得後書",
 		"verses": [{
 			"verse": "2",
 			"link": "http://www.bbintl.org/bible/b5niv/b5niv2Pe2.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1sI_jjX_djHmVwQ_iK6MHTNHSiFj6bYNX/view?usp=sharing"
+	},
+	{
+		"date": "9/9",
+		"day": "週一",
+		"book": "彼得後書",
+		"verses": [{
+			"verse": "3",
+			"link": "http://www.bbintl.org/bible/b5niv/b5niv2Pe3.html"
+		}],
+		"href": "https://drive.google.com/file/d/1dutmMIfrzm9Ef35RMtRg8x4nCcGYMnKq/view?usp=sharing"
+	},
+	{
+		"date": "9/10",
+		"day": "週二",
+		"book": "約珥書",
+		"verses": [{
+			"verse": "1",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivJoe1.html"
+		}],
+		"href": "https://drive.google.com/file/d/1VkymPmS2sL3MqmRbfr8shY7qNilHggsu/view?usp=sharing"
+	},
+	{
+		"date": "9/11",
+		"day": "週三",
+		"book": "約珥書",
+		"verses": [{
+			"verse": "2",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivJoe2.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1IgWsPXnWE5pUledXPBo0LOiP9E-sUtOX/view?usp=sharing"
+	},
+	{
+		"date": "9/12",
+		"day": "週四",
+		"book": "約珥書",
+		"verses": [{
+			"verse": "3",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivJoe3.html"
+	        }],
+		"href": "https://drive.google.com/file/d/11HsdNB--eFOgbZyA2YJ-lvjGSB_k108X/view?usp=sharing"
+	},
+	{
+		"date": "9/13",
+		"day": "週五",
+		"book": "阿摩司書",
+		"verses": [{
+			"verse": "1",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivAmo1.html"
+		},
+		{
+			"verse": "2",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivAmo2.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1TRyWk1C6huaQySwSx4VHzPgVJBy-_Y-Z/view?usp=sharing"
+	},
+	{
+		"date": "9/14",
+		"day": "週六",
+		"book": "阿摩司書",
+		"verses": [{
+			"verse": "3",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivAmo3.html"
+		},
+		{
+			"verse": "4",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivAmo4.html"
+		}],
+		"href": "https://drive.google.com/file/d/1hmyOMzlvukFkJ4HuuIItavAZVMrU4qx1/view?usp=sharing"
+	},
+	{
+		"date": "9/15",
+		"day": "週日",
+		"book": "阿摩司書",
+		"verses": [{
+			"verse": "5",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivAmo5.html"
 			}
 		],
-		"href": "https://drive.google.com/file/d/1sI_jjX_djHmVwQ_iK6MHTNHSiFj6bYNX/view?usp=sharing"
+		"href": "https://drive.google.com/file/d/1phaLmW2jsqbRxXW22HpxOGkOHXgVb-v1/view?usp=sharing"
 	}
 ]
