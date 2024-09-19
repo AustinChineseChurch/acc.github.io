@@ -151,6 +151,7 @@
 	}
 
 	#cellnavicon {
+		top: 1.5rem;
 		display: flex;
 	}
 
@@ -178,11 +179,15 @@
 		padding-left: 1em;
 	}
 
-	article {
-		margin-top: 10%;
-	}
-
 	article h2 {
 		font-size: 1.5em;
+	}
+	
+	.sectionline{
+		display: flex;
+	}
+	
+	.church-hist-schedule{
+		margin-top: 1rem;
 	}
 }
