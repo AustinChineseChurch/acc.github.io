@@ -1,107 +1,107 @@
 [
 	{
-		"date": "9/15",
+		"date": "10/6",
 		"day": "週日",
-		"book": "阿摩司書",
+		"book": "約翰三書",
+		"verses": [{
+			"verse": "1",
+			"link": "http://www.bbintl.org/bible/b5niv/b5niv3Jn1.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1IQiKe80Hn9kKNl47bzSsSjQ2sC-2duFJ/view?usp=sharing"
+	},
+	{
+		"date": "10/7",
+		"day": "週一",
+		"book": "猶大書",
+		"verses": [{
+			"verse": "1",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivJud1.html"
+		}],
+		"href": "https://drive.google.com/file/d/1Kk3WHzKHpOmVAVPSW6k1CNShCxsBtLbl/view?usp=sharing"
+	},
+	{
+		"date": "10/8",
+		"day": "週二",
+		"book": "哈該書",
+		"verses": [{
+			"verse": "1",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivHag1.html"
+		},
+		{
+			"verse": "2",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivHag2.html"
+		}],
+		"href": "https://drive.google.com/file/d/1NL3fz_VO9bWJ-HhyMGSuXHPdV83ozOMt/view?usp=sharing"
+	},
+	{
+		"date": "10/9",
+		"day": "週三",
+		"book": "撒迦利亞書",
+		"verses": [{
+			"verse": "1",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivZec1.html"
+		},
+		{
+			"verse": "2",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivZec2.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1960mnNE5h6V37vzoLu6PbftSJyZ5P5wI/view?usp=sharing"
+	},
+	{
+		"date": "10/10",
+		"day": "週四",
+		"book": "撒迦利亞書",
+		"verses": [{
+			"verse": "3",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivZec3.html"
+		},
+		{
+			"verse": "4",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivZec4.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1PXZaDw2s1DExksZ4kFUBsm94aKI855e3/view?usp=sharing"
+	},
+	{
+		"date": "10/11",
+		"day": "週五",
+		"book": "撒迦利亞書",
 		"verses": [{
 			"verse": "5",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivAmo5.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1phaLmW2jsqbRxXW22HpxOGkOHXgVb-v1/view?usp=sharing"
-	},
-	{
-		"date": "9/16",
-		"day": "週一",
-		"book": "阿摩司書",
-		"verses": [{
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivZec5.html"
+		},
+		{
 			"verse": "6",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivAmo6.html"
-		},
-		{
-			"verse": "7",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivAmo7.html"
-		}],
-		"href": "https://drive.google.com/file/d/1HpUMdWkRbRGR8tGOlXEq96LWKm-o1X_u/view?usp=sharing"
-	},
-	{
-		"date": "9/17",
-		"day": "週二",
-		"book": "阿摩司書",
-		"verses": [{
-			"verse": "8",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivAmo8.html"
-		},
-		{
-			"verse": "9",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivAmo9.html"
-		}],
-		"href": "https://drive.google.com/file/d/1-ojiX34_T4OAawhIHryCVPm3J98Kowq6/view?usp=sharing"
-	},
-	{
-		"date": "9/18",
-		"day": "週三",
-		"book": "俄巴底亞書",
-		"verses": [{
-			"verse": "1",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivOba1.html"
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivZec6.html"
 	        }],
-		"href": "https://drive.google.com/file/d/15wRfNbwoQcO0nAVia9v2-mfrxLoh7mEB/view?usp=sharing"
+		"href": "https://drive.google.com/file/d/1_mBZ4QkMlgjrVosqeh-9BTrqYPEr-ylB/view?usp=sharing"
 	},
 	{
-		"date": "9/19",
-		"day": "週四",
-		"book": "約拿書",
-		"verses": [{
-			"verse": "1",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJon1.html"
-		},
-		{
-			"verse": "2",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJon2.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1EPuwc39AWGlQnEiYt5ZxdRZPCVEKjkLG/view?usp=sharing"
-	},
-	{
-		"date": "9/20",
-		"day": "週五",
-		"book": "約拿書",
-		"verses": [{
-			"verse": "3",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJon3.html"
-		},
-		{
-			"verse": "4",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJon4.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1pqabskVnoBDNb_7-KWEqlNWF2gG9BcGU/view?usp=sharing"
-	},
-	{
-		"date": "9/21",
+		"date": "10/12",
 		"day": "週六",
-		"book": "彌迦書",
+		"book": "撒迦利亞書",
 		"verses": [{
-			"verse": "1",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivMic1.html"
+			"verse": "7",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivZec7.html"
 		},
 		{
-			"verse": "2",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivMic2.html"
+			"verse": "8",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivZec8.html"
 		}],
-		"href": "https://drive.google.com/file/d/1nuxcaOBEA7aHwNq7X_g-iVwx9g7Z62G9/view?usp=sharing"
+		"href": "https://drive.google.com/file/d/1nxX3yU6M5K2UoKvKeU_-wOo9U7bpk_lM/view?usp=sharing"
 	},
 	{
-		"date": "9/22",
+		"date": "10/13",
 		"day": "週日",
-		"book": "彌迦書",
+		"book": "撒迦利亞書",
 		"verses": [{
-			"verse": "3",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivMic3.html"
+			"verse": "9",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivZec9.html"
 		},
 		{
-			"verse": "4",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivMic4.html"
+			"verse": "10",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivZec10.html"
 			}
 		],
-		"href": "https://drive.google.com/file/d/1meE6-GL-OOd9TS2-NKk1uCt2u7x4Vflg/view?usp=sharing"
+		"href": "https://drive.google.com/file/d/1kicgx8r0wkzsfjCMrqhcOKAjclBSe5fP/view?usp=sharing"
 	}
 ]
