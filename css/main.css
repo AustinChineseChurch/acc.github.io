@@ -71,7 +71,7 @@
 	height: 75%;
 	display: flex;
 	flex-direction: row;
-	background-color: rgba(12, 13, 17, 0.7);
+	background-color: rgba(12, 13, 17, 0.6);
 	border: 0.5em solid rgba(0, 0, 0, 0);
 }
 
