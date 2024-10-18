@@ -71,7 +71,7 @@
 	height: 75%;
 	display: flex;
 	flex-direction: row;
-	background-color: rgba(12, 13, 17, 0.6);
+	background-color: rgba(12, 13, 17, 0);
 	border: 0.5em solid rgba(0, 0, 0, 0);
 }
 
@@ -108,8 +108,8 @@
 .controls {
 	position: relative;
 	float: right;
-	padding-right: 5rem;
-	margin-left: 10%;
+	padding-right: 0rem;
+	margin-left: 0%;
 	margin-top: 1rem;
 	z-index: 1000;
 }
@@ -128,7 +128,8 @@
 }
 
 .controls ul li.active {
-	background: mediumpurple;
+	/* background: mediumpurple; */
+	background-color:rgba(12, 13, 17, 0);
 }
 
 
