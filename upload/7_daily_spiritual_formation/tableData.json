@@ -1,91 +1,5 @@
 [
 	{
-		"date": "10/27",
-		"day": "週日",
-		"book": "啟示錄",
-		"verses": [{
-			"verse": "16",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivRev16.html"
-		},
-		{
-			"verse": "17",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivRev17.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1c5H1iCS_42hidkHZ79zI1feSSMWwGSAJ/view?usp=sharing"
-	},
-	{
-		"date": "10/28",
-		"day": "週一",
-		"book": "啟示錄",
-		"verses": [{
-			"verse": "18",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivRev18.html"
-		}],
-		"href": "https://drive.google.com/file/d/1n9M5WOawRuvEV73g5d68cLlR2jv3gcgu/view?usp=sharing"
-	},
-	{
-		"date": "10/29",
-		"day": "週二",
-		"book": "啟示錄",
-		"verses": [{
-			"verse": "19",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivRev19.html"
-		},
-		{
-			"verse": "20",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivRev20.html"
-		}],
-		"href": "https://drive.google.com/file/d/11PhEkGWoYnzpKn3Sj-KRMu6MV7rI8TjD/view?usp=sharing"
-	},
-	{
-		"date": "10/30",
-		"day": "週三",
-		"book": "啟示錄",
-		"verses": [{
-			"verse": "21",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivRev21.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1vlVGGLW7_PJ4Lp1SglFJ8IYWBgoW1XEu/view?usp=sharing"
-	},
-	{
-		"date": "10/31",
-		"day": "週四",
-		"book": "啟示錄",
-		"verses": [{
-			"verse": "22",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivRev22.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1wfGUgbM7_c0m9ynIMW9IMZHXo43sFb98/view?usp=sharing"
-	},
-	{
-		"date": "11/1",
-		"day": "週五",
-		"book": "創世記",
-		"verses": [{
-			"verse": "1",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivGen1.html"
-		},
-		{
-			"verse": "2",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivGen2.html"
-	        }],
-		"href": "https://drive.google.com/file/d/17qXSmnhsq9rbvbN0uzOxzzM33QZW47jK/view?usp=sharing"
-	},
-	{
-		"date": "11/2",
-		"day": "週六",
-		"book": "創世記",
-		"verses": [{
-			"verse": "3",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivGen3.html"
-		},
-		{
-			"verse": "4",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivGen4.html"
-		}],
-		"href": "https://drive.google.com/file/d/1vM5f6jPNIrraVNIIhUhRKKevrPuZ6GHz/view?usp=sharing"
-	},
-	{
 		"date": "11/3",
 		"day": "週日",
 		"book": "創世記",
@@ -96,8 +10,106 @@
 		{
 			"verse": "6",
 			"link": "http://www.bbintl.org/bible/b5niv/b5nivGen6.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1Glg6u52W1cp-aGBr9Gh6f1vtNUUv01nK/view?usp=sharing"
+	},
+	{
+		"date": "11/4",
+		"day": "週一",
+		"book": "創世記",
+		"verses": [{
+			"verse": "7",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivGen7.html"
+		},
+		{
+			"verse": "8",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivGen8.html"
+		}],
+		"href": "https://drive.google.com/file/d/13VB0Eb6fvuha3WvuiJ8To0jQ7Hh6zEMZ/view?usp=sharing"
+	},
+	{
+		"date": "11/5",
+		"day": "週二",
+		"book": "創世記",
+		"verses": [{
+			"verse": "9",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivGen9.html"
+		},
+		{
+			"verse": "10",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivGen10.html"
+		}],
+		"href": "https://drive.google.com/file/d/12IehCJAk081hKjOSMVwi89SkZUPZjOM-/view?usp=sharing"
+	},
+	{
+		"date": "11/6",
+		"day": "週三",
+		"book": "創世記",
+		"verses": [{
+			"verse": "11",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivGen11.html"
+		},
+		{
+			"verse": "12",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivGen12.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1NpmyEbFhfwXoXqNZlLqZYcamENDmuEQ8/view?usp=sharing"
+	},
+	{
+		"date": "11/7",
+		"day": "週四",
+		"book": "創世記",
+		"verses": [{
+			"verse": "13",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivGen13.html"
+		},
+		{
+			"verse": "14",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivGen14.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1JDAhnjPKPP7J1yd5o--KiHCYNB3SNobk/view?usp=sharing"
+	},
+	{
+		"date": "11/8",
+		"day": "週五",
+		"book": "創世記",
+		"verses": [{
+			"verse": "15",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivGen15.html"
+		},
+		{
+			"verse": "16",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivGen16.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1_OPM7SVJLmEMCkHLdj3dPWQD5e4ZdzhI/view?usp=sharing"
+	},
+	{
+		"date": "11/9",
+		"day": "週六",
+		"book": "創世記",
+		"verses": [{
+			"verse": "17",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivGen17.html"
+		},
+		{
+			"verse": "18",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivGen18.html"
+		}],
+		"href": "https://drive.google.com/file/d/1aOtChmXpeRg7iVsgtyT4iHS64k5_TYqx/view?usp=sharing"
+	},
+	{
+		"date": "11/10",
+		"day": "週日",
+		"book": "創世記",
+		"verses": [{
+			"verse": "19",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivGen19.html"
+		},
+		{
+			"verse": "20",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivGen20.html"
 			}
 		],
-		"href": "https://drive.google.com/file/d/1Glg6u52W1cp-aGBr9Gh6f1vtNUUv01nK/view?usp=sharing"
+		"href": "https://drive.google.com/file/d/1hL4bNAEXYi9IH8MMy6idCF96yQB-1wHb/view?usp=sharing"
 	}
 ]
