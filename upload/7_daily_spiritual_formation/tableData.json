@@ -1,100 +1,5 @@
 [
 	{
-		"date": "12/8",
-		"day": "週日",
-		"book": "出埃及記",
-		"verses": [{
-			"verse": "15",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivExo15.html"
-		},
-		{
-			"verse": "16",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivExo16.html"
-			}
-		],
-		"href": "https://drive.google.com/file/d/1nwZC1kyUXr4tN_SotCV659d3UXAWBnUh/view?usp=sharing"
-	},
-	{
-		"date": "12/9",
-		"day": "週一",
-		"book": "出埃及記",
-		"verses": [{
-			"verse": "17",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivExo17.html"
-		},
-		{
-			"verse": "18",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivExo18.html"
-		}],
-		"href": "https://drive.google.com/file/d/1cClWg0wJ2O8nsNBiSwI0mpzirmltFH2f/view?usp=sharing"
-	},
-	{
-		"date": "12/10",
-		"day": "週二",
-		"book": "出埃及記",
-		"verses": [{
-			"verse": "19",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivExo19.html"
-		},
-		{
-			"verse": "20",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivExo20.html"
-		}],
-		"href": "https://drive.google.com/file/d/1fjnolMM1GXOjtKIw0gBjEp6fviqse0Np/view?usp=sharing"
-	},
-	{
-		"date": "12/11",
-		"day": "週三",
-		"book": "出埃及記",
-		"verses": [{
-			"verse": "21",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivExo21.html"
-	        },
-		{
-			"verse": "22",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivExo22.html"
-		}],
-		"href": "https://drive.google.com/file/d/1H3U9Oe3dSd78kP6D_BirVjgvomDz7PNi/view?usp=sharing"
-	},
-	{
-		"date": "12/12",
-		"day": "週四",
-		"book": "出埃及記",
-		"verses": [{
-			"verse": "23",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivExo23.html"
-		},
-		{
-			"verse": "24",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivExo24.html"	
-	        }],
-		"href": "https://drive.google.com/file/d/10dGTi0RExaYTd0Yr1Iv066LzDHU79cyg/view?usp=sharing"
-	},
-	{
-		"date": "12/13",
-		"day": "週五",
-		"book": "出埃及記",
-		"verses": [{
-			"verse": "25",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivExo25.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1ulqOe_gO77k0PMV1GDdk6V82rkMPEDZ5/view?usp=sharing"
-	},
-	{
-		"date": "12/14",
-		"day": "週六",
-		"book": "出埃及記",
-		"verses": [{
-			"verse": "26",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivExo26.html"
-		},
-		{
-			"verse": "27",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivExo27.html"
-		}],
-		"href": "https://drive.google.com/file/d/1x24mBf1atyQdbPcnsnntAHQIOB5HrP6l/view?usp=sharing"
-	},
-	{
 		"date": "12/15",
 		"day": "週日",
 		"book": "出埃及記",
@@ -104,5 +9,96 @@
 		}
 		],
 		"href": "https://drive.google.com/file/d/1gBXlusmmPBCZl58kWrKyhkNhNFzxv8Bc/view?usp=sharing"
+	},
+	{
+		"date": "12/16",
+		"day": "週一",
+		"book": "出埃及記",
+		"verses": [{
+			"verse": "29",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivExo29.html"
+		}],
+		"href": "https://drive.google.com/file/d/1GB5O0LXAw8DklY4q8glhq0nbDgvbxXtZ/view?usp=sharing"
+	},
+	{
+		"date": "12/17",
+		"day": "週二",
+		"book": "出埃及記",
+		"verses": [{
+			"verse": "30",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivExo30.html"
+		},
+		{
+			"verse": "31",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivExo31.html"
+		}],
+		"href": "https://drive.google.com/file/d/1OHh52XaFyXY9iQyhyi_OpgcdXDsaZHXp/view?usp=sharing"
+	},
+	{
+		"date": "12/18",
+		"day": "週三",
+		"book": "出埃及記",
+		"verses": [{
+			"verse": "32",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivExo32.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1yrrmMDYpJHUHIJkumdxfEyyJGqfRU8wO/view?usp=sharing"
+	},
+	{
+		"date": "12/19",
+		"day": "週四",
+		"book": "出埃及記",
+		"verses": [{
+			"verse": "33",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivExo33.html"
+		},
+		{
+			"verse": "34",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivExo34.html"	
+	        }],
+		"href": "https://drive.google.com/file/d/1VB7XnJl1BISnI641GWQ7R_sattUgHoHu/view?usp=sharing"
+	},
+	{
+		"date": "12/20",
+		"day": "週五",
+		"book": "出埃及記",
+		"verses": [{
+			"verse": "35",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivExo35.html"
+	        },
+		{
+			"verse": "36",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivExo36.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1ksgMqeKzjSuX3JYf_sBtR7IalvMF1p7Q/view?usp=sharing"
+	},
+	{
+		"date": "12/21",
+		"day": "週六",
+		"book": "出埃及記",
+		"verses": [{
+			"verse": "37",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivExo37.html"
+		},
+		{
+			"verse": "38",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivExo38.html"
+		}],
+		"href": "https://drive.google.com/file/d/1FVXyos_UwIj4fS3xiDz17uVJbYty0cs4/view?usp=sharing"
+	},
+	{
+		"date": "12/22",
+		"day": "週日",
+		"book": "出埃及記",
+		"verses": [{
+			"verse": "39",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivExo39.html"
+		},
+			{
+			"verse": "40",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivExo40.html"
+		}
+		],
+		"href": "https://drive.google.com/file/d/1ivBxWPKxkbb6NBOarDbWVVrn_dlQTNnP/view?usp=sharing"
 	}
 ]
