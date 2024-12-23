@@ -1,92 +1,5 @@
 [
 	{
-		"date": "12/15",
-		"day": "週日",
-		"book": "出埃及記",
-		"verses": [{
-			"verse": "28",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivExo28.html"
-		}
-		],
-		"href": "https://drive.google.com/file/d/1gBXlusmmPBCZl58kWrKyhkNhNFzxv8Bc/view?usp=sharing"
-	},
-	{
-		"date": "12/16",
-		"day": "週一",
-		"book": "出埃及記",
-		"verses": [{
-			"verse": "29",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivExo29.html"
-		}],
-		"href": "https://drive.google.com/file/d/1GB5O0LXAw8DklY4q8glhq0nbDgvbxXtZ/view?usp=sharing"
-	},
-	{
-		"date": "12/17",
-		"day": "週二",
-		"book": "出埃及記",
-		"verses": [{
-			"verse": "30",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivExo30.html"
-		},
-		{
-			"verse": "31",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivExo31.html"
-		}],
-		"href": "https://drive.google.com/file/d/1OHh52XaFyXY9iQyhyi_OpgcdXDsaZHXp/view?usp=sharing"
-	},
-	{
-		"date": "12/18",
-		"day": "週三",
-		"book": "出埃及記",
-		"verses": [{
-			"verse": "32",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivExo32.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1yrrmMDYpJHUHIJkumdxfEyyJGqfRU8wO/view?usp=sharing"
-	},
-	{
-		"date": "12/19",
-		"day": "週四",
-		"book": "出埃及記",
-		"verses": [{
-			"verse": "33",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivExo33.html"
-		},
-		{
-			"verse": "34",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivExo34.html"	
-	        }],
-		"href": "https://drive.google.com/file/d/1VB7XnJl1BISnI641GWQ7R_sattUgHoHu/view?usp=sharing"
-	},
-	{
-		"date": "12/20",
-		"day": "週五",
-		"book": "出埃及記",
-		"verses": [{
-			"verse": "35",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivExo35.html"
-	        },
-		{
-			"verse": "36",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivExo36.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1ksgMqeKzjSuX3JYf_sBtR7IalvMF1p7Q/view?usp=sharing"
-	},
-	{
-		"date": "12/21",
-		"day": "週六",
-		"book": "出埃及記",
-		"verses": [{
-			"verse": "37",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivExo37.html"
-		},
-		{
-			"verse": "38",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivExo38.html"
-		}],
-		"href": "https://drive.google.com/file/d/1FVXyos_UwIj4fS3xiDz17uVJbYty0cs4/view?usp=sharing"
-	},
-	{
 		"date": "12/22",
 		"day": "週日",
 		"book": "出埃及記",
@@ -94,11 +7,93 @@
 			"verse": "39",
 			"link": "http://www.bbintl.org/bible/b5niv/b5nivExo39.html"
 		},
-			{
+		{
 			"verse": "40",
 			"link": "http://www.bbintl.org/bible/b5niv/b5nivExo40.html"
+		}],
+		"href": "https://drive.google.com/file/d/1ivBxWPKxkbb6NBOarDbWVVrn_dlQTNnP/view?usp=sharing"
+	},
+	{
+		"date": "12/23",
+		"day": "週一",
+		"book": "馬太福音",
+		"verses": [{
+			"verse": "1",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivMat1.html"
+		},
+		{
+			"verse": "2",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivMat2.html"
+		}],
+		"href": "https://drive.google.com/file/d/1LnzXPZqxVY4YtOSZLJr0xdor3CKMSQN7/view?usp=sharing"
+	},
+	{
+		"date": "12/24",
+		"day": "週二",
+		"book": "馬太福音",
+		"verses": [{
+			"verse": "3",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivMat3.html"
+		},
+		{
+			"verse": "4",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivMat4.html"
+		}],
+		"href": "https://drive.google.com/file/d/1kCm7j2RZ0cticZDR0N-f6-k4JWaNOJ7I/view?usp=sharing"
+	},
+	{
+		"date": "12/25",
+		"day": "週三",
+		"book": "馬太福音",
+		"verses": [{
+			"verse": "5",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivMat5.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1qAwwl0JI9FrYxzAEywM0wQKO7sTQ01RY/view?usp=sharing"
+	},
+	{
+		"date": "12/26",
+		"day": "週四",
+		"book": "馬太福音",
+		"verses": [{
+			"verse": "6",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivMat6.html"
+		},
+		{
+			"verse": "7",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivMat7.html"	
+	        }],
+		"href": "https://drive.google.com/file/d/1VVDH1oQCgmISMwSste8IRx68BmtQPpVC/view?usp=sharing"
+	},
+	{
+		"date": "12/27",
+		"day": "週五",
+		"book": "馬太福音",
+		"verses": [{
+			"verse": "8",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivMat8.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1rTYGprgefZRJeqPdFp6mjcZuyGDbC1i7/view?usp=sharing"
+	},
+	{
+		"date": "12/28",
+		"day": "週六",
+		"book": "馬太福音",
+		"verses": [{
+			"verse": "9",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivMat9.html"
+		}],
+		"href": "https://drive.google.com/file/d/1nzad8_7jW4GSr1wyrexTf6htIFyOiS3u/view?usp=sharing"
+	},
+	{
+		"date": "12/29",
+		"day": "週日",
+		"book": "馬太福音",
+		"verses": [{
+			"verse": "10",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivMat10.html"
 		}
 		],
-		"href": "https://drive.google.com/file/d/1ivBxWPKxkbb6NBOarDbWVVrn_dlQTNnP/view?usp=sharing"
+		"href": "https://drive.google.com/file/d/18xR10V2MwIozora3Xasmh9kRc3M1u-Xc/view?usp=sharing"
 	}
 ]
