@@ -1,87 +1,83 @@
 [
 	{
-		"date": "12/29",
-		"day": "週日",
-		"book": "馬太福音",
-		"verses": [{
-			"verse": "10",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivMat10.html"
-		}],
-		"href": "https://drive.google.com/file/d/18xR10V2MwIozora3Xasmh9kRc3M1u-Xc/view?usp=sharing"
-	},
-	{
-		"date": "12/30",
-		"day": "週一",
-		"book": "馬太福音",
-		"verses": [{
-			"verse": "11",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivMat11.html"
-		}],
-		"href": "https://drive.google.com/file/d/1SucpLSyCG-cUaa6Ah3FCeq5BYDi2kXoP/view?usp=sharing"
-	},
-	{
-		"date": "12/31",
-		"day": "週二",
-		"book": "馬太福音",
-		"verses": [{
-			"verse": "12",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivMat12.html"
-		}],
-		"href": "https://drive.google.com/file/d/1WG7ITdQngtarh6TS0uvTlsgtQDKGCkSX/view?usp=sharing"
-	},
-	{
-		"date": "1/1",
-		"day": "週三",
-		"book": "馬太福音",
-		"verses": [{
-			"verse": "13",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivMat13.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1NJYRF3F9mdXulX286Wv40GUX6b7xoEjr/view?usp=sharing"
-	},
-	{
-		"date": "1/2",
-		"day": "週四",
-		"book": "馬太福音",
-		"verses": [{
-			"verse": "14",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivMat14.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1IVyd3rsg2RWs8RRbJWlNRMyCgfIXDpRW/view?usp=sharing"
-	},
-	{
-		"date": "1/3",
-		"day": "週五",
-		"book": "馬太福音",
-		"verses": [{
-			"verse": "15",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivMat15.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1wupiuc4U6EIOv64IYqYaoI7dst567OHZ/view?usp=sharing"
-	},
-	{
-		"date": "1/4",
-		"day": "週六",
-		"book": "馬太福音",
-		"verses": [{
-			"verse": "16",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivMat16.html"
-		},
-		{
-			"verse": "17",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivMat17.html"	
-		}],
-		"href": "https://drive.google.com/file/d/1VYOQ8iCGGQj-xL_D4YAejhhpCdGHGp7e/view?usp=sharing"
-	},
-	{
 		"date": "1/5",
 		"day": "週日",
 		"book": "馬太福音",
 		"verses": [{
 			"verse": "18",
 			"link": "http://www.bbintl.org/bible/b5niv/b5nivMat18.html"
+		}],
+		"href": "https://drive.google.com/file/d/1WQljxVDlpsEiga9pgJw4lecRTXxhdM2z/view?usp=sharing"
+	},
+	{
+		"date": "1/6",
+		"day": "週一",
+		"book": "馬太福音",
+		"verses": [{
+			"verse": "19",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivMat19.html"
+		}],
+		"href": "https://drive.google.com/file/d/15kAmp5S2fUauKsqTXGCD0BvHsHii8XnR/view?usp=sharing"
+	},
+	{
+		"date": "1/7",
+		"day": "週二",
+		"book": "馬太福音",
+		"verses": [{
+			"verse": "20",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivMat20.html"
+		}],
+		"href": "https://drive.google.com/file/d/1DTFRcE6YxpeaPcBAFo9ucYRR__WGNFJ8/view?usp=sharing"
+	},
+	{
+		"date": "1/8",
+		"day": "週三",
+		"book": "馬太福音",
+		"verses": [{
+			"verse": "21",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivMat21.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1J40u29K-I2oTaw6lUX_8g7JaufSTwmSi/view?usp=sharing"
+	},
+	{
+		"date": "1/9",
+		"day": "週四",
+		"book": "馬太福音",
+		"verses": [{
+			"verse": "22",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivMat22.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1184YoTuTmSVyQcFrZ0gfK2zKKgK4xeMJ/view?usp=sharing"
+	},
+	{
+		"date": "1/10",
+		"day": "週五",
+		"book": "馬太福音",
+		"verses": [{
+			"verse": "23",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivMat23.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1vYKQOJbFqfuJX6Hk6fCEd5Dwvlh4CfRC/view?usp=sharing"
+	},
+	{
+		"date": "1/11",
+		"day": "週六",
+		"book": "馬太福音",
+		"verses": [{
+			"verse": "24",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivMat24.html"
+		}],
+		"href": "https://drive.google.com/file/d/1RRpXAYFGsSj8xa5SN7BXlzGnsDs5FTh0/view?usp=sharing"
+	},
+	{
+		"date": "1/12",
+		"day": "週日",
+		"book": "馬太福音",
+		"verses": [{
+			"verse": "25",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivMat25.html"
 		}
 		],
-		"href": "https://drive.google.com/file/d/1WQljxVDlpsEiga9pgJw4lecRTXxhdM2z/view?usp=sharing"
+		"href": "https://drive.google.com/file/d/1mhXO1EmBemJ0EdRKO1b2gCl6Jr7EPRmf/view?usp=sharing"
 	}
 ]
