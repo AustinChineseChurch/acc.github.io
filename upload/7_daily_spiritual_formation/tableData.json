@@ -1,83 +1,99 @@
 [
 	{
-		"date": "1/12",
-		"day": "週日",
-		"book": "馬太福音",
-		"verses": [{
-			"verse": "25",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivMat25.html"
-		}],
-		"href": "https://drive.google.com/file/d/1mhXO1EmBemJ0EdRKO1b2gCl6Jr7EPRmf/view?usp=sharing"
-	},
-	{
-		"date": "1/13",
-		"day": "週一",
-		"book": "馬太福音",
-		"verses": [{
-			"verse": "26",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivMat26.html"
-		}],
-		"href": "https://drive.google.com/file/d/1_iLLUNt33NI7bvC5HCAnYH7Oli7BYWS2/view?usp=sharing"
-	},
-	{
-		"date": "1/14",
-		"day": "週二",
-		"book": "馬太福音",
-		"verses": [{
-			"verse": "27",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivMat27.html"
-		}],
-		"href": "https://drive.google.com/file/d/1QVkPExA5BH5RyTuU59nweRx1Q6Ndd1xB/view?usp=sharing"
-	},
-	{
-		"date": "1/15",
-		"day": "週三",
-		"book": "馬太福音",
-		"verses": [{
-			"verse": "28",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivMat28.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1XFeMTWMeOL4_lfyxQcyW0Qamm_j_mdLN/view?usp=sharing"
-	},
-	{
-		"date": "1/16",
-		"day": "週四",
-		"book": "民數記",
-		"verses": [{
-			"verse": "1",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivNum1.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1MtkqDbPwsjBDt3Gc4xYiGPmPIgYmgtMu/view?usp=sharing"
-	},
-	{
-		"date": "1/17",
-		"day": "週五",
-		"book": "民數記",
-		"verses": [{
-			"verse": "2",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivNum2.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1WbKqsOgLng1TC26xJUtXgA0yQG1wWcHY/view?usp=sharing"
-	},
-	{
-		"date": "1/18",
-		"day": "週六",
-		"book": "民數記",
-		"verses": [{
-			"verse": "3",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivNum3.html"
-		}],
-		"href": "https://drive.google.com/file/d/1Fk-OKUAWpIJjWzB13iVC2ccqOuYv0Fm4/view?usp=sharing"
-	},
-	{
 		"date": "1/19",
 		"day": "週日",
 		"book": "民數記",
 		"verses": [{
 			"verse": "4",
 			"link": "http://www.bbintl.org/bible/b5niv/b5nivNum4.html"
+		}],
+		"href": "https://drive.google.com/file/d/1QDnrqPUqA1P97AactiOTis1uhIKmHp5u/view?usp=sharing"
+	},
+	{
+		"date": "1/20",
+		"day": "週一",
+		"book": "民數記",
+		"verses": [{
+			"verse": "5",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivNum5.html"
+		},
+		{	
+			"verse": "6",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivNum6.html"
+		}],
+		"href": "https://drive.google.com/file/d/14P5tskhT_vcKgGnbcJ67-54FyEqCq1Ef/view?usp=sharing"
+	},
+	{
+		"date": "1/21",
+		"day": "週二",
+		"book": "民數記",
+		"verses": [{
+			"verse": "7",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivNum7.html"
+		}],
+		"href": "https://drive.google.com/file/d/1n3XXUtemPSo-tzflufE3Opy8zpifiSDs/view?usp=sharing"
+	},
+	{
+		"date": "1/22",
+		"day": "週三",
+		"book": "民數記",
+		"verses": [{
+			"verse": "8",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivNum8.html"
+		},
+		{	
+			"verse": "9",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivNum9.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1oYxCf93TUGax_8dDIEMrKq6cMRQTS205/view?usp=sharing"
+	},
+	{
+		"date": "1/23",
+		"day": "週四",
+		"book": "民數記",
+		"verses": [{
+			"verse": "10",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivNum10.html"
+		},
+		{	
+			"verse": "11",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivNum11.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1r0rTsaa5LnZk3jqCQ7Ndei2eiKS6y-W0/view?usp=sharing"
+	},
+	{
+		"date": "1/24",
+		"day": "週五",
+		"book": "民數記",
+		"verses": [{
+			"verse": "12",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivNum12.html"
+		},
+		{	
+			"verse": "13",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivNum13.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1lSxBvwUKmVCo8olEC6kCiQHyTUfY-B72/view?usp=sharing"
+	},
+	{
+		"date": "1/25",
+		"day": "週六",
+		"book": "民數記",
+		"verses": [{
+			"verse": "14",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivNum14.html"
+		}],
+		"href": "https://drive.google.com/file/d/1kCt5iBZjsCgwzRp6i6nQbOTDeBrS1twz/view?usp=sharing"
+	},
+	{
+		"date": "1/26",
+		"day": "週日",
+		"book": "民數記",
+		"verses": [{
+			"verse": "15",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivNum15.html"
 		}
 		],
-		"href": "https://drive.google.com/file/d/1QDnrqPUqA1P97AactiOTis1uhIKmHp5u/view?usp=sharing"
+		"href": "https://drive.google.com/file/d/1ue17t6-hkvwFT2A3FOvCbfP-fhheaGyU/view?usp=sharing"
 	}
 ]
