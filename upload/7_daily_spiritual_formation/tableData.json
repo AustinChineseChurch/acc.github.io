@@ -1,91 +1,87 @@
 [
 	{
-		"date": "2/9",
-		"day": "週日",
-		"book": "羅馬書",
-		"verses": [{
-			"verse": "2",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivRom2.html"
-		}],
-		"href": "https://drive.google.com/file/d/1TdE_1aa0nm8T6uqOFSLugg9jWCwtIH-N/view?usp=sharing"
-	},
-	{
-		"date": "2/10",
-		"day": "週一",
-		"book": "羅馬書",
-		"verses": [{
-			"verse": "3",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivRom3.html"
-		}],
-		"href": "https://drive.google.com/file/d/1jxdmaBXSVU9YdPZPiQsfdqdthzwgCAZ7/view?usp=sharing"
-	},
-	{
-		"date": "2/11",
-		"day": "週二",
-		"book": "羅馬書",
-		"verses": [{
-			"verse": "4",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivRom4.html"
-		}],
-		"href": "https://drive.google.com/file/d/1NVIZEBp3WaybqcdfY6f5KSpmPcjkHo3Q/view?usp=sharing"
-	},
-	{
-		"date": "2/12",
-		"day": "週三",
-		"book": "羅馬書",
-		"verses": [{
-			"verse": "5",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivRom5.html"
-		},
-		{	
-			"verse": "6",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivRom6.html"
-	        }],
-		"href": "https://drive.google.com/file/d/11-k5T35SuDQqLDQkYDb7lnTl3UHqT0Nr/view?usp=sharing"
-	},
-	{
-		"date": "2/13",
-		"day": "週四",
-		"book": "羅馬書",
-		"verses": [{
-			"verse": "7",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivRom7.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1gy1m4Kr89QfdtPX7LFaHEoEUaKOYmVXk/view?usp=sharing"
-	},
-	{
-		"date": "2/14",
-		"day": "週五",
-		"book": "羅馬書",
-		"verses": [{
-			"verse": "8",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivRom8.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1lPQ77chWw0z1uANUnXpf_QElOnlPtB8I/view?usp=sharing"
-	},
-	{
-		"date": "2/15",
-		"day": "週六",
-		"book": "羅馬書",
-		"verses": [{
-			"verse": "9",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivRom9.html"
-		},
-		{	
-			"verse": "10",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivRom10.html"
-		}],
-		"href": "https://drive.google.com/file/d/14mcrcv-hN_K0IG-kLcRPa_XEgiJKo8Al/view?usp=sharing"
-	},
-	{
 		"date": "2/16",
 		"day": "週日",
 		"book": "羅馬書",
 		"verses": [{
 			"verse": "11",
 			"link": "http://www.bbintl.org/bible/b5niv/b5nivRom11.html"
+		}],
+		"href": "https://drive.google.com/file/d/10uZaCQVfk4ZhaRmVepSl3aBuCHCEki2B/view?usp=sharing"
+	},
+	{
+		"date": "2/17",
+		"day": "週一",
+		"book": "羅馬書",
+		"verses": [{
+			"verse": "12",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivRom13.html"
+		},
+		{	
+			"verse": "13",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivRom13.html"
+		}],
+		"href": "https://drive.google.com/file/d/17WrSWa37EemL0q6JBAA2Bn1qhylr1yLy/view?usp=sharing"
+	},
+	{
+		"date": "2/18",
+		"day": "週二",
+		"book": "羅馬書",
+		"verses": [{
+			"verse": "14",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivRom14.html"
+		}],
+		"href": "https://drive.google.com/file/d/1l2Kve063-0vkZ7AQ-idBNbAsyZdomm1r/view?usp=sharing"
+	},
+	{
+		"date": "2/19",
+		"day": "週三",
+		"book": "羅馬書",
+		"verses": [{
+			"verse": "15",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivRom15.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1id2rK9nQo5HUnhKU4GK4rPK9NIq_R9dF/view?usp=sharing"
+	},
+	{
+		"date": "2/20",
+		"day": "週四",
+		"book": "羅馬書",
+		"verses": [{
+			"verse": "16",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivRom16.html"
+	        }],
+		"href": "https://drive.google.com/file/d/14uoxUnvnYwhlRUhadM3GB6ScFqsjbMrv/view?usp=sharing"
+	},
+	{
+		"date": "2/21",
+		"day": "週五",
+		"book": "申命記",
+		"verses": [{
+			"verse": "1",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivDeu1.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1bw2f9Qhz781hHmmMmowGM9VpjNSayNcy/view?usp=sharing"
+	},
+	{
+		"date": "2/22",
+		"day": "週六",
+		"book": "申命記",
+		"verses": [{
+			"verse": "2",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivDeu2.html"
+		}],
+		"href": "https://drive.google.com/file/d/16Q8N1QobWjIK57zvVJWfXsERVD2jOS7k/view?usp=sharing"
+	},
+	{
+		"date": "2/23",
+		"day": "週日",
+		"book": "申命記",
+		"verses": [{
+			"verse": "3",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivDeu3.html"
 		}
 		],
-		"href": "https://drive.google.com/file/d/10uZaCQVfk4ZhaRmVepSl3aBuCHCEki2B/view?usp=sharing"
+		"href": "https://drive.google.com/file/d/10XHyjJFoLLqZWJRWOfurkk221d-AvTdN/view?usp=sharing"
 	}
 ]
