@@ -1,92 +1,5 @@
 [
 	{
-		"date": "3/30",
-		"day": "週日",
-		"book": "詩篇",
-		"verses": [{
-				"verse": "40",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm40.html"
-			},
-			{	
-				"verse": "41",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm41.html"
-			}
-			],
-			"href": "https://drive.google.com/file/d/18RQpMSvSHqYuN6kppJcqBq_LIVeW9-An/view?usp=sharing"
-	},
-	{
-		"date": "3/31",
-		"day": "週一",
-		"book": "約書亞記",
-		"verses": [{
-			"verse": "1",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJos1.html"
-		},
-		{	
-			"verse": "2",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJos2.html"
-		}],
-		"href": "https://drive.google.com/file/d/1MoYeL64XDwVJjuuP7KPTnBGxw2cXQ102/view?usp=sharing"
-	},
-	{
-		"date": "4/1",
-		"day": "週二",
-		"book": "約書亞記",
-		"verses": [{
-			"verse": "3",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJos3.html"
-		},
-		{	
-			"verse": "4",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJos4.html"
-		}],
-		"href": "https://drive.google.com/file/d/1PEqPbgYk2xiySPcG4qJfc3Rrt382Zhi6/view?usp=sharing"
-	},
-	{
-		"date": "4/2",
-		"day": "週三",
-		"book": "約書亞記",
-		"verses": [{
-			"verse": "5",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJos5.html"
-		},
-		{	
-			"verse": "6",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJos6.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1XaXHEPKIDSI4Nx4vBawVGhKTVx_PrECc/view?usp=sharing"
-	},
-	{
-		"date": "4/3",
-		"day": "週四",
-		"book": "約書亞記",
-		"verses": [{
-			"verse": "7",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJos7.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1IeonqVYG_tcAsUd8Zylte4J87gLRPObZ/view?usp=sharing"
-	},
-	{
-		"date": "4/4",
-		"day": "週五",
-		"book": "約書亞記",
-		"verses": [{
-			"verse": "8",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJos8.html"
-		}],
-		"href": "https://drive.google.com/file/d/1Me42qm6r7Jl_J65nknXoD2wQa8LfBBJd/view?usp=sharing"
-	},
-	{
-		"date": "4/5",
-		"day": "週六",
-		"book": "約書亞記",
-		"verses": [{
-			"verse": "9",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJos9.html"
-		}],
-		"href": "https://drive.google.com/file/d/1-7XO1nXFVgG6zT7UuX0OzfRDicFhz0m0/view?usp=sharing"
-	},
-	{
 		"date": "4/6",
 		"day": "週日",
 		"book": "約書亞記",
@@ -95,5 +8,91 @@
 			"link": "http://www.bbintl.org/bible/b5niv/b5nivJos10.html"
 		}],
 		"href": "https://drive.google.com/file/d/1adGpdCz80kpXUzI4hiBbx8U-t--yUttk/view?usp=sharing"
+	},
+	{
+		"date": "4/7",
+		"day": "週一",
+		"book": "約書亞記",
+		"verses": [{
+			"verse": "11",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivJos11.html"
+		},
+		{	
+			"verse": "12",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivJos12.html"
+		}],
+		"href": "https://drive.google.com/file/d/1Lzq01EVjYSBDNxnb1TjgzuOtT1ahsyTA/view?usp=sharing"
+	},
+	{
+		"date": "4/8",
+		"day": "週二",
+		"book": "約書亞記",
+		"verses": [{
+			"verse": "13",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivJos13.html"
+		},
+		{	
+			"verse": "14",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivJos14.html"
+		}],
+		"href": "https://drive.google.com/file/d/1Pj2kGliI7czSiK1OoIIdQef6UJmN8qs9/view?usp=sharing"
+	},
+	{
+		"date": "4/9",
+		"day": "週三",
+		"book": "約書亞記",
+		"verses": [{
+			"verse": "15",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivJos15.html"
+		},
+		{	
+			"verse": "16",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivJos16.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1nBVCyPzI7FCalqPViR1G7cJpe3Uz9oiR/view?usp=sharing"
+	},
+	{
+		"date": "4/10",
+		"day": "週四",
+		"book": "約書亞記",
+		"verses": [{
+			"verse": "17",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivJos17.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1U8esr0bMuExXlD_WZ95yJVzbDgF6_V1A/view?usp=sharing"
+	},
+	{
+		"date": "4/11",
+		"day": "週五",
+		"book": "約書亞記",
+		"verses": [{
+			"verse": "18",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivJos18.html"
+		}],
+		"href": "https://drive.google.com/file/d/1iggW3TBIYM0MviHWpJLhOEeVeE5B98lU/view?usp=sharing"
+	},
+	{
+		"date": "4/12",
+		"day": "週六",
+		"book": "約書亞記",
+		"verses": [{
+			"verse": "19",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivJos19.html"
+		},
+		{	
+			"verse": "20",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivJos20.html"
+		}],
+		"href": "https://drive.google.com/file/d/1J07ADxkSrFRlakCnKS5aVMrnR-qYttfS/view?usp=sharing"
+	},
+	{
+		"date": "4/13",
+		"day": "週日",
+		"book": "約書亞記",
+		"verses": [{
+			"verse": "21",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivJos21.html"
+		}],
+		"href": "https://drive.google.com/file/d/1P2a-m5jmqBisReY56e470A8rdbLLjXab/view?usp=sharing"
 	}
 ]
