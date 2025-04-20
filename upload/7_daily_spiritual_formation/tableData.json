@@ -1,87 +1,5 @@
 [
 	{
-		"date": "4/6",
-		"day": "週日",
-		"book": "約書亞記",
-		"verses": [{
-			"verse": "21",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJos21.html"
-		}],
-		"href": "https://drive.google.com/file/d/1P2a-m5jmqBisReY56e470A8rdbLLjXab/view?usp=sharing"
-	},
-	{
-		"date": "4/14",
-		"day": "週一",
-		"book": "約書亞記",
-		"verses": [{
-			"verse": "22",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJos22.html"
-		}],
-		"href": "https://drive.google.com/file/d/1cmpD0vFZCp5zIAczobBRwDtWi4Nr9FRn/view?usp=sharing"
-	},
-	{
-		"date": "4/15",
-		"day": "週二",
-		"book": "約書亞記",
-		"verses": [{
-			"verse": "23",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJos23.html"
-		},
-		{	
-			"verse": "24",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJos24.html"
-		}],
-		"href": "https://drive.google.com/file/d/1rKxEJgzPWdNYScoYcokOViAz2ylohq1s/view?usp=sharing"
-	},
-	{
-		"date": "4/16",
-		"day": "週三",
-		"book": "士師記",
-		"verses": [{
-			"verse": "1",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJug1.html"
-		},
-		{	
-			"verse": "2",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJug2.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1mm8at4uLTYKn7z9LJKVR1mB_S4yFMTzO/view?usp=sharing"
-	},
-	{
-		"date": "4/17",
-		"day": "週四",
-		"book": "士師記",
-		"verses": [{
-			"verse": "3",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJug3.html"
-	        }],
-		"href": "https://drive.google.com/file/d/108lZz58eJfUhlrgyq5_WzYiZ98cqbWQc/view?usp=sharing"
-	},
-	{
-		"date": "4/18",
-		"day": "週五",
-		"book": "士師記",
-		"verses": [{
-			"verse": "4",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJug4.html"
-		},
-		{	
-			"verse": "5",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJug5.html"
-		}],
-		"href": "https://drive.google.com/file/d/1-fpi64ahvZCveIU6OP4JgEee58wRax2h/view?usp=sharing"
-	},
-	{
-		"date": "4/19",
-		"day": "週六",
-		"book": "士師記",
-		"verses": [{
-			"verse": "6",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJug6.html"
-		}],
-		"href": "https://drive.google.com/file/d/1Aab85J17SHwSm5e7Ajj-UCkDu6Lnxzz5/view?usp=sharing"
-	},
-	{
 		"date": "4/20",
 		"day": "週日",
 		"book": "士師記",
@@ -94,5 +12,91 @@
 			"link": "http://www.bbintl.org/bible/b5niv/b5nivJug8.html"
 		}],
 		"href": "https://drive.google.com/file/d/1FuaXZrM2Cc3N2OTU9wWGuCVQbEgbJH85/view?usp=sharing"
+	},
+	{
+		"date": "4/21",
+		"day": "週一",
+		"book": "士師記",
+		"verses": [{
+			"verse": "9",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivJug9.html"
+		}],
+		"href": "https://drive.google.com/file/d/1FcKB9sC6UDRvCwCkU05ncScTE8sS-7ic/view?usp=sharing"
+	},
+	{
+		"date": "4/22",
+		"day": "週二",
+		"book": "士師記",
+		"verses": [{
+			"verse": "10",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivJug10.html"
+		},
+		{	
+			"verse": "11",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivJug11.html"
+		}],
+		"href": "https://drive.google.com/file/d/1-NEFR2wpb5nfkmEoOiw0-RaWF7ozg5jC/view?usp=sharing"
+	},
+	{
+		"date": "4/23",
+		"day": "週三",
+		"book": "士師記",
+		"verses": [{
+			"verse": "12",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivJug12.html"
+		},
+		{	
+			"verse": "13",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivJug13.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1ZaKnSxo4e-9lezrCf6r8iVFQzbmdDyzn/view?usp=sharing"
+	},
+	{
+		"date": "4/24",
+		"day": "週四",
+		"book": "士師記",
+		"verses": [{
+			"verse": "14",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivJug14.html"
+		},
+		{	
+			"verse": "15",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivJug15.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1sUJacEYZ6_0v5SH1bvzsBGTOa8UJW-IS/view?usp=sharing"
+	},
+	{
+		"date": "4/25",
+		"day": "週五",
+		"book": "士師記",
+		"verses": [{
+			"verse": "16",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivJug16.html"
+		}],
+		"href": "https://drive.google.com/file/d/11s18NuE2DS1B3bngT6qtJP6fGHuWN_hH/view?usp=sharing"
+	},
+	{
+		"date": "4/26",
+		"day": "週六",
+		"book": "士師記",
+		"verses": [{
+			"verse": "17",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivJug17.html"
+		},
+		{	
+			"verse": "18",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivJug18.html"
+		}],
+		"href": "https://drive.google.com/file/d/1L00XTLYfgjHrLacXmhSA1oUXUsUdKt0k/view?usp=sharing"
+	},
+	{
+		"date": "4/27",
+		"day": "週日",
+		"book": "士師記",
+		"verses": [{
+			"verse": "19",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivJug19.html"
+		}],
+		"href": "https://drive.google.com/file/d/1wEPevMAF6tpw7uqVOm9aYnHJU668xSUb/view?usp=sharing"
 	}
 ]
