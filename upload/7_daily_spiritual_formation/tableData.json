@@ -1,95 +1,5 @@
 [
 	{
-		"date": "4/20",
-		"day": "週日",
-		"book": "士師記",
-		"verses": [{
-			"verse": "7",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJug7.html"
-		},
-		{	
-			"verse": "8",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJug8.html"
-		}],
-		"href": "https://drive.google.com/file/d/1FuaXZrM2Cc3N2OTU9wWGuCVQbEgbJH85/view?usp=sharing"
-	},
-	{
-		"date": "4/21",
-		"day": "週一",
-		"book": "士師記",
-		"verses": [{
-			"verse": "9",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJug9.html"
-		}],
-		"href": "https://drive.google.com/file/d/1FcKB9sC6UDRvCwCkU05ncScTE8sS-7ic/view?usp=sharing"
-	},
-	{
-		"date": "4/22",
-		"day": "週二",
-		"book": "士師記",
-		"verses": [{
-			"verse": "10",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJug10.html"
-		},
-		{	
-			"verse": "11",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJug11.html"
-		}],
-		"href": "https://drive.google.com/file/d/1-NEFR2wpb5nfkmEoOiw0-RaWF7ozg5jC/view?usp=sharing"
-	},
-	{
-		"date": "4/23",
-		"day": "週三",
-		"book": "士師記",
-		"verses": [{
-			"verse": "12",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJug12.html"
-		},
-		{	
-			"verse": "13",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJug13.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1ZaKnSxo4e-9lezrCf6r8iVFQzbmdDyzn/view?usp=sharing"
-	},
-	{
-		"date": "4/24",
-		"day": "週四",
-		"book": "士師記",
-		"verses": [{
-			"verse": "14",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJug14.html"
-		},
-		{	
-			"verse": "15",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJug15.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1sUJacEYZ6_0v5SH1bvzsBGTOa8UJW-IS/view?usp=sharing"
-	},
-	{
-		"date": "4/25",
-		"day": "週五",
-		"book": "士師記",
-		"verses": [{
-			"verse": "16",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJug16.html"
-		}],
-		"href": "https://drive.google.com/file/d/11s18NuE2DS1B3bngT6qtJP6fGHuWN_hH/view?usp=sharing"
-	},
-	{
-		"date": "4/26",
-		"day": "週六",
-		"book": "士師記",
-		"verses": [{
-			"verse": "17",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJug17.html"
-		},
-		{	
-			"verse": "18",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJug18.html"
-		}],
-		"href": "https://drive.google.com/file/d/1L00XTLYfgjHrLacXmhSA1oUXUsUdKt0k/view?usp=sharing"
-	},
-	{
 		"date": "4/27",
 		"day": "週日",
 		"book": "士師記",
@@ -98,5 +8,87 @@
 			"link": "http://www.bbintl.org/bible/b5niv/b5nivJug19.html"
 		}],
 		"href": "https://drive.google.com/file/d/1wEPevMAF6tpw7uqVOm9aYnHJU668xSUb/view?usp=sharing"
+	},
+	{
+		"date": "4/28",
+		"day": "週一",
+		"book": "士師記",
+		"verses": [{
+			"verse": "20",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivJug20.html"
+		},
+		{	
+			"verse": "21",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivJug21.html"
+		}],
+		"href": "https://drive.google.com/file/d/1RFVxhCRljFdEduSVvwLVlZalMV-RcET_/view?usp=sharing"
+	},
+	{
+		"date": "4/29",
+		"day": "週二",
+		"book": "路得記",
+		"verses": [{
+			"verse": "1",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivRut1.html"
+		},
+		{	
+			"verse": "2",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivRut2.html"
+		}],
+		"href": "https://drive.google.com/file/d/1c10N9t485gHyG-fX3KtWhNcAH6FBwRTg/view?usp=sharing"
+	},
+	{
+		"date": "4/30",
+		"day": "週三",
+		"book": "路得記",
+		"verses": [{
+			"verse": "3",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivRut3.html"
+		},
+		{	
+			"verse": "4",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivRut4.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1-ougbtq3Q2_QwB1mdo2fbA-ABd9l1ASk/view?usp=sharing"
+	},
+	{
+		"date": "5/1",
+		"day": "週四",
+		"book": "馬可福音",
+		"verses": [{
+			"verse": "1",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivMak1.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1FiAEOvHrSnHv1sJCETTDpRQQyEqj9Qjz/view?usp=sharing"
+	},
+	{
+		"date": "5/2",
+		"day": "週五",
+		"book": "馬可福音",
+		"verses": [{
+			"verse": "2",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivMak2.html"
+		}],
+		"href": "https://drive.google.com/file/d/1EHebOqP4o9s79NlKHPEJHMVJk920tK3B/view?usp=sharing"
+	},
+	{
+		"date": "5/3",
+		"day": "週六",
+		"book": "馬可福音",
+		"verses": [{
+			"verse": "3",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivMak3.html"
+		}],
+		"href": "https://drive.google.com/file/d/1h03F8G3CbGFaMoWZkcS5fmafNRriw5kk/view?usp=sharing"
+	},
+	{
+		"date": "5/4",
+		"day": "週日",
+		"book": "馬可福音",
+		"verses": [{
+			"verse": "4",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivMak4.html"
+		}],
+		"href": "https://drive.google.com/file/d/16FCmkWfJhhLwVNe5kpnNStS9QWavbe2Q/view?usp=sharing"
 	}
 ]
