@@ -1,87 +1,5 @@
 [
 	{
-		"date": "4/27",
-		"day": "週日",
-		"book": "士師記",
-		"verses": [{
-			"verse": "19",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJug19.html"
-		}],
-		"href": "https://drive.google.com/file/d/1wEPevMAF6tpw7uqVOm9aYnHJU668xSUb/view?usp=sharing"
-	},
-	{
-		"date": "4/28",
-		"day": "週一",
-		"book": "士師記",
-		"verses": [{
-			"verse": "20",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJug20.html"
-		},
-		{	
-			"verse": "21",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivJug21.html"
-		}],
-		"href": "https://drive.google.com/file/d/1RFVxhCRljFdEduSVvwLVlZalMV-RcET_/view?usp=sharing"
-	},
-	{
-		"date": "4/29",
-		"day": "週二",
-		"book": "路得記",
-		"verses": [{
-			"verse": "1",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivRut1.html"
-		},
-		{	
-			"verse": "2",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivRut2.html"
-		}],
-		"href": "https://drive.google.com/file/d/1c10N9t485gHyG-fX3KtWhNcAH6FBwRTg/view?usp=sharing"
-	},
-	{
-		"date": "4/30",
-		"day": "週三",
-		"book": "路得記",
-		"verses": [{
-			"verse": "3",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivRut3.html"
-		},
-		{	
-			"verse": "4",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivRut4.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1-ougbtq3Q2_QwB1mdo2fbA-ABd9l1ASk/view?usp=sharing"
-	},
-	{
-		"date": "5/1",
-		"day": "週四",
-		"book": "馬可福音",
-		"verses": [{
-			"verse": "1",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivMak1.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1FiAEOvHrSnHv1sJCETTDpRQQyEqj9Qjz/view?usp=sharing"
-	},
-	{
-		"date": "5/2",
-		"day": "週五",
-		"book": "馬可福音",
-		"verses": [{
-			"verse": "2",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivMak2.html"
-		}],
-		"href": "https://drive.google.com/file/d/1EHebOqP4o9s79NlKHPEJHMVJk920tK3B/view?usp=sharing"
-	},
-	{
-		"date": "5/3",
-		"day": "週六",
-		"book": "馬可福音",
-		"verses": [{
-			"verse": "3",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivMak3.html"
-		}],
-		"href": "https://drive.google.com/file/d/1h03F8G3CbGFaMoWZkcS5fmafNRriw5kk/view?usp=sharing"
-	},
-	{
 		"date": "5/4",
 		"day": "週日",
 		"book": "馬可福音",
@@ -90,5 +8,75 @@
 			"link": "http://www.bbintl.org/bible/b5niv/b5nivMak4.html"
 		}],
 		"href": "https://drive.google.com/file/d/16FCmkWfJhhLwVNe5kpnNStS9QWavbe2Q/view?usp=sharing"
+	},
+	{
+		"date": "5/5",
+		"day": "週一",
+		"book": "馬可福音",
+		"verses": [{
+			"verse": "5",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivMak5.html"
+		}],
+		"href": "https://drive.google.com/file/d/1phijLglIdZIuHSwcZZ7PS8WFpiiLPCr9/view?usp=sharing"
+	},
+	{
+		"date": "5/6",
+		"day": "週二",
+		"book": "馬可福音",
+		"verses": [{
+			"verse": "6",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivMak6.html"
+		}],
+		"href": "https://drive.google.com/file/d/1SLOSTSMj7NvaD7Xuf_Ms1datHGHVvtOz/view?usp=sharing"
+	},
+	{
+		"date": "5/7",
+		"day": "週三",
+		"book": "馬可福音",
+		"verses": [{
+			"verse": "7",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivMak7.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1u3MjNzxlxLtoDKeryNT8Id2kmDekxxAy/view?usp=sharing"
+	},
+	{
+		"date": "5/8",
+		"day": "週四",
+		"book": "馬可福音",
+		"verses": [{
+			"verse": "8",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivMak8.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1ojcnnATI6IHySYt1YOyZGkWXKJAP9Au2/view?usp=sharing"
+	},
+	{
+		"date": "5/9",
+		"day": "週五",
+		"book": "馬可福音",
+		"verses": [{
+			"verse": "9",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivMak9.html"
+		}],
+		"href": "https://drive.google.com/file/d/1wu3wgzlQCxTTNlxI6wpskGdeqdA13SFW/view?usp=sharing"
+	},
+	{
+		"date": "5/10",
+		"day": "週六",
+		"book": "馬可福音",
+		"verses": [{
+			"verse": "10",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivMak10.html"
+		}],
+		"href": "https://drive.google.com/file/d/1vlMI54ITeZQnlaKYE0xMFhc6MmiDiN06/view?usp=sharing"
+	},
+	{
+		"date": "5/11",
+		"day": "週日",
+		"book": "馬可福音",
+		"verses": [{
+			"verse": "11",
+			"link": "http://www.bbintl.org/bible/b5niv/b5nivMak11.html"
+		}],
+		"href": "https://drive.google.com/file/d/1pd11qPYV2L6I_DLbHif1kX3_8FmbhKh-/view?usp=sharing"
 	}
 ]
