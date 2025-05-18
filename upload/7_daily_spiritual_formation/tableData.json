@@ -1,75 +1,5 @@
 [
 	{
-		"date": "5/11",
-		"day": "週日",
-		"book": "馬可福音",
-		"verses": [{
-			"verse": "11",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivMak11.html"
-		}],
-		"href": "https://drive.google.com/file/d/1pd11qPYV2L6I_DLbHif1kX3_8FmbhKh-/view?usp=sharing"
-	},
-	{
-		"date": "5/12",
-		"day": "週一",
-		"book": "馬可福音",
-		"verses": [{
-			"verse": "12",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivMak12.html"
-		}],
-		"href": "https://drive.google.com/file/d/1jWhWYga4qT_RxptWkApwL4MDnslNB93P/view?usp=sharing"
-	},
-	{
-		"date": "5/13",
-		"day": "週二",
-		"book": "馬可福音",
-		"verses": [{
-			"verse": "13",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivMak13.html"
-		}],
-		"href": "https://drive.google.com/file/d/1Q5QBlCROxukFE80Ia4NPfhi9_9Zya1to/view?usp=sharing"
-	},
-	{
-		"date": "5/14",
-		"day": "週三",
-		"book": "馬可福音",
-		"verses": [{
-			"verse": "14",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivMak14.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1Q4CwPQv22Yhu1oyFFgE322KoHPr9xjcc/view?usp=sharing"
-	},
-	{
-		"date": "5/15",
-		"day": "週四",
-		"book": "馬可福音",
-		"verses": [{
-			"verse": "15",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivMak15.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1BtqqGk-sr7g6D00YAF4mdzGuu_nbvI6z/view?usp=sharing"
-	},
-	{
-		"date": "5/16",
-		"day": "週五",
-		"book": "馬可福音",
-		"verses": [{
-			"verse": "16",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivMak16.html"
-		}],
-		"href": "https://drive.google.com/file/d/1sEW36tp_2Z5Yuze3gXT_-IxMIih-AovV/view?usp=sharing"
-	},
-	{
-		"date": "5/17",
-		"day": "週六",
-		"book": "撒母耳記上",
-		"verses": [{
-			"verse": "1",
-			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Sa1.html"
-		}],
-		"href": "https://drive.google.com/file/d/1PpQ8YvvMHOQ_F3zEIMSXzp6gY545pf62/view?usp=sharing"
-	},
-	{
 		"date": "5/18",
 		"day": "週日",
 		"book": "撒母耳記上",
@@ -82,5 +12,99 @@
 			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Sa3.html"
 		}],
 		"href": "https://drive.google.com/file/d/1S8ofOqAdzEZFmH85DaGakPXAZkIUk7U8/view?usp=sharing"
+	},
+	{
+		"date": "5/19",
+		"day": "週一",
+		"book": "撒母耳記上",
+		"verses": [{
+			"verse": "4",
+			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Sa4.html"
+		},
+		{
+			"verse": "5",
+			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Sa5.html"
+		}],
+		"href": "https://drive.google.com/file/d/1-h1qzgzw80PCDWlvqwypZld1O9_sFB6h/view?usp=sharing"
+	},
+	{
+		"date": "5/20",
+		"day": "週二",
+		"book": "撒母耳記上",
+		"verses": [{
+			"verse": "6",
+			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Sa6.html"
+		},
+		{
+			"verse": "7",
+			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Sa7.html"
+		}],
+		"href": "https://drive.google.com/file/d/1HK0H5u3JXmDIcDRlOVbeKctMJGKgDKSB/view?usp=sharing"
+	},
+	{
+		"date": "5/21",
+		"day": "週三",
+		"book": "撒母耳記上",
+		"verses": [{
+			"verse": "8",
+			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Sa8.html"
+		},
+		{
+			"verse": "9",
+			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Sa9.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1C_u32u-LdlRBOePrTd0iyTxFUrxy2exy/view?usp=sharing"
+	},
+	{
+		"date": "5/22",
+		"day": "週四",
+		"book": "撒母耳記上",
+		"verses": [{
+			"verse": "10",
+			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Sa10.html"
+		},
+		{
+			"verse": "11",
+			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Sa11.html"
+	        }],
+		"href": "https://drive.google.com/file/d/102Afe3ygN8t6ld5OE0qkvM69Z5N0_lE1/view?usp=sharing"
+	},
+	{
+		"date": "5/23",
+		"day": "週五",
+		"book": "撒母耳記上",
+		"verses": [{
+			"verse": "12",
+			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Sa12.html"
+		},
+		{
+			"verse": "13",
+			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Sa13.html"
+		}],
+		"href": "https://drive.google.com/file/d/1vgerUlfcO8o4kt8TZobGoNZmH-XTN-e8/view?usp=sharing"
+	},
+	{
+		"date": "5/24",
+		"day": "週六",
+		"book": "撒母耳記上",
+		"verses": [{
+			"verse": "14",
+			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Sa14.html"
+		}],
+		"href": "https://drive.google.com/file/d/1xRW4tAmtEFE96vT2U-VGsMjqAwQzkTc8/view?usp=sharing"
+	},
+	{
+		"date": "5/25",
+		"day": "週日",
+		"book": "撒母耳記上",
+		"verses": [{
+			"verse": "15",
+			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Sa15.html"
+		},
+		{
+			"verse": "16",
+			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Sa16.html"
+		}],
+		"href": "https://drive.google.com/file/d/18LC1cWB2b8ISq_voq-Flg_0x57cc9Xuw/view?usp=sharing"
 	}
 ]
