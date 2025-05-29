@@ -104,6 +104,8 @@
 	
 	.header-background-paradise {
 		background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../upload/imgs/paradise-cell.jpg") !important;
+		padding: 0;
+		border-bottom: 5px solid black;
 	}
 	
 	.row-to-col{

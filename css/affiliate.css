@@ -22,7 +22,8 @@
 	background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../upload/imgs/paradise-desktop.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
-	padding: 6% 4%;
+	padding: 6% 6% 4% 0;
+	border-bottom: 5px solid black;
 }
 
 .history-groupcount-ul {
