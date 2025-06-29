@@ -1,89 +1,5 @@
 [
 	{
-		"date": "6/22",
-		"day": "週日",
-		"book": "哥林多前書",
-		"verses": [{
-			"verse": "5",
-			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Co5.html"
-		},
-		{
-			"verse": "6",
-			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Co6.html"
-		}],
-		"href": "https://drive.google.com/file/d/1qQu09tiNGarPuCTnOqcifHwJBpm4am0S/view?usp=sharing"
-	},
-	{
-		"date": "6/23",
-		"day": "週一",
-		"book": "哥林多前書",
-		"verses": [{
-			"verse": "7",
-			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Co7.html"
-		}
-		],
-		"href": "https://drive.google.com/file/d/1Pf8DSec75p6Nnj117hbi-ej_clRQTOGI/view?usp=sharing"
-	},
-	{
-		"date": "6/24",
-		"day": "週二",
-		"book": "哥林多前書",
-		"verses": [{
-			"verse": "8",
-			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Co8.html"
-		},
-		{
-			"verse": "9",
-			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Co9.html"
-		}
-		],
-		"href": "https://drive.google.com/file/d/1f_ZkMduteiD2nTB5wuMKRefZWqyIUJup/view?usp=sharing"
-	},
-	{
-		"date": "6/25",
-		"day": "週三",
-		"book": "哥林多前書",
-		"verses": [{
-			"verse": "10",
-			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Co10.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1mJzs9y51ABkeG08nosKardzVIsGkunGQ/view?usp=sharing"
-	},
-	{
-		"date": "6/26",
-		"day": "週四",
-		"book": "哥林多前書",
-		"verses": [{
-			"verse": "11",
-			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Co11.html"
-	        }],
-		"href": "https://drive.google.com/file/d/1K6kwxCXeKiwFHsRlSA13CsuXk2p54-sW/view?usp=sharing"
-	},
-	{
-		"date": "6/27",
-		"day": "週五",
-		"book": "哥林多前書",
-		"verses": [{
-			"verse": "12",
-			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Co12.html"
-		},
-		{
-			"verse": "13",
-			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Co13.html"
-		}],
-		"href": "https://drive.google.com/file/d/10eDWcs4vMGs7-n0meARgg_nPMUGKyzM5/view?usp=sharing"
-	},
-	{
-		"date": "6/28",
-		"day": "週六",
-		"book": "哥林多前書",
-		"verses": [{
-			"verse": "14",
-			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Co14.html"
-		}],
-		"href": "https://drive.google.com/file/d/1YjBMEPuioqgGe-wGYhQTDVzTB_8l6CKO/view?usp=sharing"
-	},
-	{
 		"date": "6/29",
 		"day": "週日",
 		"book": "哥林多前書",
@@ -92,5 +8,85 @@
 			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Co15.html"
 		}],
 		"href": "https://drive.google.com/file/d/1_jiZ9KYdUwhKY1Y3oOGgG6XtmuiyyiP-/view?usp=sharing"
+	},
+	{
+		"date": "6/30",
+		"day": "週一",
+		"book": "哥林多前書",
+		"verses": [{
+			"verse": "16",
+			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Co16.html"
+		}
+		],
+		"href": "https://drive.google.com/file/d/16tPtt3RRYEQHBUGERP7zI6OyftQmC5wN/view?usp=sharing"
+	},
+	{
+		"date": "7/1",
+		"day": "週二",
+		"book": "列王紀上",
+		"verses": [{
+			"verse": "1",
+			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Ki1.html"
+		}
+		],
+		"href": "https://drive.google.com/file/d/18i_aq7AAhl25Vg0QJEane6BD4Dso96yT/view?usp=sharing"
+	},
+	{
+		"date": "7/2",
+		"day": "週三",
+		"book": "列王紀上",
+		"verses": [{
+			"verse": "2",
+			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Ki2.html"
+	        }],
+		"href": "https://drive.google.com/file/d/1DO9GRSjjTQFkxaFrKjV_4t7UMXQe8iLI/view?usp=sharing"
+	},
+	{
+		"date": "7/3",
+		"day": "週四",
+		"book": "列王紀上",
+		"verses": [{
+			"verse": "3",
+			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Ki3.html"
+		},
+		{
+			"verse": "4",
+			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Ki4.html"
+		}],
+		"href": "https://drive.google.com/file/d/1lCCCAdIenLeWh1b9F5LM241z4cybbty2/view?usp=sharing"
+	},
+	{
+		"date": "7/4",
+		"day": "週五",
+		"book": "列王紀上",
+		"verses": [{
+			"verse": "5",
+			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Ki5.html"
+		},
+		{
+			"verse": "6",
+			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Ki6.html"
+		}],
+		"href": "https://drive.google.com/file/d/1jLTrL1jmzxG77eK0AUIB4BrSXD7nPRMo/view?usp=sharing"
+	},
+	{
+		"date": "7/5",
+		"day": "週六",
+		"book": "列王紀上",
+		"verses": [{
+			"verse": "7",
+			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Ki7.html"
+		}],
+		"href": "https://drive.google.com/file/d/1hmfYJLE5YImFe67HidWuN2QGFK3rTCn-/view?usp=sharing"
+	},
+	{
+		"date": "7/6",
+		"day": "週日",
+		"book": "列王紀上",
+		"verses": [{
+			"verse": "8",
+			"link": "http://www.bbintl.org/bible/b5niv/b5niv1Ki8.html"
+		}],
+		"href": "https://drive.google.com/file/d/13CVY0N_09E2uC8ZeXnyUhkBDfC5b7j8l/view?usp=sharing"
 	}
 ]
