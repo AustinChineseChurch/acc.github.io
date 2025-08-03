@@ -1,103 +1,5 @@
 [
 	{
-		"date": "7/27",
-		"day": "週日",
-		"book": "詩篇",
-		"verses": [{
-			"verse": "67",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm67.html"
-		},
-		{
-			"verse": "68",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm68.html"
-		}],
-		"href": "https://drive.google.com/file/d/1N9v95rNFoYUPEuJLt71HTzkge9G4mvrG/view?usp=sharing"
-	},
-	{
-		"date": "7/28",
-		"day": "週一",
-		"book": "詩篇",
-		"verses": [{
-			"verse": "69",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm69.html"
-		},
-		{
-			"verse": "70",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm70.html"
-		}],
-		"href": "https://drive.google.com/file/d/1x2X8Nkz-MfPEr-RADyv2TZpVNk0shysu/view?usp=sharing"
-	},
-	{
-		"date": "7/29",
-		"day": "週二",
-		"book": "詩篇",
-		"verses": [{
-			"verse": "71",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm71.html"
-		},
-		{
-			"verse": "72",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm72.html"
-		}],
-		"href": "https://drive.google.com/file/d/1wD8DoIFg00DcZxTPEX5Lwg8lke6cLxhd/view?usp=sharing"
-	},
-	{
-		"date": "7/30",
-		"day": "週三",
-		"book": "列王記下",
-		"verses": [{
-			"verse": "1",
-			"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ki1.html"
-		},
-		{
-			"verse": "2",
-			"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ki2.html"
-		}],
-		"href": "https://drive.google.com/file/d/1gssK4993fqXJZ55gl7B-M9WTA0FirPqO/view?usp=sharing"
-	},
-	{
-		"date": "7/31",
-		"day": "週四",
-		"book": "列王記下",
-		"verses": [{
-			"verse": "3",
-			"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ki3.html"
-		},
-		{
-			"verse": "4",
-			"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ki4.html"
-		}],
-		"href": "https://drive.google.com/file/d/1O2nVsno6DTUVpZMgec0j8N_gEsLtjr8L/view?usp=sharing"
-	},
-	{
-		"date": "8/1",
-		"day": "週五",
-		"book": "列王記下",
-		"verses": [{
-			"verse": "5",
-			"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ki5.html"
-		},
-		{
-			"verse": "6",
-			"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ki6.html"
-		}],
-		"href": "https://drive.google.com/file/d/17OxJndlUaympnkRJtocdxCBHuvrherXF/view?usp=sharing"
-	},
-	{
-		"date": "8/2",
-		"day": "週六",
-		"book": "列王記下",
-		"verses": [{
-			"verse": "7",
-			"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ki7.html"
-		},
-		{
-			"verse": "8",
-			"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ki8.html"
-		}],
-		"href": "https://drive.google.com/file/d/1q9v0gOntCDgBtC5FMSMCiXvHrWUJSkcb/view?usp=sharing"
-	},
-	{
 		"date": "8/3",
 		"day": "週日",
 		"book": "列王記下",
@@ -110,5 +12,100 @@
 			"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ki10.html"
 		}],
 		"href": "https://drive.google.com/file/d/1OswNGebfF2y5rChNUuGCwMe0kcqJ7syE/view?usp=sharing"
+	},
+	{
+		"date": "8/4",
+		"day": "週一",
+		"book": "列王記下",
+		"verses": [{
+			"verse": "11",
+			"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ki11.html"
+		},
+		{
+			"verse": "12",
+			"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ki12.html"
+		}],
+		"href": ""https://drive.google.com/file/d/102zVrV2WLxQOr-q8mn5Cqv147Nj82Yxl/view?usp=sharing
+	},
+	{
+		"date": "8/5",
+		"day": "週二",
+		"book": "列王記下",
+		"verses": [{
+			"verse": "13",
+			"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ki13.html"
+		},
+		{
+			"verse": "14",
+			"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ki14.html"
+		}],
+		"href": "https://drive.google.com/file/d/1G2ehXn6Iy8IHhFPLyoP-5WzjPordXE_g/view?usp=sharing"
+	},
+	{
+		"date": "8/6",
+		"day": "週三",
+		"book": "列王記下",
+		"verses": [{
+			"verse": "15",
+			"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ki15.html"
+		},
+		{
+			"verse": "16",
+			"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ki16.html"
+		}],
+		"href": "https://drive.google.com/file/d/1FrwbAh637wkio3naqgej1Qhx76siruE3/view?usp=sharing"
+	},
+	{
+		"date": "8/7",
+		"day": "週四",
+		"book": "列王記下",
+		"verses": [{
+			"verse": "17",
+			"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ki17.html"
+		}],
+		"href": "https://drive.google.com/file/d/1VuBaojNs8j830FwImhXvaKdg7EnaWlRx/view?usp=sharing"
+	},
+	{
+		"date": "8/8",
+		"day": "週五",
+		"book": "列王記下",
+		"verses": [{
+			"verse": "18",
+			"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ki18.html"
+		},
+		{
+			"verse": "19",
+			"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ki19.html"
+		}],
+		"href": "https://drive.google.com/file/d/1Z-2XvSkW5P9tfrNy_TSa1g2YpSCH5QRr/view?usp=sharing"
+	},
+	{
+		"date": "8/9",
+		"day": "週六",
+		"book": "列王記下",
+		"verses": [{
+			"verse": "20",
+			"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ki20.html"
+		},
+		{
+			"verse": "21",
+			"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ki21.html"
+		}],
+		"href": "https://drive.google.com/file/d/16b6onkZHDD5sE_S-0bTAmiX5uVi9djUe/view?usp=sharing"
+	},
+	{
+		"date": "8/10",
+		"day": "週日",
+		"book": "列王記下",
+		"verses": [{
+			"verse": "22",
+			"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ki22.html"
+		},
+		{
+			"verse": "23",
+			"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ki23.html"
+		}],
+		"href": "https://drive.google.com/file/d/13_UAgc6kSTzZNeZ3mQicPOw6bjV9AhK_/view?usp=sharing"
 	}
 ]
+
