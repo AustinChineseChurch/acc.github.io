@@ -1,81 +1,5 @@
 [
 	{
-		"date": "9/7",
-		"day": "週日",
-		"book": "加拉太書",
-		"verses": [{
-				"verse": "5",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivGal5.html"
-			},
-			{
-				"verse": "6",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivGal6.html"
-			}
-		],
-		"href": "https://drive.google.com/file/d/1nA7XT4I0JGecRZob0zDvdF2Q_lWqq88U/view?usp=sharing"
-	},
-	{
-		"date": "9/8",
-		"day": "週一",
-		"book": "以弗所書",
-		"verses": [{
-				"verse": "1",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivEph1.html"
-			}
-		],
-		"href": "https://drive.google.com/file/d/1rMngg3SoJKuRp5CGHtqSfJAbFrjqhoKB/view?usp=drive_link"
-	},
-	{
-		"date": "9/9",
-		"day": "週二",
-		"book": "以弗所書",
-		"verses": [{
-			"verse": "2",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivEph2.html"
-		}],
-		"href": "https://drive.google.com/file/d/1VVatpl2FV8Ssa0czRnkubC0K8SHfBgwW/view?usp=drive_link"
-	},
-	{
-		"date": "9/10",
-		"day": "週三",
-		"book": "以弗所書",
-		"verses": [{
-			"verse": "3",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivEph3.html"
-		}],
-		"href": "https://drive.google.com/file/d/1abbV-XGgk5zrplHe4xuhVFyQm1q2Hcx_/view?usp=drive_link"
-	},
-	{
-		"date": "9/11",
-		"day": "週四",
-		"book": "以弗所書",
-		"verses": [{
-			"verse": "4",
-			"link": "http://www.bbintl.org/bible/b5niv/b5nivEph4.html"
-		}],
-		"href": "https://drive.google.com/file/d/1gDNMT5YQVnv_SYuSklPCfaFS5VebwESI/view?usp=drive_link"
-	},
-	{
-		"date": "9/12",
-		"day": "週五",
-		"book": "以弗所書",
-		"verses": [{
-				"verse": "5",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivEph5.html"
-			}],
-		"href": "https://drive.google.com/file/d/11Pn8ydezzipl25a6Yvs9x-Kzo0CQ2kq8/view?usp=drive_link"
-	},
-	{
-		"date": "9/13",
-		"day": "週六",
-		"book": "以弗所書",
-		"verses": [{
-				"verse": "6",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivEph6.html"
-			}],
-		"href": "https://drive.google.com/file/d/1g0HGBKh3rqpUInVppRjY-Qk-Siq9DOEW/view?usp=drive_link"
-	},
-	{
 		"date": "9/14",
 		"day": "週日",
 		"book": "歷代志下",
@@ -89,9 +13,111 @@
 			}
 		],
 		"href": "https://drive.google.com/file/d/1SsQaxYiwlrXlsSa41BiYVUcuyAXkzkxd/view?usp=drive_link"
+	},
+	{
+		"date": "9/15",
+		"day": "週一",
+		"book": "歷代志下",
+		"verses": [{
+				"verse": "3",
+				"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ch3.html"
+			},
+			{
+				"verse": "4",
+				"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ch4.html"
+			},
+			{
+				"verse": "5",
+				"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ch5.html"
+			}
+		],
+		"href": "https://drive.google.com/file/d/1V8BqDNyV4NtbyUOIRNH3qpfcQ_JAPFsq/view?usp=drive_link"
+	},
+	{
+		"date": "9/16",
+		"day": "週二",
+		"book": "歷代志下",
+		"verses": [{
+			"verse": "6",
+			"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ch6.html"
+		}],
+		"href": "https://drive.google.com/file/d/1p62fB0gjk_QrASFoUFY-YSvjjEDdoa4h/view?usp=drive_link"
+	},
+	{
+		"date": "9/17",
+		"day": "週三",
+		"book": "歷代志下",
+		"verses": [{
+				"verse": "7",
+				"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ch7.html"
+			},
+			{
+				"verse": "8",
+				"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ch8.html"
+			}
+		],
+		"href": "https://drive.google.com/file/d/1HOG9l1fY5wQg84Hq_yMI8l_HGTL0yDqK/view?usp=drive_link"
+	},
+	{
+		"date": "9/18",
+		"day": "週四",
+		"book": "歷代志下",
+		"verses": [{
+				"verse": "9",
+				"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ch9.html"
+			},
+			{
+				"verse": "10",
+				"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ch10.html"
+			}],
+		"href": "https://drive.google.com/file/d/1qWHTQ1RVIa73X4Dwmr68IJYbAAnj2c2w/view?usp=drive_link"
+	},
+	{
+		"date": "9/19",
+		"day": "週五",
+		"book": "歷代志下",
+		"verses": [{
+				"verse": "11",
+				"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ch11.html"
+			},
+			{
+				"verse": "12",
+				"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ch12.html"
+			}],
+		"href": "https://drive.google.com/file/d/16b5VrzAuwdQBHt0n6GHojGxbykhqsfjq/view?usp=drive_link"
+	},
+	{
+		"date": "9/20",
+		"day": "週六",
+		"book": "歷代志下",
+		"verses": [{
+				"verse": "13",
+				"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ch13.html"
+			},
+			{
+				"verse": "14",
+				"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ch14.html"
+			}],
+		"href": "https://drive.google.com/file/d/1xr6RALsm_St3sb4bzm-yxaJBr6vAsnHl/view?usp=drive_link"
+	},
+	{
+		"date": "9/21",
+		"day": "週日",
+		"book": "歷代志下",
+		"verses": [{
+				"verse": "15",
+				"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ch15.html"
+			},
+			{
+				"verse": "16",
+				"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ch16.html"
+			}
+		],
+		"href": "https://drive.google.com/file/d/1pdyB1niw8kGeZgudV2r319o_B2Ozg6HJ/view?usp=drive_link"
 	}
 
 ]
+
 
 
 
