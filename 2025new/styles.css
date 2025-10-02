@@ -175,7 +175,7 @@
     }
 	.panel .content {
 		position: relative;
-		left: 60px;
+		left: 8%;
 		width: 85%;
 		z-index: 2;
 		color: #fff;
@@ -277,4 +277,5 @@ footer p{
 	color: darkgray;
 
 }
+
 
