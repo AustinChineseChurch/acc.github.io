@@ -251,12 +251,14 @@
 
 
 footer{
-	/* background: -webkit-linear-gradient(top, #000, #40205f);
-	background: -moz-linear-gradient(top, #000, #40205f); */
-	background: #40205f;
-	opacity: 0.97;
+	background: -webkit-linear-gradient(top, rgba(13,7,41,1), rgba(26,6,79,0.5));
+	/*background: -moz-linear-gradient(top, #000, #40205f);
+	
+	/*background: linear-gradient(top, rgba(26,6,79,0), rgba(134,98,227,1));
+	/*background: rgba(64, 32, 95, 0.5);*/
+/*	opacity: 0.57;*/
 	color: white !important; 
-	padding: 4em;
+	padding: 2em;
 	text-align: center;
 	align-items: center;
 	justify-content: center;
