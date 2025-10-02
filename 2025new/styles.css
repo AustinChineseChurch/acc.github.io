@@ -254,7 +254,7 @@ footer{
 	background: -webkit-linear-gradient(top, rgba(13,7,41,1), rgba(26,6,79,0.5));
 	/*background: -moz-linear-gradient(top, #000, #40205f);
 	
-	/*background: linear-gradient(top, rgba(26,6,79,0), rgba(134,98,227,1));
+	/*background: linear-gradient(top, rgba(134,98,227,1), rgba(26,6,79,0) );
 	/*background: rgba(64, 32, 95, 0.5);*/
 /*	opacity: 0.57;*/
 	color: white !important; 
@@ -275,4 +275,5 @@ footer p{
 	font-size: 0.875em;
 	margin-top: 1.1em;
 	color: darkgray;
+
 }
