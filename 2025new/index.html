@@ -25,7 +25,7 @@
     .logo img { height: 80px; margin-right: 0.5rem; }
 /*	nav {
       width: 100%;
-	  background: rgba(20,6,79,0.8);
+	  background: rgba(20,6,79,0.7);
       backdrop-filter: blur(6px);
       z-index: 1000;
     } */
@@ -39,8 +39,9 @@
     /* 下拉選單 (桌機版 hover) */
     nav ul ul {
       position: absolute; top: 100%; left: 0;
-      background: rgba(0,0,0,0.9);
+      background: rgba(0,6,79,0.9); 
       display: none; flex-direction: column; min-width: 180px;
+	  border-radius: 6px;
     }
     nav ul li:hover > ul { display: flex; }
     nav ul ul li a { padding: 10px; }
@@ -115,8 +116,23 @@
 			padding:5px 20px 5px 30px; 
 			line-height:30px;
 	}
+	
+	p{ text-align:justify; font-size:larger;}
 
-
+ /* --- Section 1 (影片背景) --- */
+    .hero {
+      position: relative; height: 100vh; width: 100%; overflow: hidden;
+      display: flex; justify-content: center; align-items: center;
+    }
+    .hero video {
+      position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+      object-fit: cover; z-index: -1;
+    }
+	
+    .hero .content {
+      color: #fff; text-align: center; background: rgba(0,0,0,0.4);
+      padding: 40px; border-radius: 10px; width:80%; margin-top:1rem;
+    }
 
     /* 手機 / 平板樣式 */
     @media (max-width: 768px) {
@@ -145,23 +161,12 @@
       }
 
       .menu-toggle { display: flex; }
+	  
+	  .hero .content{ width:98%; text-align:justify; margin-top:5rem; padding:10px; color:white; border-radius: 10px;	}
+	  
+	  h1 { text-align: center; }
     }
-	
-	.content{ widht:70%; margin-top:30px; padding:10px; color:white; border-radius: 15px;	}
 
-    /* --- Section 1 (影片背景) --- */
-    .hero {
-      position: relative; height: 100vh; width: 100%; overflow: hidden;
-      display: flex; justify-content: center; align-items: center;
-    }
-    .hero video {
-      position: absolute; top: 0; left: 0; width: 100%; height: 100%;
-      object-fit: cover; z-index: -1;
-    }
-    .hero .content {
-      color: #fff; text-align: center; background: rgba(0,0,0,0.4);
-      padding: 40px; border-radius: 10px; width:75%;
-    }
 
     /* --- Section 2 (卡片區) --- */
     .section {
@@ -214,6 +219,8 @@
 	line-height: 1.3;
 	color: white;
 }
+
+
   </style>
 
 </head>
@@ -284,7 +291,9 @@
 
     <div class="content">
       <h1 style="margin-bottom :30px; border-bottom: solid 2px; border-top: solid 2px;"> 奧斯汀華人教會華語堂歡迎你！</h1>
-      <p style="text-align:justify; font-size:18px; letter-spacing: 4px;">你若是在探索一條信仰道路，我們歡迎你來和我們一同探索！你若是尋找一個教會的家，我們歡迎你以奧斯汀華人教會為你屬靈的家！你若是有心成為耶穌的門徒，我們歡迎你與我們同走一生跟隨主的道路！
+<!--      <p style="text-align:justify; font-size:18px; letter-spacing: 4px;">-->
+		<p>  
+		  你若是在探索一條信仰道路，我們歡迎你來和我們一同探索！你若是尋找一個教會的家，我們歡迎你以奧斯汀華人教會為你屬靈的家！你若是有心成為耶穌的門徒，我們歡迎你與我們同走一生跟隨主的道路！
 		  你若是盼望善用你的恩賜，我們歡迎你與我們一起以謙卑做僕人的態度同心事奉！奧斯汀華人教會自1982 年成立迄今, 雖未加入任何宗派, 卻有來自信仰純正各個宗派背景的基督徒們一起同心恪遵主道, 
 		  步履堅實地建造教會, 廣傳福音, 幾十年來厚厚蒙主賜福，人數不斷增長，並分植出兩間堂會。
 		  目前教會每週日早上有三堂崇拜和主日學, 9:30 有英語崇拜與華語, 粵語主日學, 11:10 則為華語崇拜, 粵語崇拜及英語主日學. 同時有幼兒看顧, 兒童和青少年也各依年級分班, 學習福音.
