@@ -13,7 +13,7 @@
       z-index: 1000;
     }
     .nav-container {
-      max-width: 98%;
+      max-width: 100%;
       margin: 0 auto;
       display: flex;
       align-items: center;
@@ -102,6 +102,7 @@
         overflow: hidden;
         transition: max-height 0.3s ease;
       }
+
       .menu.show { max-height: 600px; } /* 展開 */
       .menu li ul {
         position: static;
@@ -110,7 +111,11 @@
       }
       .menu li.show > ul { display: flex; }
       .hamburger { display: flex; }
-
+	  .content table{
+		  widht:90%;
+		  font-size:90%;
+		  margin-left:10px;
+	  }
 
     }
 
@@ -119,6 +124,7 @@
 
     /* --- Hero section --- */
     .hero {
+	  background: url('imgs/prayhands.png') no-repeat center center/cover;
       position: relative;
       min-height: 100vh;
       display: flex;
@@ -146,12 +152,13 @@
       z-index: 2;
       color: #fff;
       text-align: justify;
-      padding: 2rem;
+      padding: 1rem;
 	  margin: 10px 20px 10px 20px;
       background: rgba(0,0,0,0.4);
       border-radius: 12px;
     }
 	
+
 	.contenth1 {
 		text-align:center; 
 		margin:5px 0px 5px 0px;
@@ -219,12 +226,41 @@
         -45deg, #fafafa, #fafafa 25px, #ddd 25px, #ddd 50px
       );
 	}
+	
+	h3{
+			padding:5px 0 5px 0px;
+	}
+			
+	p2{
+			padding:5px 20px 5px 30px; 
+			line-height:30px;
+	}
+	
+	.content table{
+		  widht:60%;
+		  backrgound-color: white solid 2;
+		  border-radius: 10px;
+		  left:30px;
+	}
+	.table1 {
+		  width:60%;
+		  border: 2px solid white;
+		  border-radius: 5px;
+		  align: center;
+		  margin:5px;
+		  
+		}
 	  
     @media (max-width: 768px) {
+		.p2{
+			padding:5px 20px 5px 30px; 
+			line-height:18px;
+		}
 		.contenth3 {
 			font-weight:300; 
-			letter-spacing:0.3em; 
-			margin: 10px 10px 10px 10px;
+			letter-spacing:0.3em;
+			line-height:12px;
+			margin: 10px 10px 10px 5px;
 		}
 		.contenth1 {
 			text-align:center; 
@@ -235,6 +271,15 @@
 			padding:10px;
 			text-transform: uppercase;
 		}
+		.table1 {
+		  widht:100%;
+		  border: white solid 2;
+		  font-size:85%;
+		  border-radius: 5px;
+		  left:30px;
+		  vertical-align: top;
+		}
+		
 		.hero .content {
 		  position: relative;
 		  width:95%;
@@ -242,14 +287,56 @@
 		  font-size:90%;
 		  color: #fff;
 		  text-align: justify;
-		  padding: 2rem;
+		  padding: 1rem;
 		  margin: 10px 5px 10px 5px;
 		  background: rgba(0,0,0,0.4);
 		  border-radius: 12px;
 		}
+		
+		.panel .content {
+			position: relative;
+			left: 0px;
+			width: 95%;
+			z-index: 2;
+			color: #fff;
+			line-height:10px
+			text-align: justify ;
+			padding: .5rem;
+			margin: 10px 20px 10px 20px;
+	/*	background: rgba(0, 0, 0, 0.4);*/
+			border-radius: 10px;
+		}
+		
+		.panel table{
+			width:80%;
+			padding: 10px;
+			border: 4px solid;
+			border-radius: 10px;
+			margin: 10px 30px 20px 10px;
+			text-align: center;
+			line-height: 30px;
+		}
+		
+		.panel td{
+			vertical-align: top;
+			text-align: justify;
+			height:60px;
+		}	
 	}
-
-
+		h3{
+			padding:5px 0 5px 5px;
+		}
+			
+		p{
+			padding:5px 20px 5px 30px; 
+			line-height:30px;
+		}
+		.content table{
+		  widht:60%;
+		  backrgound-color: white solid 2;
+		  border-radius: 10px;
+		  left:30px;
+		}
 footer{
 	background: -webkit-linear-gradient(top, rgba(26,6,79,0.5), rgba(13,7,41,1));
 	/*background: -moz-linear-gradient(top, #000, #40205f);
