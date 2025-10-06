@@ -1,89 +1,5 @@
 [
 	{
-		"date": "9/28",
-		"day": "週日",
-		"book": "歷代志下",
-		"verses": [{
-				"verse": "29",
-				"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ch29.html"
-			}],
-		"href": "https://drive.google.com/file/d/15mPK_dYLfF_vGvmWt-r0hAR828-zA1vq/view?usp=sharing"
-	},
-	{
-		"date": "9/29",
-		"day": "週一",
-		"book": "歷代志下",
-		"verses": [{
-				"verse": "30",
-				"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ch30.html"
-			},
-			{
-				"verse": "31",
-				"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ch31.html"
-			}
-		],
-		"href": "https://drive.google.com/file/d/1_LU-Uj04nDgzqAbmKQluGWGoKLElfau-/view?usp=sharing"
-	},
-	{
-		"date": "9/30",
-		"day": "週二",
-		"book": "歷代志下",
-		"verses": [{
-				"verse": "32",
-				"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ch32.html"
-			}],
-		"href": "https://drive.google.com/file/d/1_kTZMXATaU46_n_E-waSBbEzwiFVM1B5/view?usp=sharing"
-	},
-	{
-		"date": "10/1",
-		"day": "週三",
-		"book": "歷代志下",
-		"verses": [{
-				"verse": "33",
-				"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ch33.html"
-			},
-			{
-				"verse": "34",
-				"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ch34.html"
-			}
-		],
-		"href": "https://drive.google.com/file/d/1yfza0lfU_PLmnyhGvBK7eoU_R403f5OU/view?usp=sharing"
-	},
-	{
-		"date": "10/2",
-		"day": "週四",
-		"book": "歷代志下",
-		"verses": [{
-				"verse": "35",
-				"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ch35.html"
-			},
-			{
-				"verse": "36",
-				"link": "http://www.bbintl.org/bible/b5niv/b5niv2Ch36.html"
-			}],
-		"href": "https://drive.google.com/file/d/1ZIuX0QMpmNx8FLz7oSY8Tr_ArvmewrNp/view?usp=sharing"
-	},
-	{
-		"date": "10/3",
-		"day": "週五",
-		"book": "腓立比書",
-		"verses": [{
-				"verse": "1",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivPhl1.html"
-			}],
-		"href": "https://drive.google.com/file/d/1W4hKGpz08ONCovEEoVHUhvKNrYarvROa/view?usp=sharing"
-	},
-	{
-		"date": "10/4",
-		"day": "週六",
-		"book": "腓立比書",
-		"verses": [{
-				"verse": "2",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivPhl2.html"
-			}],
-		"href": "https://drive.google.com/file/d/1Nv0X6_66ih4h3LRY8nl2fgV0Nr1grvR9/view?usp=sharing"
-	},
-	{
 		"date": "10/5",
 		"day": "週日",
 		"book": "腓立比書",
@@ -92,9 +8,96 @@
 				"link": "http://www.bbintl.org/bible/b5niv/b5nivPhl3.html"
 			}],
 		"href": "https://drive.google.com/file/d/1Ihr19UhdYsVA7KkfAyNzDq3bqy4Ms4BT/view?usp=sharing"
+	},
+	{
+		"date": "10/6",
+		"day": "週一",
+		"book": "腓立比書",
+		"verses": [{
+				"verse": "4",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivPhl4.html"
+			}],
+		"href": "https://drive.google.com/file/d/1g7xgI-TqqqQMeqvB5ukKaeGhayte2Yy5/view?usp=sharing"
+	},
+	{
+		"date": "10/7",
+		"day": "週二",
+		"book": "歌羅西書",
+		"verses": [{
+				"verse": "1",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivCol1.html"
+			}],
+		"href": "https://drive.google.com/file/d/1KtRxt55-VqwJIc57j7s5Ww-T634PF-lc/view?usp=sharing"
+	},
+	{
+		"date": "10/8",
+		"day": "週三",
+		"book": "歌羅西書",
+		"verses": [{
+				"verse": "2",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivCol2.html"
+			}],
+		"href": "https://drive.google.com/file/d/1e_rrZ0T5evIBVhloYv47o2SXHEbzvqou/view?usp=sharing"
+	},
+	{
+		"date": "10/9",
+		"day": "週四",
+		"book": "歌羅西書",
+		"verses": [{
+				"verse": "3",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivCol3.html"
+			},
+			{
+				"verse": "4",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivCol4.html"
+			}],
+		"href": "https://drive.google.com/file/d/11tRyQ4Cz8v9VV4UBgQf8OyskZF_NKmKj/view?usp=sharing"
+	},
+	{
+		"date": "10/10",
+		"day": "週五",
+		"book": "以斯拉記",
+		"verses": [{
+				"verse": "1",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivEzr1.html"
+			},
+			{
+				"verse": "2",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivEzr2.html"
+			}],
+		"href": "https://drive.google.com/file/d/1_Vtl5pd_N278Xq6HdbLC-7V0BTLMh-F8/view?usp=sharing"
+	},
+	{
+		"date": "10/11",
+		"day": "週六",
+		"book": "以斯拉記",
+		"verses": [{
+				"verse": "3",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivEzr3.html"
+			},
+			{
+				"verse": "4",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivEzr4.html"
+			}],
+		"href": "https://drive.google.com/file/d/1cZSWXq7XN6A8vHZ0Iq75elpmHcRo-ahg/view?usp=sharing"
+	},
+	{
+		"date": "10/12",
+		"day": "週日",
+		"book": "以斯拉記",
+		"verses": [{
+				"verse": "5",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivEzr5.html"
+			},
+			{
+				"verse": "6",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivEzr6.html"
+			}],
+		"href": "https://drive.google.com/file/d/1I1PbWd_oI68q_FvGhr_o7A65iSlIyTYo/view?usp=sharing"
 	}
 
 ]
+
 
 
 
