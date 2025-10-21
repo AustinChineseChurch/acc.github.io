@@ -8,24 +8,32 @@
 	<link rel="stylesheet" href="styles.css" />
  </head>
 <body>
-  <!-- 導覽列 -->
-  <header>
-    <div class="logo"><a href="index.html" class="logo"><img src="img/new_acclogo.png" alt="Logo" /></a></div>
-    <div class="menu-toggle" onclick="toggleMenu()">
-      <div></div><div></div><div></div>
-    </div>
-    <nav>
-      <ul>
-        <li><a href="#">簡介 ▼</a>
-			<ul>
-				<li><a target="_blank" href="https://austinchinesechurch.github.io/acc.github.io/html/constitution.html">信仰與規章</a></li>
-				<li><a target="_blank" href="https://austinchinesechurch.github.io/acc.github.io/html/church_history.html">教會歷史</a></li>
-				<li><a href="cmv.html">價值與異象</a></li>
-				<li><a target="_blank" href="https://austinchinesechurch.org/WeeklyDocs/MandarinCoworkers.pdf">華語部同工</a></li>
-			</ul>
-		</li>
-        <li><a href="fellowships.html">團契</a></li>
-			<li><a href="pray.html">禱告</a></li>
+
+<!-- Navbar -->
+<nav>
+	<div class="nav-container">
+		<a href="index.html" class="logo"><img src="imgs/new_acclogo.png" alt="Logo" /></a>
+<!--		<div class="menu-toggle" id="menuToggle">
+			<span></span><span></span><span></span>
+		</div>
+-->
+      <!-- Hamburger (mobile only) -->
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+
+      <!-- Menu -->		
+		<ul class="menu" id="menu">
+			<li><a href="#">簡介 ▼</a>
+				<ul>
+					<li><a target="_blank" href="https://austinchinesechurch.github.io/acc.github.io/html/constitution.html">信仰與規章</a></li>
+					<li><a target="_blank" href="https://austinchinesechurch.github.io/acc.github.io/html/church_history.html">教會歷史</a></li>
+		<!--			<li><a href="bylaw.html">教會規章</a></li>  -->
+					<li><a target="_blank" href="https://austinchinesechurch.github.io/acc.github.io/html/staff.html">教牧及職員</a></li>
+				</ul>
+			</li>
+			<li><a target="_blank" href="fellowships.html">團契</a></li>
+			<li><a href="#">禱告</a></li>
 			<li><a href="#">每日讀經靈修 ▼</a>							
 				<ul>
 					<li><a href="https://austinchinesechurch.github.io/acc.github.io/html/2_bible_readerplan.html">讀經生活日記</a></li>
@@ -64,9 +72,14 @@
 			</li>
 			<li><a target="_blank" href="https://acc.churchcenter.com/giving" class="button primary">網路奉獻</a></li>
 			<li><a target="_blank" href="https://austinchinesechurch.github.io/acc.github.io/" class="button primary">教會主頁</a></li>
+
       </ul>
-    </nav>
-  </header>
+    </div>
+</nav>
+
+  <!-- 空header避免被navbar遮住 -->
+	<header></header>
+<br>
 <!-- Hero (影片背景) -->
 <section class="hero">
 <!--
@@ -170,5 +183,4 @@ Zoom 鏈接: <a style="color:white;" target="_blank" href="https://us06web.zoom.
 	<p class="copyright">© Austin Chinese Church. 2023. All rights reserved.</p>
   </footer>
 </body>
-
 </html>
