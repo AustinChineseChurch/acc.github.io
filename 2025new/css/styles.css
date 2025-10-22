@@ -8,7 +8,7 @@
       position: fixed;
       top: 0; left: 0;
       width: 100%;
-	  background: rgba(20,6,79,0.7);
+	  background: rgba(20,6,79,0.8);
       backdrop-filter: blur(6px);
       z-index: 1000;
     }
@@ -433,4 +433,5 @@ footer p{
       font-size: 0.9rem;
 	  
     }
+
   }
