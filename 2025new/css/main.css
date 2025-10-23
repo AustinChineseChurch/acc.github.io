@@ -156,7 +156,7 @@
 
       .menu-toggle { display: flex; }
 	  
-	  .hero .content{font-size:90%; width:98%; text-align:justify; /*margin-top:15rem; */ top:12%; padding:5px; color:white; border-radius: 10px; left: auto;  }
+	  .hero .content{font-size:90%; width:98%; text-align:justify; /*margin-top:15rem; */ top:15%; padding:5px; color:white; border-radius: 10px; left: auto;  }
 	  
 	  h1 { font-size:1.5rem; text-align: center; margin-top: 30px; margin-bottom :30px; border-bottom: solid 2px; border-top: solid 2px;}
 	  
@@ -332,4 +332,5 @@
 */
 
   }
+
 
