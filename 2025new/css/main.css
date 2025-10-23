@@ -156,9 +156,9 @@
 
       .menu-toggle { display: flex; }
 	  
-	  .hero .content{width:98%; text-align:justify; margin-top:5rem; padding:5px; color:white; border-radius: 10px; left: auto;  }
+	  .hero .content{font-size:90%; width:98%; text-align:justify; margin-top:15rem; padding:5px; color:white; border-radius: 10px; left: auto;  }
 	  
-	  h1 { font-size:1.8rem; text-align: center; margin-top: 30px; margin-bottom :30px; border-bottom: solid 2px; border-top: solid 2px;}
+	  h1 { font-size:1.7rem; text-align: center; margin-top: 30px; margin-bottom :30px; border-bottom: solid 2px; border-top: solid 2px;}
 	  
 	  .p2{ padding:5px 20px 5px 30px; line-height:40px; line-align: center; font-size:larger;}
 	 
@@ -182,6 +182,23 @@
 	.panel td{
 		vertical-align: top; height:60px;
 	}
+	
+	.floating-box {
+		position: fixed;       /* 固定在畫面上 */
+		top:115px;
+		/*bottom: 20px;          /* 距離底部 20px */
+		right: 10px;           /* 距離右邊 20px */
+		background: rgba(60,60,60,0.7);  /* 半透明黑底 */
+		color: #fff;
+		padding: 10px;
+		border-radius: 15px;
+		box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+		width: 20%;
+		height: 450px;
+		z-index: 88;         /* 確保在最上層 */
+		transition: opacity 0.5s ease;
+		animation: slideUp 3s forwards;
+   }
 	  
 	  
     } /*   結束手機板  */
