@@ -156,9 +156,9 @@
 
       .menu-toggle { display: flex; }
 	  
-	  .hero .content{ font-size:75%; width:98%; text-align:justify; margin-top:5rem; padding:10px; color:white; border-radius: 10px; }
+	  .hero .content{width:98%; text-align:justify; margin-top:5rem; padding:5px; color:white; border-radius: 10px; left: auto;  }
 	  
-	  h1 { font-size: 90%; text-align: center; margin-bottom :30px; border-bottom: solid 2px; border-top: solid 2px;}
+	  h1 { font-size:1.8rem; text-align: center; margin-top: 30px; margin-bottom :30px; border-bottom: solid 2px; border-top: solid 2px;}
 	  
 	  .p2{ padding:5px 20px 5px 30px; line-height:40px; line-align: center; font-size:larger;}
 	 
