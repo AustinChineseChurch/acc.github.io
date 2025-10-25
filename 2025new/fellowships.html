@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>奧斯汀華人教會華語堂團契及家庭小組</title>
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; line-height: 1.6; }
+
+    /* --- 導覽列 --- */
+    header {
+      position: fixed; top: 0; left: 0; width: 100%;
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 0.5rem 1rem; background: rgba(20,6,79,0.8);
+      z-index: 1000; backdrop-filter: blur(20px);
+    }
+    header .logo { font-size: 1.5rem; font-weight: bold; color: #fff; }
+	    /* Logo */
+    .logo {
+      display: flex; align-items: center;
+      color: #fff; font-weight: bold;
+      text-decoration: none; font-size: 1.2rem;
+    }
+    .logo img { height: 80px; margin-right: 0.5rem; }
+/*	nav {
+      width: 100%;
+	  background: rgba(20,6,79,0.7);
+      backdrop-filter: blur(6px);
+      z-index: 1000;
+    } */
+    nav ul { list-style: none; display: flex; }
+    nav ul li { position: relative; }
+    nav ul li a {
+      display: block; padding: 10px 20px; color: #fff; text-decoration: none;
+    }
+    nav ul li a:hover { background: rgba(25,55,155,0); color:#ffd745; }
+
+    /* 下拉選單 (桌機版 hover) */
+    nav ul ul {
+      position: absolute; top: 100%; left: 0;
+      background: rgba(0,6,79,0.9); 
+      display: none; flex-direction: column; min-width: 180px;
+    }
+    nav ul li:hover > ul { display: flex; }
+    nav ul ul li a { padding: 10px; }
+
+    /* 漢堡選單按鈕 */
+    .menu-toggle {
+      display: none; flex-direction: column; cursor: pointer;
+    }
+    .menu-toggle div {
+      width: 25px; height: 3px; background: #fff; margin: 4px 0;
+      transition: all 0.3s ease;
+    }
+
+	.content { text-align: center; margin-top:50px; padding:10px; color:white; background: rgba(27, 20, 125, 0.7); border-radius: 15px;	}
+	.content1 { width:75%; text-align: center; margin-top:50px; padding:10px; color:white; background: rgba(0, 0, 0, 0.5); border-radius: 15px; }
+
+    /* 手機 / 平板樣式 */
+    @media (max-width: 768px) {
+	
+	.content1 { width:110%; text-align: center; margin-top:50px; padding:5px; color:white; background: rgba(27, 20, 125, 0.7); border-radius: 15px; }
+	h1{ font-size:20px;}
+      nav {
+        position: absolute; top: 60px; right: 0;
+        width: 220px; background: rgba(0,0,0,0.95);
+        max-height: 0; overflow: hidden;
+        transition: max-height 0.3s ease-out;
+      }
+      nav.active { max-height: 500px; } /* 展開效果 */
+
+      nav ul {
+        flex-direction: column; width: 100%;
+      }
+      nav ul li { border-bottom: 1px solid rgba(255,255,255,0.1); }
+      nav ul li a { padding: 12px 16px; }
+
+      /* 手機版下拉選單：預設隱藏 */
+      nav ul ul {
+        position: static;
+        display: none;
+        background: rgba(0,0,0,0.8);
+      }
+      nav ul li.active > ul {
+        display: flex;
+      }
+
+      .menu-toggle { display: flex; }
+	  
+	  .content {font-size:80%; width:95%; }
+    }
+	
+
+
+    /* --- Section 1 (影片背景) --- */
+    .hero {
+      position: relative; height: 100vh; width: 100%; overflow: hidden;
+      display: flex; justify-content: center; align-items: center;
+    }
+    .hero video {
+      position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+      object-fit: cover; z-index: -1;
+    }
+    .hero .content {
+      color: #fff; text-align: center; background: rgba(0,0,0,0.5);
+      padding: 30px; border-radius: 15px;
+    }
+
+    /* --- Section 2 (卡片區) --- */
+    .section {
+      background: url('./imgs/landing_bk.jpg') no-repeat center center/cover;
+	  /*background: url('https://picsum.photos/1920/1080?blur=3') no-repeat center center/cover;*/
+      padding: 100px 20px; display: flex; justify-content: center;
+      gap: 30px; flex-wrap: wrap;
+    }
+    .card {
+	  text-align: center;
+      background: #fff; width: 350px; padding: 20px;
+      border-radius: 20px; box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+      opacity: 0; transform: translateY(50px);
+	  text-decoration: none;
+    }
+    .card.show {
+      animation: slideUp 1s forwards;
+    }
+	.card p {text-align:justify; text-decoration: none; }
+	
+	.clink {color: black; background-color: transparent; text-decoration: none; }
+/*	a:visited {color: black; background-color: transparent; text-decoration: none; }
+*/	
+	
+    @keyframes slideUp {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .card img { max-width: 100%; border-radius: 10px; }
+    .card h3 { margin: 15px 0 10px; }
+    .card p { color: #333; }
+	
+	footer{
+		background: -webkit-linear-gradient(top, rgba(26,6,79,0.5), rgba(13,7,41,1));
+		/*background: -moz-linear-gradient(top, #000, #40205f);
+		
+		/*background: linear-gradient(top, rgba(26,6,79,0), rgba(134,98,227,1));
+		/*background: rgba(64, 32, 95, 0.5);*/
+	/*	opacity: 0.57;*/
+		color: white !important;
+		height: 100px
+		padding: 2em;
+		text-align: center;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	footer p{
+	margin-top: 0.975em;
+	font-size: 0.9em;
+	line-height: 1.3;
+	color: white;
+}
+  </style>
+</head>
+<body>
+  <!-- 導覽列 -->
+  <header>
+    <div class="logo"><a href="index.html" class="logo"><img src="imgs/new_acclogo.png" alt="Logo" /></a></div>
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <div></div><div></div><div></div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">簡介 ▼</a>
+			<ul>
+				<li><a target="_blank" href="https://austinchinesechurch.github.io/acc.github.io/html/constitution.html">信仰與規章</a></li>
+				<li><a target="_blank" href="https://austinchinesechurch.github.io/acc.github.io/html/church_history.html">教會歷史</a></li>
+				<li><a href="cmv.html">價值與異象</a></li>
+				<li><a target="_blank" href="https://austinchinesechurch.org/WeeklyDocs/MandarinCoworkers.pdf">華語部同工</a></li>
+			</ul>
+		</li>
+        <li><a href="https://docs.google.com/document/d/e/2PACX-1vQFofynJeO5q1srUn2seLbCLktSl-vCQbwJAxYUqrYu5BRMEEQZDWuMFPWqSRX-H5rI91EYZu3_RRez/pub">團契</a></li>
+		<!--<li><a href="fellowships.html">團契</a></li>-->
+		
+		<li><a href="pray.html">禱告</a></li>
+		<li><a href="#">每日讀經靈修 ▼</a>							
+			<ul>
+				<li><a href="https://austinchinesechurch.github.io/acc.github.io/html/2_bible_readerplan.html">讀經生活日記</a></li>
+				<li><a href="https://austinchinesechurch.github.io/acc.github.io/html/1_spiritual_formation.html">讀經計畫與靈修材料</a></li>
+			</ul>
+		</li>
+		<li><a href="#">主日學 ▼</a>
+			<ul>
+				<li><a target="_blank" href="https://austinchinesechurch.org/docs/SSchool.pdf">本季主日學時間地點</a></li>
+				<li><a target="_blank" href="https://austinchinesechurch.org/docs/currentquarter.pdf">本季主日學內容</a></li>
+				<li><a target="_blank" href="https://lssaustin.org/Man/index.php/m-sundayschool/classhistory">主日學課程歷史</a></li>
+			</ul>
+		</li>
+		<li><a href="#">相關事工 ▼</a>
+			<ul>
+				<li><a target="_blank" href="https://www.acclighthouse.org/">青少年事工 YOUTH</a></li>
+				<li><a target="_blank" href="https://www.accchildren.org/">兒童事工 CHILDREN</a></li>
+				<li><a target="_blank" href="https://austinchinesechurch.github.io/acc.github.io/html/3_chinese_school.html">中文學校 CHINESE SCHOOL</a></li>
+			</ul>
+		</li>
+		<li><a href="#">聯繫我們 ▼</a>
+			<ul>
+				<li><a target="_blank" href="https://austinchinesechurch.github.io/acc.github.io/html/direction.html">地圖指引</a></li>
+				<li><a target="_blank" href="https://austinchinesechurch.github.io/acc.github.io/html/first_visit.html">初次來訪</a></li>
+				<li><a target="_blank" href="https://austinchinesechurch.github.io/acc.github.io/html/recruit.html">教牧及職員招聘</a></li>
+			</ul>
+		</li>
+		<li><a href="#">資源 ▼</a>
+			<ul>
+				<li><a target="_blank" href="https://www.youtube.com/@AustinChineseChurch/playlists">主日證道影片</a></li>
+				<li><a target="_blank" href="https://austinchinesechurch.org/WeeklyDocs/SundayBulletins.htm">教會週報</a></li>
+				<li><a target="_blank" href="yearreport.html">年度事工報告</a></li>
+				<li><a target="_blank" href="https://sites.google.com/austinchinesechurch.org/acc-education-building">建堂進度</a></li>
+				<!--	<li><a target="_blank" href="https://lssaustin.org/Man/administrator/">網站管理</a></li> -->
+			</ul>
+		</li>
+		<li><a target="_blank" href="https://acc.churchcenter.com/giving" class="button primary">網路奉獻</a></li>
+		<li><a target="_blank" href="https://austinchinesechurch.github.io/acc.github.io/" class="button primary">教會主頁</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 第一區 (影片背景) --
+  <section class="hero">
+    <video autoplay muted loop>
+      <source src="https://www.w3schools.com/howto/rain.mp4" type="video/mp4">
+    </video>
+
+    <div class="content">
+      <h1 style="color:#000;">奧斯汀華人教會華語堂團契及家庭小組</h1>
+      <p>奧斯汀華人教會現有許多個華語團契，也有好幾個家庭小組。團契及小組的主要目的是在主裡相互關愛，彼此連接，使每個肢體在主的話語上得以建造，一同興旺主的福音，以團契、小組的增長帶動教會的增長。</p>
+    </div>
+  </section>
+
+  <!-- 第二區 (卡片) -->
+  <section class="section">
+    <div class="content1" >
+      <h1 >奧斯汀華人教會華語堂團契及家庭小組</h1><br>
+      <p style="padding:15px; text-align: justify;">奧斯汀華人教會現有許多個華語團契，也有好幾個家庭小組。團契及小組的主要目的是在主裡相互關愛，彼此連接，使每個肢體在主的話語上得以建造，
+	     一同興旺主的福音，以團契、小組的增長帶動教會的增長。<br>
+		 <b>請按團契的方格已獲得更多的資訊</b>
+	  </p>
+    </div>
+	
+	<a class="clink" target="_blank" href="https://docs.google.com/document/d/1x-XAFIPKkVqKbbQqLXIvM_nxmjHQxcoAVAgRu6YgXdY/edit?tab=t.0">	
+		<div class="card">
+		  <img src="https://picsum.photos/300/200" alt="ACCCF 學生團契">
+		  <h3>ACCCF 學生團契</h3>
+		  <p>Austin Chinese Campus Christian Fellowship (ACCCF) 奧斯汀華人校園基督徒團契是本教會 (ACC) 支持的校園團契, 也是在德州大學 (UT) 登記的校園學生組織。<br>
+		     <b>每周五晚上6pm 在UT Student Services Building (SSB)聚會。 </b></p>
+		</div>
+	</a>
+	<a class="clink" target="_blank" href="https://utaf-web.github.io/utaf.github.io/">
+		<div class="card">
+		  <img src="https://picsum.photos/302/200" alt="UTAF 公寓團契">
+		  <h3>UTAF 德州大學公寓團契</h3>
+		  <p>歡迎你來到UTAF德州大學公寓團契。我們是一個以耶穌基督為中心, 以UT研究生，博後，訪問學者家庭為主要組成的華人信仰社團。<br>
+		     <b>每週五晚上6-9pm 在Far West 地區的Northwest Community Church聚會</b></p>
+		</div>
+	</a>
+    <a class="clink" target="_blank" href="https://docs.google.com/document/d/1zQRfhhtS9Q2HpxK5_oBlsrvb-QtrlC5m5SLQjvMZ8YU/edit?tab=t.0">
+		<div class="card">
+		  <img src="https://picsum.photos/301/200" alt="LLF 小靈羊職青團契">
+		  <h3>LLF Little Lambs 小靈羊職青團契</h3>
+		  <p>小靈羊團契是針對職業青年的華人基督團契。在這裡，我們分享主愛，彼此關愛，在主裡一起成長。我們歡迎所有年輕的基督徒及慕道友參加我們的活動。<br>
+		     <b>團契聚會時間：每週五晚上7:30PM 在教會明道樓聚會</b></p>
+		</div>
+	</a>
+	
+  </section>
+
+  <section class="section">
+    <a class="clink" target="_blank" href="https://docs.google.com/document/d/1QZDSje6ovuW-1eDYaMVXOT-Eck1T0abpS-ZgtMN_d9E/edit?tab=t.0">	
+		<div class="card">
+		  <img src="https://picsum.photos/307/200" alt="AFF 愛家貝家庭團契">
+		  <h3>Agape 愛家貝家庭團契</h3>
+		  <p>愛家貝家庭團契的主要服事對象為職青並有子女的家庭。目標是貫穿查經、討論和廣播，以及各地關懷分享，
+		     促進團契成員靈命成長、關係婚姻和親子關係，以建立合神心意的基督化家庭，服事教會並以宣揚福音為使命。<br>
+			 <b>聚會時間地點：每週五晚間7：30～9：30，ACC明道 MD5</b></p>
+		</div>
+	</a>
+    <a class="clink" target="_blank" href="https://accmff.wordpress.com/">		
+		<div class="card">
+		  <img src="https://picsum.photos/308/200" alt="MFF 國語家庭團契">
+		  <h3>MFF 國語家庭團契</h3>
+		  <p>團契的異象：愛神,愛人,在基督裏過得勝的生活, 榮耀主。 聚會內容以詩歌，禱告，見證分享，短講及小組研討式查經為主。<br>
+		     <b>每周五晚上7:30在教會的活動教室聚會。</b></p>
+		</div>
+	</a>
+    <a class="clink" target="_blank" href="https://sites.google.com/austinchinesechurch.org/nlf/%E5%85%B3%E4%BA%8E%E6%88%91%E4%BB%AC?authuser=0">	
+		<div class="card">
+		  <img src="https://picsum.photos/310/200" alt="NLF 新生命團契">
+		  <h3>NLF 新生命團契</h3>
+		  <p>新生命團契是一個以聖經為根基、充滿活力、喜樂和神的愛的家。團契的兄弟姊妹和朋友主要來自大陸，也有來自台灣、香港和新馬的亮點，大都來自德州大學、州職政府和本市高科技企業。<br>
+			 <b>聚會時間地點：每週五晚間7：30～10pm ACC 馬禮遜樓(Morrison Hall)</b></p>
+		</div>
+	
+  </section>
+
+  <section class="section">
+    <a class="clink" target="_blank" href="https://docs.google.com/document/d/1_-dgt-vc_jXq1Z7p3Akb9tR3Hcu_hIRPGIkiveLHy2Q/edit?tab=t.0">
+		<div class="card">
+		  <img src="https://picsum.photos/309/200" alt="MSF 芥菜種團契">
+		  <h3>MSF 芥菜種團契</h3>
+		  <p>芥菜種團契是在1986年成立，團契成立的宗旨是為要篤行在教會肢體之間的彼此建立,交流 ,與關懷。 
+		     並引領本地未固定參加教會或未參加教會的華人, 能經過團契生活成為耶穌基督的門徒。社區關懷、廣傳福音、引人歸主、靈命成長、造就是我們目前主要的工作目標。<br>
+			 每月的第二,四週六晚上 6:30 - 9:30 PM 在家網上(ZOOM)聚會</p>
+		</div>
+	</a>
+    <a class="clink" target="_blank" href="https://docs.google.com/document/d/1XPRehJoOMn3N75hyvX_9zhy2h0yg3YTfglW4RryFTWI/edit?tab=t.0">
+		<div class="card">
+		  <img src="https://picsum.photos/312/200" alt="SLF 光鹽團契">
+		  <h3>SLF 光鹽團契</h3>
+		  <p>光鹽團契是一個以住在奧斯汀西北區的華人家庭為主幹的團契。成員多半來自台灣或東南亞地區﹐是屬於孩子們成長的空巢型家庭。
+		     光鹽家庭團契是以「彼此關懷﹑彼此服事」為目標﹐在查經﹑分享﹑關懷﹑代禱和服事中共同成長靈命。<br>
+			 <b>每月的第二,四週六早上10點輪流在組員家聚會</b></p>
+		</div>
+	</a>
+    <a class="clink" target="_blank" href="https://austinchinesechurch.org/Women/">
+		<div class="card">
+		  <img src="https://picsum.photos/303/200" alt="WF 婦女天地">
+		  <h3>WF 婦女天地</h3>
+		  <p>奧斯汀華人教會的婦女天地是一個跨語言、跨團契、跨年齡、跨教會的團契。在這裡您可以遇到豐富的伯母，穩定重熱情的阿姨/姊妹，
+			 精力旺盛多才多藝的年輕媽媽，以及各種背景充滿愛心的姊妹。我們希望能藉此每週二的聚會，讓您的每一天都充滿歡樂和平安。<br>
+			 <b>每周二早上 9:45 AM 在教會明道樓 MD1聚會</b></p>
+		</div>
+	</a>
+
+  </section>
+
+  <section class="section">
+    <a class="clink" target="_blank" href="https://docs.google.com/document/d/1rySncxvGrFqyk0Zdv1jb_LBWf8SJMZv2IYetgO_dd6w/edit?tab=t.0">	
+		<div class="card">
+		  <img src="https://picsum.photos/304/200" alt="SMF 單親姊妹團契">
+		  <h3>SMF 單親姊妹團契</h3>
+		  <p>單親姐妹團契面向喪偶或者離婚的單親姐妹。我們彼此鼓勵扶持和關懷，帶領慕道友成為信徒，帮助信主的姐妹屬靈生命成長，成為門徒，透過我們生命的改變來為主做見證。<br>
+		     <b>每月第四個主日 12:30 PM在教會的活動教室聚會</b></p>
+		</div>
+	</a>
+    <a class="clink" target="_blank" href="https://docs.google.com/document/d/1jtvd4gN8GWl14NNrSkFzFQYPNaZ-8zs1NF8YmocRgyg/edit?tab=t.0">		
+		<div class="card">
+		  <img src="https://picsum.photos/305/200" alt="SC 長者天地">
+		  <h3>SC 長者天地</h3>
+		  <p>向教會內外的長者傳揚上帝的愛和救恩, 鼓勵他們彼此服侍 (to serve and to be served); 既能接受(receive)亦能給予(give)。<br>
+		     <b>每月一次, 第二周或第三周的周三上午10:00-1:00; Portable Building。</b></p>
+		</div>
+	</a>
+    <a class="clink" target="_blank" href="https://docs.google.com/document/d/1roD6-rUWrvIozfIYN0-5gEVyTfArg_FUkY6nJas3Ee4/edit?tab=t.0">	
+		<div class="card">
+		  <img src="https://picsum.photos/313/200" alt="Avery Ranch家庭小組">
+		  <h3>ARHG Avery Ranch家庭小組</h3>
+		  <p>成立於2019年2月，目前穩定參加聚會的人數約7-8人。主要在 Avery Ranch 社区附近的家庭。<br>
+			 <b>每月前四週的週六下午 4:00-6:00 輪流在組員家聚會</b></p>
+		</div>
+	</a>
+  </section>
+
+  <section class="section">
+    <a class="clink" target="_blank" href="https://docs.google.com/document/d/1mPz4Bd_mlqXT1Fu1vgECYufdLd_oWKHEdw1IwYVG_SI/edit?tab=t.0">
+		<div class="card">
+		  <img src="https://picsum.photos/315/200" alt="MXHG 慕溪家庭小組">
+		  <h3>MXHG 慕溪家庭小組</h3>
+		  <p>慕溪家庭小組成立之初的目的是接觸居住在Cedar Park周圍的華人，把耶穌的福音帶給他們家庭。<br>
+			 <b>每週五晚上7:15-9pm 輪流在組員家聚會</b></p>
+		</div>
+	</a>
+    <a class="clink" target="_blank" href="https://docs.google.com/document/d/1-GSlrZMffe3CQqhf8iCF5IYiaP1LKfiV-IWCpeqjrGE/edit?tab=t.0">		
+		<div class="card">
+		  <img src="https://picsum.photos/317/200" alt="SRHG 蒙愛小組">
+		  <h3>SRHG Steiner Ranch蒙愛小組</h3>
+		  <p>蒙愛小組組員主要是住在 Steiner Ranch 附近的家庭。<br>
+		     <b>每周五晚7:30-10:00在家庭聚會</b></p>
+		</div>
+	</a>
+    <a class="clink" target="_blank" href="https://docs.google.com/document/d/1mPz4Bd_mlqXT1Fu1vgECYufdLd_oWKHEdw1IwYVG_SI/edit?tab=t.0">
+		<div class="card">
+		  <img src="https://picsum.photos/315/200" alt="MXHG 慕溪家庭小組">
+		  <h3>MXNG 慕溪北家庭小組</h3>
+		  <p>慕溪家庭小組成立之初的目的是接觸居住在Round Rock周圍的華人，把耶穌的福音帶給他們家庭。<br>
+			 <b>每週五晚上7:15-9pm 輪流在組員家聚會</b></p>
+		</div>
+	</a>
+  </section> 
+  
+  <section class="section">
+    <a class="clink" target="_blank" href="https://docs.google.com/document/d/1fyaW97dO7yBKxcrRlmHxWdo3KT_ublfJwjmv2MTpvls/edit?tab=t.0">	
+		<div class="card">
+		  <img src="https://picsum.photos/316/200" alt="SHHG 西乃山姐妹小組">
+		  <h3>SSHG 香木甘泉小組</h3>
+		  <p>香木甘泉小組，以Spocewood Spring Canyon Vista 中學附近的家庭為主。<br>
+			 <b>每週五晚上7:30-9pm 輪流在組員家聚會</b></p>
+		</div>
+	</a>
+    <a class="clink" target="_blank" href="https://docs.google.com/document/d/1roD6-rUWrvIozfIYN0-5gEVyTfArg_FUkY6nJas3Ee4/edit?tab=t.0">	
+		<div class="card">
+		  <img src="https://picsum.photos/313/200" alt="Avery Ranch家庭小組">
+		  <h3>方舟家庭小組</h3>
+		  <p>成立於2025年8月，以Anderson Mill社區附近的家庭為主。<br>
+			 <b>每週五晚上7:30-9pm 輪流在組員家聚會</b></p>
+		</div>
+	</a>
+    <a class="clink" target="_blank" href="https://docs.google.com/document/d/1R6mUinuEoFXw4ereYioXO9vDLheIyUvWg5LmctCDdPg/edit?tab=t.0">		
+		<div class="card">
+		  <img src="https://picsum.photos/314/200" alt="BGHG 標竿小組">
+		  <h3>福禄阁家庭小组</h3>
+		  <p>福禄阁家庭小组組員主要是以Pflugerville社区附近的家庭及退休人士<br>
+		     <b>每周五晚上在家庭聚會</b></p>
+		</div>
+	</a>
+  </section>
+ 
+  <section class="section" style=">
+    <a class="clink" target="_blank" href="https://docs.google.com/document/d/1fyaW97dO7yBKxcrRlmHxWdo3KT_ublfJwjmv2MTpvls/edit?tab=t.0">	
+		<div class="card">
+		  <img src="https://picsum.photos/330/200" alt="SHHG 西乃山姐妹小組">
+		  <h3>溪谷家庭小組</h3>
+		  <p>溪谷家庭小組，以Canyon Creek 附近的家庭為主。<br>
+			 <b>每月的第二、四週六晚上7pm-9pm 輪流在組員家聚會</b></p>
+		</div>
+	</a>
+<!--
+    <a class="clink" target="_blank" href="https://docs.google.com/document/d/1roD6-rUWrvIozfIYN0-5gEVyTfArg_FUkY6nJas3Ee4/edit?tab=t.0">	
+		<div class="card">
+		  <img src="https://picsum.photos/313/200" alt="Avery Ranch家庭小組">
+		  <h3>方舟家庭小組</h3>
+		  <p>成立於2025年8月，以Anderson Mill社區附近的家庭為主。<br>
+			 <b>每週五晚上7:30-9pm 輪流在組員家聚會</b></p>
+		</div>
+	</a>
+    <a class="clink" target="_blank" href="https://docs.google.com/document/d/1R6mUinuEoFXw4ereYioXO9vDLheIyUvWg5LmctCDdPg/edit?tab=t.0">		
+		<div class="card">
+		  <img src="https://picsum.photos/314/200" alt="BGHG 標竿小組">
+		  <h3>BGHG 標竿小組</h3>
+		  <p>標杆小組組員主要是住在 Austin 南邊 Westlake 附近的家庭。小組的異像是將福音傳給身邊的鄰居朋友，使基督的愛藉著我們弟兄姐妹傳播出去。<br>
+		     <b>每周五晚上在家庭聚會</b></p>
+		</div>
+	</a>
+-->
+  </section> 
+
+ 
+  <script>
+    function toggleMenu() {
+      document.querySelector("nav").classList.toggle("active");
+    }
+
+    // Intersection Observer 逐一動畫
+    const cards = document.querySelectorAll(".card");
+    const observer = new IntersectionObserver((entries, obs) => {
+      entries.forEach((entry, index) => {
+        if (entry.isIntersecting) {
+          // 依序延遲
+          setTimeout(() => {
+            entry.target.classList.add("show");
+          }, index * 300);
+          obs.unobserve(entry.target); // 只執行一次
+        }
+      });
+    }, { threshold: 0.3 });
+
+    cards.forEach(card => observer.observe(card));
+  </script>
+  
+   <footer>
+	<h3>奧斯汀華人教會<br>Austin Chinese Church</h3>
+	<p>11118 Dessau Road, Austin, TX 78754<br>Phone: 512-339-8675<br>Fax: 512-339-9556<br>
+	<a style="color: white; background-color: transparent; text-decoration: underline;" href="mailto:contact@austinchinesechurch.org">contact@austinchinesechurch.org</a></p>
+	<p class="copyright">© Austin Chinese Church. 2023. All rights reserved.</p>
+  </footer>
+</body>
+</html>

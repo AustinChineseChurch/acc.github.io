@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+	<title>奧斯汀華人教會華語堂</title>
+<!--	<link rel="stylesheet" href="css/styles.css" />-->
+	<style>
+		* { box-sizing: border-box; margin: 0; padding: 0; }
+		body { font-family: sans-serif; }
+
+		/* --- Navbar --- */
+		nav {
+		  position: fixed; top: 0; left: 0; width: 100%; padding: 0.5rem 1rem; 
+		  justify-content: space-between; background: rgba(20,6,79,0.8);
+		  backdrop-filter: blur(20px); z-index: 1000;
+		}
+		.nav-container {
+		  max-width: 100%; margin: 0 auto; display: flex;
+		  align-items: center; justify-content: space-between;
+		  padding: 0.5rem 1rem;
+		}
+
+		/* Logo */
+		.logo {display: flex; align-items: center; color: #fff;
+		  font-weight: bold; text-decoration: none; font-size: 1.2rem;
+		}
+		.logo img { height: 80px;  margin-right: 0.5rem; }
+
+		/* Menu (desktop) */
+		.menu { list-style: none; display: flex; gap: 1rem; }
+		.menu > li { position: relative;}
+		.menu a {
+		  color: #fff; text-decoration: none; padding: 0.5rem 0.75rem; display: block;}
+		.menu a:hover {
+		  background: rgba(25,55,155,0);
+		  color:#ffd745;
+		  border-radius: 6px;
+		}
+
+		/* Dropdown */
+		.menu li ul {
+		  position: absolute; top: 100%; left: 0; background: rgba(0, 6, 79, 0.9);
+		  min-width: 200px; display: none; flex-direction: column; border-radius: 6px;
+		}
+		.menu li:hover > ul { display: flex;}
+		.menu li ul li ul { left: 100%; top: 0; }
+
+		/* Dropdown link */
+		.menu li ul a {padding: 0.5rem 0.75rem; color: #fff;}
+
+		/* --- Mobile hamburger --- */
+		.hamburger { display: none; flex-direction: column; cursor: pointer; gap: 4px;}
+		.hamburger span { display: block; width: 24px; height: 3px; background: #fff; }
+
+
+		/* Mobile menu hidden by default */
+		@media (max-width: 768px) {
+		  .menu {
+			position: absolute; top: 100%; right: 0;
+			background: rgba(0,0,0,0.9); flex-direction: column;
+			width: 220px; max-height: 0; overflow: hidden;
+			transition: max-height 0.3s ease;
+		  }
+
+		  .menu.show { max-height: 600px; } /* 展開 */
+		  .menu li ul {
+			position: static; background: rgba(0,0,0,0.8);	display: none;
+		  }
+		  .menu li.show > ul { display: flex; }
+		  .hamburger { display: flex; }
+		  .content table{ widht:90%; font-size:90%; margin-left:10px; padding:4px; }
+		}
+
+		/* Push content down */
+		header { height: 60px; }
+
+		/* --- Hero section --- */
+		.hero {
+		  background: url('imgs/yrt_bk.jpg') no-repeat center center/cover;
+		  position: relative; min-height: 100vh; display: flex; 
+		  align-items: center;  justify-content: center; overflow: hidden;
+		}
+		.hero video {
+		  position: absolute; inset: 0; width: 100%; height: 100%;
+		  object-fit: cover; z-index: 0;
+		}
+		.hero::after {
+		  content:""; position: absolute; inset:0;
+		  background: rgba(0,0,0,0.4); color:white; z-index:1;
+		}
+		.hero .content {
+		  position: relative; width:75%; z-index: 2; color: #fff;
+		  text-align: center; padding: 1rem; margin: 10px;
+		  background: rgba(0,0,0,0); border-radius: 12px; letter-spacing: 2px;
+		}
+		.content a:link {/*padding: 0.5rem 0.75rem;*/ color: #fff; text-decoration: none;}
+		.content a:hover {color:#ffd745;}
+		.content a:visited {color: #a0a0a0;}
+		
+		.contenth1 {
+			text-align:center; margin:5px 0px 5px 0px;
+		/*	font-size:18px;*/
+			border-bottom: solid 2px; border-top: solid 2px; 
+			padding:10px; text-transform: uppercase;
+			}
+		.contenth3 {font-weight:300; letter-spacing:0.3em; 	margin: 10px 50px 10px 50px;}
+
+		/* --- Pattern sections --- */
+		.panel {
+		  padding: 6rem 1rem; text-align: center; background: rgba(0, 0, 0, 0.2); }
+		.panel .content {
+			position: relative; left: 60px; width: 85%;	z-index: 2; color: #fff;
+			text-align: center ; padding: 2rem;	margin: 10px 20px 10px 20px;
+		/*	background: rgba(0, 0, 0, 0.4);*/ border-radius: 12px;
+		}
+		
+		.panel table{
+			width:70%; padding: 10px; border: 4px solid; border-radius: 10px;
+			margin: 10px 30px 20px 10px; text-align: center; line-height: 50px;
+		}
+		.panel td{vertical-align: top;	height:60px;}
+		
+		.pattern-1 {
+	  /*    background: repeating-linear-gradient(
+			45deg, #f5f5  f5, #f5f5f5 20px, #e0e0e0 20px, #e0e0e0 40px
+		  );*/
+			background-image: url("../imgs/acc_building.jpg");
+			background-size: cover; /* Scales the image to cover the entire viewport */
+			background-position: center center; /* Centers the image horizontally and vertically */
+			background-repeat: no-repeat; /* Prevents the image from repeating */
+			background-attachment: fixed; /* Keeps the background image fixed while scrolling content */
+			margin: 0; /* Removes default body margin, preventing whitespace */
+			height: 100vh; /* Ensures the body takes up the full viewport height */
+			color: #ffffff;
+		/*	opacity: 0.5; /* 50% transparency */
+		}
+		.pattern-2 {
+		  background: repeating-linear-gradient(
+			-45deg, #fafafa, #fafafa 25px, #ddd 25px, #ddd 50px
+		  );
+		}
+		
+		h3{	padding:5px 0 5px 0px;}
+				
+		p2{ padding:5px 20px 5px 30px; line-height:30px; }
+		
+		.content table{ widht:60%; backrgound-color: white solid 2; border-radius: 10px; left:30px; }
+		  
+		@media (max-width: 768px) {
+			.p2{ padding:5px 20px 5px 30px; line-height:18px;}
+			.contenth3 { font-weight:300; letter-spacing:0.3em;	line-height:12px; margin: 10px 10px 10px 5px; }
+			.contenth1 {
+				text-align:center; margin:5px 0px 5px 0px; font-size:18px;
+				border-bottom: solid 2px; border-top: solid 2px; padding:10px;
+				text-transform: uppercase;
+			}
+			.table1 {
+			  widht:100%; border: white solid 2; font-size:85%;
+			  border-radius: 5px; left:30px; vertical-align: top;
+			}
+			
+			.hero .content {
+			  position: relative; width:75%; z-index: 2; color: #fff;
+			  text-align: center; padding: 1rem; margin: 5px; size:small;
+			  background: rgba(0,0,0,0); border-radius: 12px; letter-spacing: 2px;
+		}
+			}
+			
+			.panel .content {
+				position: relative;	left: 0px; width: 95%; z-index: 2;
+				color: #fff; line-height:10px; text-align: justify ;
+				padding: .5rem;	margin: 10px 20px 10px 20px; border-radius: 10px;
+				/*	background: rgba(0, 0, 0, 0.4);*/
+			}
+			
+			.panel table{ width:80%; padding: 10px;	border: 4px solid;
+				border-radius: 10px; margin: 10px 30px 20px 10px;
+				text-align: center;	line-height: 30px;
+			}
+			
+			.panel td{ vertical-align: top;	text-align: justify; height:60px; }	
+		}
+		
+		.table1 {
+			  width:60%;
+			  border: 2px solid white;
+			  border-radius: 5px;
+			  align: center;
+			  margin:5px;
+			  line-height: 30px;
+			  padding: 1rem;
+		}
+		
+		h3{
+				padding:5px 0 5px 5px;
+		}
+				
+		p{
+				padding:5px 20px 5px 30px; 
+				line-height:30px;
+		}
+		
+		.content table{
+			  widht:60%;
+			  backrgound-color: white solid 2;
+			  border-radius: 10px;
+			  left:30px;
+		}
+
+	footer{
+		background: -webkit-linear-gradient(top, rgba(26,6,79,0.5), rgba(13,7,41,1));
+		/*background: -moz-linear-gradient(top, #000, #40205f);
+		
+		/*background: linear-gradient(top, rgba(26,6,79,0), rgba(134,98,227,1));
+		/*background: rgba(64, 32, 95, 0.5);*/
+	/*	opacity: 0.57;*/
+		color: white !important;
+		height: 100px
+		padding: 2em;
+		text-align: center;
+		align-items: center;
+		justify-content: center;
+	}
+
+	footer p{
+		margin-top: 0.975em;
+		font-size: 0.9em;
+		line-height: 1.3;
+		color: white;
+	}
+
+	.copyright{
+		font-size: 0.875em;
+		margin-top: 1.1em;
+		color: darkgray;
+	}
+
+		footer p{
+		margin-top: 0.975em; font-size: 0.9em; color: white; text-align:center;
+	}
+	/*  移動式方框   */
+	.draggable-box {
+	  width: 150px; height: auto; background: rgba(0, 123, 255, 0.8);
+	  color: white; display: flex; align-items: center; justify-content: center; 
+	  position: absolute; top: 100px; left: 100px; border-radius: 10px; cursor: move; 
+	  user-select: none; box-shadow: 0 4px 12px rgba(0,0,0,0.3); transition: box-shadow 0.2s;
+	}
+
+	.draggable-box:active {box-shadow: 0 8px 20px rgba(0,0,0,0.5);}
+
+	  /* 浮動方框 */
+	  .floating-box {
+		position: fixed;       /* 固定在畫面上 */
+		top:100px;
+		/*bottom: 20px;          /* 距離底部 20px */
+		right: 10px;           /* 距離右邊 20px */
+		background: rgba(60,60,60,0.7);  /* 半透明黑底 */
+		color: #fff;
+		padding: 10px;
+		border-radius: 15px;
+		box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+		width: 20%;
+		height: auto;
+		z-index: 88;         /* 確保在最上層 */
+		transition: opacity 0.5s ease;
+		animation: slideUp 3s forwards;
+
+	  }
+
+	  /* 可選：滑鼠移入特效 */
+	  .floating-box:hover { background: rgba(70,70,180,1); }
+
+	  /* 手機板調整 */
+	  @media (max-width: 768px) {
+		.floating-box { bottom: 10px; right: 10px;  width: 160px;  padding: 15px; font-size: 0.9rem; }
+	  }
+	</style>
+ </head>
+<body>
+
+<!-- Navbar -->
+<nav>
+	<div class="nav-container">
+	    <div class="logo"><a href="index.html" class="logo"><img src="imgs/new_acclogo.png" alt="Logo" /></a></div>
+		<div class="menu-toggle" id="menuToggle">
+			<span></span><span></span><span></span>
+		</div>
+
+      <!-- Hamburger (mobile only) -->
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+
+      <!-- Menu -->		
+		<ul class="menu" id="menu">
+			<li><a href="#">簡介 ▼</a>
+				<ul>
+					<li><a target="_blank" href="https://austinchinesechurch.github.io/acc.github.io/html/constitution.html">信仰與規章</a></li>
+					<li><a target="_blank" href="https://austinchinesechurch.github.io/acc.github.io/html/church_history.html">教會歷史</a></li>
+		<!--			<li><a href="bylaw.html">教會規章</a></li>  -->
+					<li><a target="_blank" href="https://austinchinesechurch.github.io/acc.github.io/html/staff.html">教牧及職員</a></li>
+				</ul>
+			</li>
+			<li><a target="_blank" href="fellowships.html">團契</a></li>
+			<li><a href="#">禱告</a></li>
+			<li><a href="#">每日讀經靈修 ▼</a>							
+				<ul>
+					<li><a href="https://austinchinesechurch.github.io/acc.github.io/html/2_bible_readerplan.html">讀經生活日記</a></li>
+					<li><a href="https://austinchinesechurch.github.io/acc.github.io/html/1_spiritual_formation.html">讀經計畫與靈修材料</a></li>
+				</ul>
+			</li>
+			<li><a href="#">主日學 ▼</a>
+				<ul>
+					<li><a target="_blank" href="https://austinchinesechurch.org/docs/SSchool.pdf">本季主日學時間地點</a></li>
+					<li><a target="_blank" href="https://austinchinesechurch.org/docs/currentquarter.pdf">本季主日學內容</a></li>
+					<li><a target="_blank" href="https://lssaustin.org/Man/index.php/m-sundayschool/classhistory">主日學課程歷史</a></li>
+				</ul>
+			</li>
+			<li><a href="#">相關事工 ▼</a>
+				<ul>
+					<li><a target="_blank" href="https://www.acclighthouse.org/">青少年事工 YOUTH</a></li>
+					<li><a target="_blank" href="https://www.accchildren.org/">兒童事工 CHILDREN</a></li>
+					<li><a target="_blank" href="https://austinchinesechurch.github.io/acc.github.io/html/3_chinese_school.html">中文學校 CHINESE SCHOOL</a></li>
+				</ul>
+			</li>
+			<li><a href="#">聯繫我們 ▼</a>
+				<ul>
+					<li><a target="_blank" href="https://austinchinesechurch.github.io/acc.github.io/html/direction.html">地圖指引</a></li>
+					<li><a target="_blank" href="https://austinchinesechurch.github.io/acc.github.io/html/first_visit.html">初次來訪</a></li>
+					<li><a target="_blank" href="https://austinchinesechurch.github.io/acc.github.io/html/recruit.html">教牧及職員招聘</a></li>
+				</ul>
+			</li>
+			<li><a href="#">資源 ▼</a>
+				<ul>
+					<li><a target="_blank" href="https://www.youtube.com/@AustinChineseChurch/playlists">主日證道影片</a></li>
+					<li><a target="_blank" href="https://austinchinesechurch.org/WeeklyDocs/SundayBulletins.htm">教會週報</a></li>
+					<li><a target="_blank" href="yearreport.html">年度事工報告</a></li>
+					<li><a target="_blank" href="https://sites.google.com/austinchinesechurch.org/acc-education-building">建堂進度</a></li>
+				<!--	<li><a target="_blank" href="https://lssaustin.org/Man/administrator/">網站管理</a></li> -->
+				</ul>
+			</li>
+			<li><a target="_blank" href="https://acc.churchcenter.com/giving" class="button primary">網路奉獻</a></li>
+			<li><a target="_blank" href="https://austinchinesechurch.github.io/acc.github.io/" class="button primary">教會主頁</a></li>
+
+      </ul>
+    </div>
+</nav>
+
+  <!-- 空header避免被navbar遮住 
+	<header></header> -->
+<br>
+
+<section class="hero">
+
+	<div class="content">
+		<h2><a target="_blank" href="yearreport/2024Yearly.pdf">ACC 華語堂 2024 各事工年度報告</a></h2>
+		<h2><a target="_blank" href="yearreport/2023Yearly.pdf">ACC 華語堂 2023 各事工年度報告</a></h2>
+		<h2><a target="_blank" href="yearreport/2022Yearly.pdf">ACC 華語堂 2022 各事工年度報告</a></h2>
+		<h2><a target="_blank" href="yearreport/2021Yearly.pdf">ACC 華語堂 2021 各事工年度報告</a></h2>
+		<h2><a target="_blank" href="yearreport/2020Yearly.pdf">ACC 華語堂 2020 各事工年度報告</a></h2>
+		<h2><a target="_blank" href="yearreport/2019Yearly.pdf">ACC 華語堂 2019 各事工年度報告</a></h2>
+		<h2><a target="_blank" href="yearreport/2018Yearly.pdf">ACC 華語堂 2018 各事工年度報告</a></h2>
+		<h2><a target="_blank" href="yearreport/2017Yearly.pdf">ACC 華語堂 2017 各事工年度報告</a></h2>
+		<h2><a target="_blank" href="yearreport/2016Yearly.pdf">ACC 華語堂 2016 各事工年度報告</a></h2>
+		<h2><a target="_blank" href="yearreport/2015Yearly.pdf">ACC 華語堂 2015 各事工年度報告</a></h2>
+    </div>
+  </section>
+
+  <!-- Pattern Section 1 --
+  <section class="panel pattern-1">
+	
+    <div class="panel content">
+		<div align="center">
+			<h1>主日敬拜時間</h1><br>
+			<table>
+				<tr>
+					<td align="center"><h3>09:30AM</h3></td><td><h3>成人主日學<br>兒童部活動</h3></td>
+				</tr>
+				<tr>
+					<td><h3>11:10AM</h3></td><td><h3>主日崇拜</h3></td>
+				</tr>		
+				<tr>
+					<td><h3>12:15PM</h3></td><td><h3>主日午餐</h3></td>
+				</tr>
+				<tr><td colspan="2"><br><p>成人聚會時間同時有：嬰幼兒照顧，兒童主日學/兒童崇拜，和青少年聚會。</p></td></tr>
+			</table>
+
+	  </div>
+    </div>
+  </section>
+
+  <!-- Pattern Section 2 --
+  <section class="panel pattern-2">
+    <div class="content">
+      <h2>圖案背景區塊二</h2>
+      <p>這裡可以放更多內容或特色介紹。</p>
+    </div>
+  </section>
+  -->
+  <script>
+    // 手機版選單切換
+    const hamburger = document.getElementById('hamburger');
+    const menu = document.getElementById('menu');
+
+    hamburger.addEventListener('click', () => {
+      menu.classList.toggle('show');
+    });
+
+    // 手機版支援多層展開
+    document.querySelectorAll('.menu li > a').forEach(link => {
+      link.addEventListener('click', e => {
+        const parentLi = e.target.parentElement;
+        if (parentLi.querySelector('ul')) {
+          e.preventDefault(); // 防止直接跳連結
+          parentLi.classList.toggle('show');
+        }
+      });
+    });
+  </script>
+  
+  <footer>
+	<h3>奧斯汀華人教會<br>Austin Chinese Church</h3>
+	<p>11118 Dessau Road, Austin, TX 78754<br>Phone: 512-339-8675<br>Fax: 512-339-9556<br>
+	<a style="color: white; background-color: transparent; text-decoration: underline;" href="mailto:contact@austinchinesechurch.org">contact@austinchinesechurch.org</a></p>
+	<p class="copyright">© Austin Chinese Church. 2023. All rights reserved.</p>
+  </footer>
+</body>
+</html>
