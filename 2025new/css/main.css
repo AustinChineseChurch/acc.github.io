@@ -305,6 +305,7 @@
   @media (max-width: 768px) {
     
 	.floating-box {
+		disply: block;
 		position: fixed;       /* 固定在畫面上 */
 		top:115px;
 		/*bottom: 20px;          /* 距離底部 20px */
@@ -332,6 +333,7 @@
 */
 
   }
+
 
 
 
