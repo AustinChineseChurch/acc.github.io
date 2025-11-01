@@ -196,7 +196,7 @@
 
     /* --- Section 2 (卡片區) --- */
     .section {
-      background: url('./imgs/acc_building.jpg') no-repeat center center/cover;
+      background: url('./imgs/landing_bk.jpg') no-repeat center center/cover;
       padding: 100px 20px; display: flex; justify-content: left;/* 平常是center, 有特會時改left  */
       gap: 30px; flex-wrap: wrap;
     }
@@ -332,5 +332,6 @@
 */
 
   }
+
 
 
