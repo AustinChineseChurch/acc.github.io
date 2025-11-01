@@ -305,7 +305,6 @@
   @media (max-width: 768px) {
     
 	.floating-box {
-		disply: none;
 		position: fixed;       /* 固定在畫面上 */
 		top:115px;
 		/*bottom: 20px;          /* 距離底部 20px */
@@ -320,6 +319,8 @@
 		z-index: 88;         /* 確保在最上層 */
 		transition: opacity 0.5s ease;
 		animation: slideUp 3s forwards;
+
+		display: none;
    }
 /*	
 	.floating-box {
@@ -333,6 +334,7 @@
 */
 
   }
+
 
 
 
