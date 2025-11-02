@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>奧斯汀華人教會華語堂團契及家庭小組</title>
+  <link rel="stylesheet" href="css/main.css" />
+
+<!-- CDN 載入 繁簡自動切換 opencc-js（正式版） -->
+  <script src="https://cdn.jsdelivr.net/npm/opencc-js@1.0.6/dist/browser.min.js"></script>
+<!--
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; line-height: 1.6; }
+
+    /* --- 導覽列 --- */
+    header {
+      position: fixed; top: 0; left: 0; width: 100%;
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 0.5rem 1rem; background: rgba(20,6,79,0.8);
+      z-index: 1000; backdrop-filter: blur(20px);
+    }
+    header .logo { font-size: 1.5rem; font-weight: bold; color: #fff; }
+	    /* Logo */
+    .logo {
+      display: flex; align-items: center;
+      color: #fff; font-weight: bold;
+      text-decoration: none; font-size: 1.2rem;
+    }
+    .logo img { height: 80px; margin-right: 0.5rem; }
+/*	nav {
+      width: 100%;
+	  background: rgba(20,6,79,0.7);
+      backdrop-filter: blur(6px);
+      z-index: 1000;
+    } */
+    nav ul { list-style: none; display: flex; }
+    nav ul li { position: relative; }
+    nav ul li a {
+      display: block; padding: 10px 20px; color: #fff; text-decoration: none;
+    }
+    nav ul li a:hover { background: rgba(25,55,155,0); color:#ffd745; }
+
+    /* 下拉選單 (桌機版 hover) */
+    nav ul ul {
+      position: absolute; top: 100%; left: 0;
+      background: rgba(0,6,79,0.9); 
+      display: none; flex-direction: column; min-width: 180px;
+	  border-radius: 6px;
+    }
+    nav ul li:hover > ul { display: flex; }
+    nav ul ul li a { padding: 10px; }
+
+    /* 漢堡選單按鈕 */
+    .menu-toggle {
+      display: none; flex-direction: column; cursor: pointer;
+    }
+    .menu-toggle div {
+      width: 25px; height: 3px; background: #fff; margin: 4px 0;
+      transition: all 0.3s ease;
+    }
+
+   /* --- Pattern sections --- */
+    .panel {
+      padding: 6rem 1rem;
+      text-align: center;
+	  background: rgba(0, 0, 0, 0.2);
+    }
+	.panel .content {
+		position: relative;
+		left: 60px;
+		width: 85%;
+		z-index: 2;
+		color: #fff;
+		text-align: center ;
+		padding: 2rem;
+		margin: 10px 20px 10px 20px;
+	/*	background: rgba(0, 0, 0, 0.4);*/
+		border-radius: 12px;
+	}
+	
+	.panel table{
+		width:70%;
+		padding: 10px;
+		border: 4px solid;
+		border-radius: 10px;
+		margin: 10px 30px 20px 10px;
+		text-align: center;
+		line-height: 50px;
+	}
+	.panel td{
+		vertical-align: top;
+		height:60px;
+	}
+	
+    .pattern-1 {
+  /*    background: repeating-linear-gradient(
+        45deg, #f5f5  f5, #f5f5f5 20px, #e0e0e0 20px, #e0e0e0 40px
+      );*/
+		background-image: url("img/acc_building.jpg");
+		background-size: cover; /* Scales the image to cover the entire viewport */
+		background-position: center center; /* Centers the image horizontally and vertically */
+		background-repeat: no-repeat; /* Prevents the image from repeating */
+		background-attachment: fixed; /* Keeps the background image fixed while scrolling content */
+		margin: 0; /* Removes default body margin, preventing whitespace */
+		height: 100vh; /* Ensures the body takes up the full viewport height */
+		color: #ffffff;
+	/*	opacity: 0.5; /* 50% transparency */
+    }
+    .pattern-2 {
+      background: repeating-linear-gradient(
+        -45deg, #fafafa, #fafafa 25px, #ddd 25px, #ddd 50px
+      );
+	}
+	
+	h3{	padding: 20px 25px 15px 10px;	}
+			
+	.p2{ padding:5px 20px 5px 30px; line-height:40px; }
+	
+	p{ text-align:justify; font-size:larger;}
+
+ /* --- Section 1 (影片背景) --- */
+    .hero {
+      position: relative; height: 100vh; width: 100%; overflow: hidden;
+      display: flex; justify-content: center; align-items: center;
+    }
+    .hero video {
+      position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+      object-fit: cover; z-index: -1;
+    }
+	
+    .hero .content {
+      color: #fff; text-align: center; background: rgba(0,0,0,0.4);
+      padding: 40px; border-radius: 10px; width:75%; margin-top:1rem;
+	  position: relative;
+    }
+
+    /* 手機 / 平板樣式 */
+    @media (max-width: 768px) {
+      nav {
+        position: absolute; top: 60px; right: 0;
+        width: 220px; background: rgba(0,0,0,0.95);
+        max-height: 0; overflow: hidden;
+        transition: max-height 0.3s ease-out;
+      }
+      nav.active { max-height: 500px; } /* 展開效果 */
+
+      nav ul {
+        flex-direction: column; width: 100%;
+      }
+      nav ul li { border-bottom: 1px solid rgba(255,255,255,0.1); }
+      nav ul li a { padding: 12px 16px; }
+
+      /* 手機版下拉選單：預設隱藏 */
+      nav ul ul {
+        position: static;
+        display: none;
+        background: rgba(0,0,0,0.8);
+      }
+      nav ul li.active > ul {
+        display: flex;
+      }
+
+      .menu-toggle { display: flex; }
+	  
+	  .hero .content{ width:98%; text-align:justify; margin-top:5rem; padding:10px; color:white; border-radius: 10px; }
+	  
+	  h1 { text-align: center; }
+	  
+	  .p2{ padding:5px 20px 5px 30px; line-height:40px; line-align: center; font-size:larger;}
+	 
+	 .panel .content {
+		position: relative;
+		left: 0px;
+		width: 95%;
+		z-index: 2;
+		color: #fff;
+		text-align: center ;
+		padding: 2rem;
+		margin: 10px;
+	/*	background: rgba(0, 0, 0, 0.4);*/
+		border-radius: 12px;
+	}
+	 
+	 .panel table{
+		width:100%; padding: 5px; border: 4px solid; border-radius: 10px;
+		margin: 10px; text-align: center; line-height: 20px;
+	}
+	.panel td{
+		vertical-align: top; height:60px;
+	}
+	  
+	  
+    } /*   結束手機板  */
+
+	.panel table{
+		width:100%; padding: 5px; border: 4px solid; border-radius: 10px;
+		margin: 10px; text-align: center; line-height: 20px;
+	}
+	.panel td{
+		vertical-align: top; height:60px;
+	}
+
+    /* --- Section 2 (卡片區) --- */
+    .section {
+      background: url('https://picsum.photos/1920/1080?blur=3') no-repeat center center/cover;
+      padding: 100px 20px; display: flex; justify-content: center;
+      gap: 30px; flex-wrap: wrap;
+    }
+    .card {
+	  text-align: center;
+      background: #fff; width: 350px; padding: 20px;
+      border-radius: 20px; box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+      opacity: 0; transform: translateY(50px);
+	  
+	  text-decoration: none;
+    }
+    .card.show {
+      animation: slideUp 1s forwards;
+    }
+	.card p {text-align:justify; text-decoration: none; }
+	
+	.clink {color: white; background-color: transparent; text-decoration: none; }
+	.clink_w {color: white; background-color: transparent; text-decoration: none; }
+	
+/*	a:visited {color: black; background-color: transparent; text-decoration: none; }
+*/	
+	
+    @keyframes slideUp {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .card img { max-width: 100%; border-radius: 10px; }
+    .card h3 { margin: 15px 0 10px; }
+    .card p { color: #333; }
+	
+	footer{
+		background: -webkit-linear-gradient(top, rgba(26,6,79,0.5), rgba(13,7,41,1));
+		/*background: -moz-linear-gradient(top, #000, #40205f);
+		
+		/*background: linear-gradient(top, rgba(26,6,79,0), rgba(134,98,227,1));
+		/*background: rgba(64, 32, 95, 0.5);*/
+	/*	opacity: 0.57;*/
+		color: white !important;
+		height: 100px
+		padding: 2em;
+		text-align: center;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	footer p{
+	margin-top: 0.975em; font-size: 0.9em; color: white; text-align:center;
+}
+/*  移動式方框   */
+.draggable-box {
+  width: 150px;
+  height: 100px;
+  background: rgba(0, 123, 255, 0.8);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  border-radius: 10px;
+  cursor: move;
+  user-select: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transition: box-shadow 0.2s;
+}
+
+.draggable-box:active {
+    background: rgba(70,70,180,1);
+}
+
+  /* 浮動方框 */
+  .floating-box {
+    position: fixed;       /* 固定在畫面上 */
+    top:100px;
+	/*bottom: 20px;          /* 距離底部 20px */
+    right: 10px;           /* 距離右邊 20px */
+    background: rgba(60,60,60,0.7);  /* 半透明黑底 */
+    color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    width: 20%;
+	height: auto;
+    z-index: 88;         /* 確保在最上層 */
+    transition: opacity 0.5s ease;
+	animation: slideUp 3s forwards;
+
+  }
+
+  /* 可選：滑鼠移入特效 */
+  .floating-box:hover {
+    background: rgba(0,0,0,0.9);
+  }
+
+  /* 手機板調整 */
+  @media (max-width: 768px) {
+    .floating-box {
+      bottom: 10px;
+      right: 10px;
+      width: 160px;
+      padding: 15px;
+      font-size: 0.9rem;
+	  
+    }
+  }
+  
+  </style>
+-->
+</head>
+<body>
+  <!-- 導覽列 -->
+  <header>
+    <div class="logo"><a href="index.html" class="logo"><img src="imgs/new_acclogo.png" alt="Logo" /></a></div>
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <div></div><div></div><div></div>
+    </div>
+    <nav>
+     <ul>
+        <li><a href="#">簡介 ▼</a>
+			<ul>
+				<li><a target="_blank" href="https://austinchinesechurch.github.io/acc.github.io/html/constitution.html">信仰與規章</a></li>
+				<li><a target="_blank" href="https://austinchinesechurch.github.io/acc.github.io/html/church_history.html">教會歷史</a></li>
+				<li><a href="cmv.html">價值與異象</a></li>
+				<li><a target="_blank" href="https://austinchinesechurch.org/WeeklyDocs/MandarinCoworkers.pdf">華語部同工</a></li>
+			</ul>
+		</li>
+        <li><a href="https://docs.google.com/document/d/e/2PACX-1vQFofynJeO5q1srUn2seLbCLktSl-vCQbwJAxYUqrYu5BRMEEQZDWuMFPWqSRX-H5rI91EYZu3_RRez/pub">團契</a></li>
+		<!--<li><a href="fellowships.html">團契</a></li>-->
+		
+		<li><a href="pray.html">禱告</a></li>
+		<li><a href="#">每日讀經靈修 ▼</a>							
+			<ul>
+				<li><a href="https://austinchinesechurch.github.io/acc.github.io/html/2_bible_readerplan.html">讀經生活日記</a></li>
+				<li><a href="https://austinchinesechurch.github.io/acc.github.io/html/1_spiritual_formation.html">讀經計畫與靈修材料</a></li>
+			</ul>
+		</li>
+		<li><a href="#">主日學 ▼</a>
+			<ul>
+				<li><a target="_blank" href="https://austinchinesechurch.org/docs/SSchool.pdf">本季主日學時間地點</a></li>
+				<li><a target="_blank" href="https://austinchinesechurch.org/docs/currentquarter.pdf">本季主日學內容</a></li>
+				<li><a target="_blank" href="https://lssaustin.org/Man/index.php/m-sundayschool/classhistory">主日學課程歷史</a></li>
+			</ul>
+		</li>
+		<li><a href="#">相關事工 ▼</a>
+			<ul>
+				<li><a target="_blank" href="https://www.acclighthouse.org/">青少年事工 YOUTH</a></li>
+				<li><a target="_blank" href="https://www.accchildren.org/">兒童事工 CHILDREN</a></li>
+				<li><a target="_blank" href="https://austinchinesechurch.github.io/acc.github.io/html/3_chinese_school.html">中文學校 CHINESE SCHOOL</a></li>
+			</ul>
+		</li>
+		<li><a href="#">聯繫我們 ▼</a>
+			<ul>
+				<li><a target="_blank" href="https://austinchinesechurch.github.io/acc.github.io/html/direction.html">地圖指引</a></li>
+				<li><a target="_blank" href="https://austinchinesechurch.github.io/acc.github.io/html/first_visit.html">初次來訪</a></li>
+				<li><a target="_blank" href="https://austinchinesechurch.github.io/acc.github.io/html/recruit.html">教牧及職員招聘</a></li>
+			</ul>
+		</li>
+		<li><a href="#">資源 ▼</a>
+			<ul>
+				<li><a target="_blank" href="https://www.youtube.com/@AustinChineseChurch/playlists">主日證道影片</a></li>
+				<li><a target="_blank" href="https://austinchinesechurch.org/WeeklyDocs/SundayBulletins.htm">教會週報</a></li>
+				<li><a target="_blank" href="https://lssaustin.org/Man/index.php/resource/2017-12-06-18-23-29">年度事工報告</a></li>
+				<li><a target="_blank" href="https://sites.google.com/austinchinesechurch.org/acc-education-building">建堂進度</a></li>
+				<!--	<li><a target="_blank" href="https://lssaustin.org/Man/administrator/">網站管理</a></li> -->
+			</ul>
+		</li>
+		<li><a target="_blank" href="https://acc.churchcenter.com/giving" class="button primary">網路奉獻</a></li>
+		<li><a target="_blank" href="https://austinchinesechurch.github.io/acc.github.io/" class="button primary">教會主頁</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 第一區 (影片背景) -->
+  <section class="hero">
+    <video autoplay muted loop>
+      <source src="acc-background.mp4" type="video/mp4">
+    </video>
+
+    <div class="content">
+      <h1 style="margin-bottom :30px; border-bottom: solid 2px; border-top: solid 2px;"> 奧斯汀華人教會華語堂歡迎你！</h1>
+
+		<p >  
+		  你若是在探索一條信仰道路，我們歡迎你來和我們一同探索！你若是尋找一個教會的家，我們歡迎你以奧斯汀華人教會為你屬靈的家！你若是有心成為耶穌的門徒，我們歡迎你與我們同走一生跟隨主的道路！
+		  你若是盼望善用你的恩賜，我們歡迎你與我們一起以謙卑做僕人的態度同心事奉！奧斯汀華人教會自1982 年成立迄今, 雖未加入任何宗派, 卻有來自信仰純正各個宗派背景的基督徒們一起同心恪遵主道, 
+		  步履堅實地建造教會, 廣傳福音, 幾十年來厚厚蒙主賜福，人數不斷增長，並分植出兩間堂會。
+		  目前教會每週日早上有三堂崇拜和主日學, 9:30 有英語崇拜與華語, 粵語主日學, 11:10 則為華語崇拜, 粵語崇拜及英語主日學. 同時有幼兒看顧, 兒童和青少年也各依年級分班, 學習福音.
+		  華語堂( 國語/ 普通話) 的成員包括了原本來自大陸、台灣、東南亞、及世界各地的華人，也有熱愛中華文化的非華裔人士。除主日在一起聚會外，週間和周末還分在不同的時間和地點有團契聚會, 
+		  包括婦女天地, 數個家庭團契、校園學生團契、UT 宿舍區團契、在職青年團契等等。<br><br>
+
+
+	<!--特別聚會方框-->
+		<div class="floating-box">
+		  	<a target="_blank" href="imgs/2025fall.jpg" alt="2025 秋季佈道會 ">
+			<img src="imgs/2025fall_small.jpg" style="width:70%; height: auto;" alt="2025 秋季佈道會 "></a> <br>
+			<a class="clink_w" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeYYoKD8HfEwfFw6oOm7LXkHTXTKyQ6sHy1LlOH7fveflv1cQ/viewform">
+			<p  style="font-size: 11pt; text-align: center; font-weight:800; ">2025秋季佈道會-科學、信仰與人生 </p>
+			<p style="font-size: 9pt;">講員：黃力夫，退休教授，曾在匹茲堡大學與北卡大學藥學院執教，專攻非病毒性的基因及藥物標靶向治療。在非病毒基因治療領域有開創性的研究，
+			發表許多論文和專利，獲得各種獎項。 <b>請按圖片看聚會時間；按標題報名，免費晚餐提供及兒童看顧登記</b></p>
+			</a>
+		</div>
+	
+
+    </div>
+  </section>
+  
+
+  
+  <!-- Pattern Section 1 -->
+  <section class="panel pattern-1">
+	
+    <div class="panel content">
+		<div align="center">
+			<h1>主日敬拜時間</h1><br>
+			<table class="panel table">
+				<tr>
+					<td align="center"><h3>09:30AM</h3></td><td><h3>成人主日學<br><br>兒童部活動</h3></td>
+				</tr>
+				<tr>
+					<td align="center"><h3>11:10AM</h3></td><td><h3>主日崇拜</h3></td>
+				</tr>		
+				<tr>
+					<td align="center"><h3>12:15PM</h3></td><td><h3>主日午餐</h3></td>
+				</tr>
+				<tr><td colspan="2"><p class="p2" style="text-align:center;">成人聚會時間同時有：嬰幼兒照顧，兒童主日學/兒童崇拜，和青少年聚會。</p></td></tr>
+			</table>
+
+	  </div>
+    </div>
+  </section>
+  
+  <script>
+    function toggleMenu() {
+      document.querySelector("nav").classList.toggle("active");
+    }
+
+    // Intersection Observer 逐一動畫
+    const cards = document.querySelectorAll(".card");
+    const observer = new IntersectionObserver((entries, obs) => {
+      entries.forEach((entry, index) => {
+        if (entry.isIntersecting) {
+          // 依序延遲
+          setTimeout(() => {
+            entry.target.classList.add("show");
+          }, index * 300);
+          obs.unobserve(entry.target); // 只執行一次
+        }
+      });
+    }, { threshold: 0.3 });
+
+    cards.forEach(card => observer.observe(card));
+  </script>
+
+<!---浮動式方框---> 
+<script>
+	const box = document.getElementById("dragBox");
+	let offsetX, offsetY, isDown = false;
+
+	box.addEventListener("mousedown", (e) => {
+	  isDown = true;
+	  offsetX = e.clientX - box.offsetLeft;
+	  offsetY = e.clientY - box.offsetTop;
+	  box.style.transition = "none";
+	});
+
+	document.addEventListener("mouseup", () => isDown = false);
+
+	document.addEventListener("mousemove", (e) => {
+	  if (!isDown) return;
+	  e.preventDefault();
+	  box.style.left = (e.clientX - offsetX) + "px";
+	  box.style.top = (e.clientY - offsetY) + "px";
+	});
+</script>
+  
+   <footer>
+	<h3>奧斯汀華人教會<br>Austin Chinese Church</h3>
+	<p>11118 Dessau Road, Austin, TX 78754<br>Phone: 512-339-8675<br>Fax: 512-339-9556<br>
+	<a style="color: white; background-color: transparent; text-decoration: underline;" href="mailto:contact@austinchinesechurch.org">contact@austinchinesechurch.org</a></p>
+	<p class="copyright">© Austin Chinese Church. 2023. All rights reserved.</p>
+  </footer>
+  
+  <script>
+    (async function() {
+      const btnTW = document.getElementById('btn-tw');
+      const btnCN = document.getElementById('btn-cn');
+      const STORAGE_KEY = 'preferred-chinese-variant';
+
+      // 1️⃣ 載入 OpenCC 轉換器
+      const converterTW2CN = await OpenCC.Converter({ from: 'twp', to: 'cn' }); // 繁 → 簡
+      const converterCN2TW = await OpenCC.Converter({ from: 'cn', to: 'twp' }); // 簡 → 繁
+
+      // 2️⃣ 定義轉換函式（會遞迴轉換所有文字節點）
+      function traverseAndConvert(node, converter) {
+        if (node.nodeType === Node.TEXT_NODE) {
+          node.textContent = converter(node.textContent);
+        } else if (node.nodeType === Node.ELEMENT_NODE) {
+          node.childNodes.forEach(child => traverseAndConvert(child, converter));
+        }
+      }
+
+      async function applyVariant(variant) {
+        if (variant === 'cn') {
+          traverseAndConvert(document.body, converterTW2CN);
+          btnCN.classList.add('active');
+          btnTW.classList.remove('active');
+        } else {
+          traverseAndConvert(document.body, converterCN2TW);
+          btnTW.classList.add('active');
+          btnCN.classList.remove('active');
+        }
+        localStorage.setItem(STORAGE_KEY, variant);
+      }
+
+      // 3️⃣ 綁定事件
+      btnTW.addEventListener('click', () => applyVariant('tw'));
+      btnCN.addEventListener('click', () => applyVariant('cn'));
+
+      // 4️⃣ 載入上次設定
+      const saved = localStorage.getItem(STORAGE_KEY);
+      applyVariant(saved === 'cn' ? 'cn' : 'tw');
+    })();
+  </script>
+</body>
+</html>
