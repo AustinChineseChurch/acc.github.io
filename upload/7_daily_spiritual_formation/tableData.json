@@ -1,75 +1,5 @@
 [
 	{
-		"date": "11/2",
-		"day": "週日",
-		"book": "路加福音",
-		"verses": [{
-				"verse": "2",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivLuk2.html"
-			}],
-		"href": "https://drive.google.com/file/d/1q06B6fZt5VtB6vO9w6Rl2j3TUpYrBsST/view?usp=sharing"
-	},
-	{
-		"date": "11/3",
-		"day": "週一",
-		"book": "路加福音",
-		"verses": [{
-				"verse": "3",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivLuk3.html"
-			}],
-		"href": "https://drive.google.com/file/d/1IaKsUV0eulQmBTRTS_3GAqoOdOSWcFx_/view?usp=sharing"
-	},
-	{
-		"date": "11/4",
-		"day": "週二",
-		"book": "路加福音",
-		"verses": [{
-				"verse": "4",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivLuk4.html"
-			}],
-		"href": "https://drive.google.com/file/d/1ObAnMTeOlYNW4zpoZDM3IWkrRlW2xU9l/view?usp=sharing"
-	},
-	{
-		"date": "11/5",
-		"day": "週三",
-		"book": "路加福音",
-		"verses": [{
-				"verse": "5",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivLuk5.html"
-			}],
-		"href": "https://drive.google.com/file/d/1p9aBKJYfTM1w-4lTQKPyGa3gku3vuRxd/view?usp=sharing"
-	},
-	{
-		"date": "11/6",
-		"day": "週四",
-		"book": "路加福音",
-		"verses": [{
-				"verse": "6",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivLuk6.html"
-			}],
-		"href": "https://drive.google.com/file/d/1QTS2QQicfCMLtxrOPkR22JjouALR72i1/view?usp=sharing"
-	},
-	{
-		"date": "11/7",
-		"day": "週五",
-		"book": "路加福音",
-		"verses": [{
-				"verse": "7",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivLuk7.html"
-			}],
-		"href": "https://drive.google.com/file/d/1EKcX3TaKHemEwb-KZYTOiSxEHVl07koe/view?usp=sharing"
-	},
-	{
-		"date": "11/8",
-		"day": "週六",
-		"book": "路加福音",
-		"verses": [{
-				"verse": "8",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivLuk8.html"
-			}],
-		"href": "https://drive.google.com/file/d/1u7IYJ2CIodLTDn6BAsIAkZtr9L2fa-re/view?usp=sharing"
-	},
-	{
 		"date": "11/9",
 		"day": "週日",
 		"book": "路加福音",
@@ -78,7 +8,78 @@
 				"link": "http://www.bbintl.org/bible/b5niv/b5nivLuk9.html"
 			}],
 		"href": "https://drive.google.com/file/d/139_hnSjJjJCNwo3tF0u_7uUHLN7Dgncs/view?usp=sharing"
+	},
+	{
+		"date": "11/10",
+		"day": "週一",
+		"book": "路加福音",
+		"verses": [{
+				"verse": "10",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivLuk10.html"
+			}],
+		"href": "https://drive.google.com/file/d/1rzjhla2fQC002bdp9-sz5_AyHgLdWn_J/view?usp=sharing"
+	},
+	{
+		"date": "11/11",
+		"day": "週二",
+		"book": "路加福音",
+		"verses": [{
+				"verse": "11",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivLuk11.html"
+			}],
+		"href": "https://drive.google.com/file/d/1qTivl2YHJtVoRpNjYH7K5raHkV_VIRC2/view?usp=sharing"
+	},
+	{
+		"date": "11/12",
+		"day": "週三",
+		"book": "路加福音",
+		"verses": [{
+				"verse": "12",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivLuk12.html"
+			}],
+		"href": "https://drive.google.com/file/d/1b4SDlgCBV-zDMT0hgItpQWKGqZfbRa0l/view?usp=sharing"
+	},
+	{
+		"date": "11/13",
+		"day": "週四",
+		"book": "路加福音",
+		"verses": [{
+				"verse": "13",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivLuk13.html"
+			}],
+		"href": "https://drive.google.com/file/d/1IRzHq-zzY6-nvcGIZ3p-9ltDCXL-arbr/view?usp=sharing"
+	},
+	{
+		"date": "11/14",
+		"day": "週五",
+		"book": "路加福音",
+		"verses": [{
+				"verse": "14",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivLuk14.html"
+			}],
+		"href": "https://drive.google.com/file/d/1MAaULP2G2zGRdFJL3d6KRVnnWEOYLNYr/view?usp=sharing"
+	},
+	{
+		"date": "11/15",
+		"day": "週六",
+		"book": "路加福音",
+		"verses": [{
+				"verse": "15",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivLuk15.html"
+			}],
+		"href": "https://drive.google.com/file/d/1TgofnevgN9EQjMD5hvqm6o-B8oWrWAN9/view?usp=sharing"
+	},
+	{
+		"date": "11/16",
+		"day": "週日",
+		"book": "路加福音",
+		"verses": [{
+				"verse": "16",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivLuk16.html"
+			}],
+		"href": "https://drive.google.com/file/d/1gSNPk8v3DlpcVVqEB_Y1m-yuZh6Z26IH/view?usp=sharing"
 	}]
+
 
 
 
