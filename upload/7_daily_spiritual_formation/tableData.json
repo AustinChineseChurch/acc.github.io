@@ -1,95 +1,5 @@
 [
 	{
-		"date": "11/23",
-		"day": "週日",
-		"book": "路加福音",
-		"verses": [{
-				"verse": "23",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivLuk23.html"
-			}],
-		"href": "https://drive.google.com/file/d/15XDo9MW5W6i-Oh9LN4TiDPrkwHQQrg0n/view?usp=sharing"
-	},
-	{
-		"date": "11/24",
-		"day": "週一",
-		"book": "路加福音",
-		"verses": [{
-				"verse": "24",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivLuk24.html"
-			}],
-		"href": "https://drive.google.com/file/d/1B4sVH99gwtbN20CPc-TNFFgFFu_Ug4-E/view?usp=sharing"
-	},
-	{
-		"date": "11/25",
-		"day": "週二",
-		"book": "約伯記",
-		"verses": [{
-				"verse": "1",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivJob1.html"
-			},
-			{
-				"verse": "2",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivJob2.html"
-			}],
-		"href": "https://drive.google.com/file/d/1QtuHI-JVxqJB8YFX7TIDw7t-PSFNtnG0/view?usp=sharing"
-	},
-	{
-		"date": "11/26",
-		"day": "週三",
-		"book": "約伯記",
-		"verses": [{
-				"verse": "3",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivJob3.html"
-			},
-			{
-				"verse": "4",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivJob4.html"
-			}],
-		"href": "https://drive.google.com/file/d/167SPP23O_0XZz6t623lAkjxz14z6JldI/view?usp=sharing"
-	},
-	{
-		"date": "11/27",
-		"day": "週四",
-		"book": "約伯記",
-		"verses": [{
-				"verse": "5",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivJob5.html"
-			},
-			{
-				"verse": "6",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivJob6.html"
-			}],
-		"href": "https://drive.google.com/file/d/1HJqAMBEDQ9-aogoMAXRNUwEKlIzigQ2K/view?usp=sharing"
-	},
-	{
-		"date": "11/28",
-		"day": "週五",
-		"book": "約伯記",
-		"verses": [{
-				"verse": "7",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivJob7.html"
-			},
-			{
-				"verse": "8",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivJob8.html"
-			}],
-		"href": "https://drive.google.com/file/d/1nahm_0pNjrk5FR_E50yYXyZxHCwDaK6D/view?usp=sharing"
-	},
-	{
-		"date": "11/29",
-		"day": "週六",
-		"book": "約伯記",
-		"verses": [{
-				"verse": "9",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivJob9.html"
-			},
-			{
-				"verse": "10",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivJob10.html"
-			}],
-		"href": "https://drive.google.com/file/d/1RBhy4H4qlwk-QcSOPw8dFv0WBaPMBd7O/view?usp=sharing"
-	},
-	{
 		"date": "11/30",
 		"day": "週日",
 		"book": "約伯記",
@@ -102,7 +12,114 @@
 				"link": "http://www.bbintl.org/bible/b5niv/b5nivJob12.html"
 			}],
 		"href": "https://drive.google.com/file/d/1n6Tp73wb2ncSxblG_fBPq6OW1VRzVBEp/view?usp=sharing"
+	},
+	{
+		"date": "12/1",
+		"day": "週一",
+		"book": "約伯記",
+		"verses": [{
+				"verse": "13",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivJob13.html"
+			},
+			{
+				"verse": "14",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivJob14.html"
+			}],
+		"href": "https://drive.google.com/file/d/15JvdC-eRnt7AqEUHMXlDWISlbq6Kwoq8/view?usp=sharing"
+	},
+	{
+		"date": "12/2",
+		"day": "週二",
+		"book": "約伯記",
+		"verses": [{
+				"verse": "15",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivJob15.html"
+			},
+			{
+				"verse": "16",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivJob16.html"
+			}],
+		"href": "https://drive.google.com/file/d/1Gb5IrwEkk8K4SQ8mHbUKKyFJlJmmE-vw/view?usp=sharing"
+	},
+	{
+		"date": "12/3",
+		"day": "週三",
+		"book": "約伯記",
+		"verses": [{
+				"verse": "17",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivJob17.html"
+			},
+			{
+				"verse": "18",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivJob18.html"
+			},
+		    {
+				"verse": "19",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivJob19.html"
+			}],
+		"href": "https://drive.google.com/file/d/1RdHfzfwEEEvNssEgfZeeyc0_pXAvg8iS/view?usp=sharing"
+	},
+	{
+		"date": "12/4",
+		"day": "週四",
+		"book": "約伯記",
+		"verses": [{
+				"verse": "20",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivJob20.html"
+			},
+			{
+				"verse": "21",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivJob21.html"
+			}],
+		"href": "https://drive.google.com/file/d/1-aIS4Y3MnYioGA8xwf9iUKI6vQT-yG4B/view?usp=sharing"
+	},
+	{
+		"date": "12/5",
+		"day": "週五",
+		"book": "約伯記",
+		"verses": [{
+				"verse": "22",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivJob22.html"
+			},
+			{
+				"verse": "23",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivJob23.html"
+			}],
+		"href": "https://drive.google.com/file/d/1DoU_gRq-Uvyg6H-yn7_zWnVD5XPlZE0L/view?usp=sharing"
+	},
+	{
+		"date": "12/6",
+		"day": "週六",
+		"book": "約伯記",
+		"verses": [{
+				"verse": "24",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivJob24.html"
+			},
+			{
+				"verse": "25",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivJob25.html"
+			},
+		    {
+				"verse": "26",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivJob26.html"
+			}],
+		"href": "https://drive.google.com/file/d/1NpWKKq2oQbHVb8nViKCqQyn7PDFpGKna/view?usp=sharing"
+	},
+	{
+		"date": "12/7",
+		"day": "週日",
+		"book": "約伯記",
+		"verses": [{
+				"verse": "27",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivJob27.html"
+			},
+			{
+				"verse": "28",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivJob28.html"
+			}],
+		"href": "https://drive.google.com/file/d/1RpzZMXctvhLUf3rY3Q7oarcPPyByTmJp/view?usp=sharing"
 	}]
+
 
 
 
