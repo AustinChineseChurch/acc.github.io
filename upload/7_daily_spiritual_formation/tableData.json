@@ -1,107 +1,5 @@
 [
 	{
-		"date": "2/15",
-		"day": "週日",
-		"book": "詩篇",
-		"verses": [{
-				"verse": "75",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm75.html"
-			},
-			{
-				"verse": "76",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm76.html"
-			},
-			{
-				"verse": "77",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm77.html"
-			}],
-		"href": "https://drive.google.com/file/d/1uDXYjDFIsV6H4NxTLJe_cg8oebCPbN_h/view?usp=sharing"
-	},
-	{
-		"date": "2/16",
-		"day": "週一",
-		"book": "詩篇",
-		"verses": [{
-				"verse": "78",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm78.html"
-			}],
-		"href": "https://drive.google.com/file/d/1LoTyEKXpGyRSx_waY-NxRQQwtvWR3jyg/view?usp=sharing"
-	},
-	{
-		"date": "2/17",
-		"day": "週二",
-		"book": "詩篇",
-		"verses": [{
-				"verse": "79",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm79.html"
-			},
-			{
-				"verse": "80",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm80.html"
-			}],
-		"href": "https://drive.google.com/file/d/1OiNP5HwyBtvi5Re_TqENdsETftTrpGf-/view?usp=sharing"
-	},
-	{
-		"date": "2/18",
-		"day": "週三",
-		"book": "詩篇",
-		"verses": [{
-				"verse": "81",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm81.html"
-			},
-			{
-				"verse": "82",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm82.html"
-			},
-			{
-				"verse": "83",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm83.html"
-			}],
-		"href": "https://drive.google.com/file/d/1pCNZy9HfkfNRiulZB5ZTtWsN_rOcF6S0/view?usp=sharing"
-	},
-	{
-		"date": "2/19",
-		"day": "週四",
-		"book": "詩篇",
-		"verses": [{
-				"verse": "84",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm84.html"
-			},
-			{
-				"verse": "85",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm85.html"
-			}],
-		"href": "https://drive.google.com/file/d/162HLLIHERcu6-40L9V-717Wv4tMaGWTN/view?usp=sharing"
-	},
-	{
-		"date": "2/20",
-		"day": "週五",
-		"book": "詩篇",
-		"verses": [{
-				"verse": "86",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm86.html"
-			},
-			{
-				"verse": "87",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm87.html"
-			},
-			{
-				"verse": "88",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm88.html"
-			}],
-		"href": "https://drive.google.com/file/d/1I8_gGRKQ8GMjLTBZiW_N6qTOWZtT1ib0/view?usp=sharing"
-	},
-	{
-		"date": "2/21",
-		"day": "週六",
-		"book": "詩篇",
-		"verses": [{
-				"verse": "89",
-				"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm89.html"
-			}],
-		"href": "https://drive.google.com/file/d/1feU1pFZpGSyBCTLBB1epWIXQ4c9eDA3A/view?usp=sharing"
-	},
-	{
 		"date": "2/22",
 		"day": "週日",
 		"book": "詩篇",
@@ -118,7 +16,106 @@
 				"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm92.html"
 			}],
 		"href": "https://drive.google.com/file/d/14y8P4zt9ULQZf_qCjcDTjUJTTOOcgnrX/view?usp=sharing"
+	},
+	{
+		"date": "2/23",
+		"day": "週一",
+		"book": "詩篇",
+		"verses": [{
+				"verse": "93",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm93.html"
+			},
+			{
+				"verse": "94",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm94.html"
+			},
+			{
+				"verse": "95",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm95.html"
+			}],
+		"href": "https://drive.google.com/file/d/1jBnnEjw7QnRZiPoFpTcqBmV4mB17b_CX/view?usp=sharing"
+	},	
+	{
+		"date": "2/24",
+		"day": "週二",
+		"book": "詩篇",
+		"verses": [{
+				"verse": "96",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm96.html"
+			},
+			{
+				"verse": "97",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm97.html"
+			},
+			{
+				"verse": "98",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm98.html"
+			}],
+		"href": "https://drive.google.com/file/d/1TdBqbA8Cc3B6YXkhUycsN3smh9R8CGAF/view?usp=sharing"
+	},
+	{
+		"date": "2/25",
+		"day": "週三",
+		"book": "詩篇",
+		"verses": [{
+				"verse": "99",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm99.html"
+			},
+			{
+				"verse": "100",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm100.html"
+			},
+			{
+				"verse": "101",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm101.html"
+			}],
+		"href": "https://drive.google.com/file/d/1oRLdcSsXZPcWuJsgsB3ViMany_ocCKFg/view?usp=sharing"
+	},
+	{
+		"date": "2/26",
+		"day": "週四",
+		"book": "詩篇",
+		"verses": [{
+				"verse": "102",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm102.html"
+			},
+			{
+				"verse": "103",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm103.html"
+			}],
+		"href": "https://drive.google.com/file/d/1h29bvV_MKhrnhynwdjsK37bAFvHeW5hb/view?usp=sharing"
+	},
+	{
+		"date": "2/27",
+		"day": "週五",
+		"book": "詩篇",
+		"verses": [{
+				"verse": "104",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm104.html"
+			}],
+		"href": "https://drive.google.com/file/d/1rbFjNrMWrAUsMQbxXbSfYy_YeAszP-6q/view?usp=sharing"
+	},
+	{
+		"date": "2/28",
+		"day": "週六",
+		"book": "詩篇",
+		"verses": [{
+				"verse": "105",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm105.html"
+			}],
+		"href": "https://drive.google.com/file/d/1oiW4IwhBM6U9hltkFrub-p5vZ2TXCcoV/view?usp=sharing"
+	},
+	{
+		"date": "3/1",
+		"day": "週日",
+		"book": "詩篇",
+		"verses": [{
+				"verse": "106",
+				"link": "http://www.bbintl.org/bible/b5niv/b5nivPsm106.html"
+			}],
+		"href": "https://drive.google.com/file/d/1mv3Bw-mNeyQEunWw5N3gqiObfThQ7FZ2/view?usp=sharing"
 	}]
+
 
 
 
