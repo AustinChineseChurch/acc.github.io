@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>奧斯汀華人教會華語堂</title>
+  <link rel="stylesheet" href="css/main.css" />
+
+<!-- CDN 載入 繁簡自動切換 opencc-js（正式版） -->
+  <script src="https://cdn.jsdelivr.net/npm/opencc-js@1.0.6/dist/browser.min.js"></script>
+
+</head>
+<body>
+  <!-- 導覽列 -->
+  <header>
+    <div class="logo"><a href="index.html" class="logo"><img src="imgs/new_acclogo.png" alt="Logo" /></a></div>
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <div></div><div></div><div></div>
+    </div>
+	
+    <nav>
+      <ul>
+        <li><a href="#">簡介 ▼</a>
+			<ul>
+				<li><a target="_blank" href="https://austinchinesechurch.github.io/acc.github.io/html/constitution.html">信仰與規章</a></li>
+				<li><a target="_blank" href="https://austinchinesechurch.github.io/acc.github.io/html/church_history.html">教會歷史</a></li>
+				<li><a href="cmv.html">價值與異象</a></li>
+				<li><a target="_blank" href="https://austinchinesechurch.org/WeeklyDocs/MandarinCoworkers.pdf">華語部同工</a></li>
+			</ul>
+		</li>
+        <li><a href="https://docs.google.com/document/d/e/2PACX-1vQFofynJeO5q1srUn2seLbCLktSl-vCQbwJAxYUqrYu5BRMEEQZDWuMFPWqSRX-H5rI91EYZu3_RRez/pub">團契</a></li>
+		<!--<li><a href="fellowships.html">團契</a></li>-->
+		
+		<li><a href="pray.html">禱告</a></li>
+		<li><a href="#">每日讀經靈修 ▼</a>							
+			<ul>
+				<li><a href="https://austinchinesechurch.github.io/acc.github.io/html/2_bible_readerplan.html">讀經生活日記</a></li>
+				<li><a href="https://austinchinesechurch.github.io/acc.github.io/html/1_spiritual_formation.html">讀經計畫與靈修材料</a></li>
+			</ul>
+		</li>
+		<li><a href="#">主日學 ▼</a>
+			<ul>
+				<li><a target="_blank" href="https://austinchinesechurch.org/docs/SSchool.pdf">本季主日學時間地點</a></li>
+				<li><a target="_blank" href="https://austinchinesechurch.org/docs/currentquarter.pdf">本季主日學內容</a></li>
+				<li><a target="_blank" href="https://lssaustin.org/Man/index.php/m-sundayschool/classhistory">主日學課程歷史</a></li>
+			</ul>
+		</li>
+		<li><a href="#">相關事工 ▼</a>
+			<ul>
+				<li><a target="_blank" href="https://www.acclighthouse.org/">青少年事工 YOUTH</a></li>
+				<li><a target="_blank" href="https://www.accchildren.org/">兒童事工 CHILDREN</a></li>
+				<li><a target="_blank" href="https://austinchinesechurch.github.io/acc.github.io/html/3_chinese_school.html">中文學校 CHINESE SCHOOL</a></li>
+			</ul>
+		</li>
+		<li><a href="#">聯繫我們 ▼</a>
+			<ul>
+				<li><a target="_blank" href="https://austinchinesechurch.github.io/acc.github.io/html/direction.html">地圖指引</a></li>
+				<li><a target="_blank" href="https://austinchinesechurch.github.io/acc.github.io/html/first_visit.html">初次來訪</a></li>
+				<li><a target="_blank" href="https://austinchinesechurch.github.io/acc.github.io/html/recruit.html">教牧及職員招聘</a></li>
+			</ul>
+		</li>
+		<li><a href="#">資源 ▼</a>
+			<ul>
+				<li><a target="_blank" href="https://www.youtube.com/@AustinChineseChurch/playlists">主日證道影片</a></li>
+				<li><a target="_blank" href="https://austinchinesechurch.org/WeeklyDocs/SundayBulletins.htm">教會週報</a></li>
+				<li><a target="_blank" href="yearreport.html">年度事工報告</a></li>
+				<li><a target="_blank" href="https://sites.google.com/austinchinesechurch.org/acc-education-building">建堂進度</a></li>
+				<!--	<li><a target="_blank" href="https://lssaustin.org/Man/administrator/">網站管理</a></li> -->
+			</ul>
+		</li>
+		<li><a target="_blank" href="https://acc.churchcenter.com/giving" class="button primary">網路奉獻</a></li>
+		<li><a target="_blank" href="https://austinchinesechurch.github.io/acc.github.io/" class="button primary">教會主頁</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 第一區 (影片背景) -->
+  <section class="hero">
+    <video autoplay muted loop>
+      <source src="acc-background.mp4" type="video/mp4">
+    </video>
+
+    <div class="content">
+      <h1>奧斯汀華人教會華語堂歡迎你！</h1>
+
+		<p >  
+		  你若是在探索一條信仰道路，我們歡迎你來和我們一同探索！你若是尋找一個教會的家，我們歡迎你以奧斯汀華人教會為你屬靈的家！你若是有心成為耶穌的門徒，我們歡迎你與我們同走一生跟隨主的道路！
+		  你若是盼望善用你的恩賜，我們歡迎你與我們一起以謙卑做僕人的態度同心事奉！奧斯汀華人教會自1982 年成立迄今, 雖未加入任何宗派, 卻有來自信仰純正各個宗派背景的基督徒們一起同心恪遵主道, 
+		  步履堅實地建造教會, 廣傳福音, 幾十年來厚厚蒙主賜福，人數不斷增長，並分植出兩間堂會。
+		  目前教會每週日早上有三堂崇拜和主日學, 9:30 有英語崇拜與華語, 粵語主日學, 11:10 則為華語崇拜, 粵語崇拜及英語主日學. 同時有幼兒看顧, 兒童和青少年也各依年級分班, 學習福音.
+		  華語堂( 國語/ 普通話) 的成員包括了原本來自大陸、台灣、東南亞、及世界各地的華人，也有熱愛中華文化的非華裔人士。除主日在一起聚會外，週間和周末還分在不同的時間和地點有團契聚會, 
+		  包括婦女天地, 數個家庭團契、校園學生團契、UT 宿舍區團契、在職青年團契等等。<br><br>
+
+
+	<!--特別聚會方框-->
+		<div class="floating-box">
+		  	<a target="_blank" href="imgs/2025fall.jpg" alt="2025 秋季佈道會 ">
+			<img src="imgs/2025fall_small.jpg" style="width:70%; height: auto; margin:auto; display:block;" alt="2025 秋季佈道會 "></a> <br>
+			<a class="clink_w" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeYYoKD8HfEwfFw6oOm7LXkHTXTKyQ6sHy1LlOH7fveflv1cQ/viewform">
+			<p  style="font-size: 11pt; text-align: center; font-weight:800; ">2025秋季佈道會-科學、信仰與人生 </p>
+			<p style="font-size: 9pt;">講員：黃力夫，退休教授，曾在匹茲堡大學與北卡大學藥學院執教，專攻非病毒性的基因及藥物標靶向治療。在非病毒基因治療領域有開創性的研究，
+			發表許多論文和專利，獲得各種獎項。 <b>請按圖片看聚會時間；按標題報名，免費晚餐提供及兒童看顧登記</b></p>
+			</a>
+		</div>
+	
+    </div>
+  </section>
+  
+  <section class="section">
+
+	<div class="card">
+
+		<h1>主日敬拜時間</h1><br>
+		<table class="panel table">
+			<tr>
+				<td align="center"><h3>09:30AM</h3></td><td><h3>成人主日學<br><br>兒童部活動</h3></td>
+			</tr>
+			<tr>
+				<td align="center"><h3>11:10AM</h3></td><td><h3>主日崇拜</h3></td>
+			</tr>		
+			<tr>
+				<td align="center"><h3>12:15PM</h3></td><td><h3>主日午餐</h3></td>
+			</tr>
+			<tr><td colspan="2"><p class="p2" style="text-align:center;">成人聚會時間同時有：嬰幼兒照顧，兒童主日學/兒童崇拜，和青少年聚會。</p></td></tr>
+		</table>
+
+	</div>
+
+	<div class="card">
+	  <h1>華語主日崇拜直播</h1><br>
+	  <img src="imgs/tv.svg">
+	  <h2 style="color:white;">11:10 AM - 12:25 PM</h2>
+	  <h3><a  style="text-decoration:none; color:white;" href="https://www.youtube.com/austinchinesechurch/live" target="_blank">點擊觀看</a></h3>
+	  <h3><a  style="text-decoration:none; color:white;" href="https://austinchinesechurch.org/WeeklyDocs/CurrentWeek.pdf" target="_blank">本週週報</a></h3>
+	</div>
+
+  </section>
+  
+  
+  
+  <script>
+    function toggleMenu() {
+      document.querySelector("nav").classList.toggle("active");
+    }
+
+    // Intersection Observer 逐一動畫
+    const cards = document.querySelectorAll(".card");
+    const observer = new IntersectionObserver((entries, obs) => {
+      entries.forEach((entry, index) => {
+        if (entry.isIntersecting) {
+          // 依序延遲
+          setTimeout(() => {
+            entry.target.classList.add("show");
+          }, index * 300);
+          obs.unobserve(entry.target); // 只執行一次
+        }
+      });
+    }, { threshold: 0.3 });
+
+    cards.forEach(card => observer.observe(card));
+  </script>
+
+<!---浮動式方框---> 
+<script>
+	const box = document.getElementById("dragBox");
+	let offsetX, offsetY, isDown = false;
+
+	box.addEventListener("mousedown", (e) => {
+	  isDown = true;
+	  offsetX = e.clientX - box.offsetLeft;
+	  offsetY = e.clientY - box.offsetTop;
+	  box.style.transition = "none";
+	});
+
+	document.addEventListener("mouseup", () => isDown = false);
+
+	document.addEventListener("mousemove", (e) => {
+	  if (!isDown) return;
+	  e.preventDefault();
+	  box.style.left = (e.clientX - offsetX) + "px";
+	  box.style.top = (e.clientY - offsetY) + "px";
+	});
+</script>
+  
+   <footer>
+	<h4>奧斯汀華人教會<br>Austin Chinese Church</h4>
+	<p>11118 Dessau Road, Austin, TX 78754<br>Phone: 512-339-8675<br>Fax: 512-339-9556<br>
+	<a style="color: white; background-color: transparent; text-decoration: underline;" href="mailto:contact@austinchinesechurch.org">contact@austinchinesechurch.org</a></p>
+	<p class="copyright">© Austin Chinese Church. 2023. All rights reserved.</p>
+  </footer>
+  
+  <script>
+    (async function() {
+      const btnTW = document.getElementById('btn-tw');
+      const btnCN = document.getElementById('btn-cn');
+      const STORAGE_KEY = 'preferred-chinese-variant';
+
+      // 1️⃣ 載入 OpenCC 轉換器
+      const converterTW2CN = await OpenCC.Converter({ from: 'twp', to: 'cn' }); // 繁 → 簡
+      const converterCN2TW = await OpenCC.Converter({ from: 'cn', to: 'twp' }); // 簡 → 繁
+
+      // 2️⃣ 定義轉換函式（會遞迴轉換所有文字節點）
+      function traverseAndConvert(node, converter) {
+        if (node.nodeType === Node.TEXT_NODE) {
+          node.textContent = converter(node.textContent);
+        } else if (node.nodeType === Node.ELEMENT_NODE) {
+          node.childNodes.forEach(child => traverseAndConvert(child, converter));
+        }
+      }
+
+      async function applyVariant(variant) {
+        if (variant === 'cn') {
+          traverseAndConvert(document.body, converterTW2CN);
+          btnCN.classList.add('active');
+          btnTW.classList.remove('active');
+        } else {
+          traverseAndConvert(document.body, converterCN2TW);
+          btnTW.classList.add('active');
+          btnCN.classList.remove('active');
+        }
+        localStorage.setItem(STORAGE_KEY, variant);
+      }
+
+      // 3️⃣ 綁定事件
+      btnTW.addEventListener('click', () => applyVariant('tw'));
+      btnCN.addEventListener('click', () => applyVariant('cn'));
+
+      // 4️⃣ 載入上次設定
+      const saved = localStorage.getItem(STORAGE_KEY);
+      applyVariant(saved === 'cn' ? 'cn' : 'tw');
+    })();
+  </script>
+</body>
+</html>
+
+
+
+
